@@ -1,0 +1,12 @@
+{
+  "total_events": 1284,
+  "conflict_events": 1011,
+  "political_events": 47,
+  "diplomatic_events": 123,
+  "economic_events": 51,
+  "protest_events": 52,
+  "high_critical_events": 1284,
+  "countries_affected_count": 6,
+  "average_severity": 81.6,
+  "last_updated": "2026-10-04T15:42:05.043636"
+}

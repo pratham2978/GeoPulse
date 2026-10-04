@@ -1,0 +1,295 @@
+[
+  {
+    "cluster_id": "CL-ME-01",
+    "title": "Red Sea Maritime Corridor Disruption",
+    "region": "Middle East / Bab-el-Mandeb",
+    "primary_country": "YEM",
+    "country_name": "Yemen",
+    "latitude": 13.0,
+    "longitude": 43.5,
+    "total_events": 377,
+    "conflict_events": 315,
+    "severity_score": 84.6,
+    "severity_level": "CRITICAL",
+    "mentions": 260672,
+    "sources": 35488,
+    "articles": 124698,
+    "avg_tone": -6.72,
+    "affected_sectors": [
+      "Shipping",
+      "Energy",
+      "Trade",
+      "Insurance"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-18",
+        "phase": "Initial Threat",
+        "desc": "Warning issued against transit through Bab-el-Mandeb Strait."
+      },
+      {
+        "date": "2026-09-24",
+        "phase": "Escalation",
+        "desc": "Unmanned drone boat and anti-ship missile interdictions reported."
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Major Incident",
+        "desc": "Tanker rerouting via Cape of Good Hope increases maritime transit by 14 days."
+      },
+      {
+        "date": "2026-10-03",
+        "phase": "Current Status",
+        "desc": "Coalition patrols deployed; shipping container rates up 18.4%."
+      }
+    ],
+    "trend": {
+      "percentage": 8.3,
+      "direction": "Escalating",
+      "recent_period_events": 196,
+      "previous_period_events": 181
+    }
+  },
+  {
+    "cluster_id": "CL-ME-02",
+    "title": "Strait of Hormuz Strategic Energy Chokepoint Alerts",
+    "region": "Middle East / Persian Gulf",
+    "primary_country": "IRN",
+    "country_name": "Iran",
+    "latitude": 26.5,
+    "longitude": 56.2,
+    "total_events": 291,
+    "conflict_events": 229,
+    "severity_score": 80.7,
+    "severity_level": "CRITICAL",
+    "mentions": 193492,
+    "sources": 26683,
+    "articles": 95197,
+    "avg_tone": -5.34,
+    "affected_sectors": [
+      "Energy",
+      "Commodities",
+      "Trade"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-15",
+        "phase": "Diplomatic Warning",
+        "desc": "Disputes regarding Gulf territorial water inspections escalate."
+      },
+      {
+        "date": "2026-09-22",
+        "phase": "Force Posture",
+        "desc": "Naval exercises conducted along narrowest transit strait corridors."
+      },
+      {
+        "date": "2026-09-30",
+        "phase": "Market Volatility",
+        "desc": "Brent crude risk premiums spike by +$4.20/barrel."
+      },
+      {
+        "date": "2026-10-04",
+        "phase": "Active Signal",
+        "desc": "Continuous AIS tracking of 42 high-tonnage VLCC tankers."
+      }
+    ],
+    "trend": {
+      "percentage": -12.3,
+      "direction": "Declining",
+      "recent_period_events": 136,
+      "previous_period_events": 155
+    }
+  },
+  {
+    "cluster_id": "CL-EU-01",
+    "title": "Eastern Europe & Black Sea Grain Corridor Strain",
+    "region": "Eastern Europe",
+    "primary_country": "UKR",
+    "country_name": "Ukraine",
+    "latitude": 46.5,
+    "longitude": 31.0,
+    "total_events": 309,
+    "conflict_events": 250,
+    "severity_score": 86.3,
+    "severity_level": "CRITICAL",
+    "mentions": 216204,
+    "sources": 27724,
+    "articles": 102717,
+    "avg_tone": -7.36,
+    "affected_sectors": [
+      "Commodities",
+      "Agriculture",
+      "Energy",
+      "Regional Economy"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-10",
+        "phase": "Artillery Exchange",
+        "desc": "Intensive artillery and drone strikes in southeastern frontier."
+      },
+      {
+        "date": "2026-09-20",
+        "phase": "Port Disruption",
+        "desc": "Odesa Danube terminal infrastructure targeted; export delays."
+      },
+      {
+        "date": "2026-09-28",
+        "phase": "Grain Shipment Stoppage",
+        "desc": "Insurance coverage temporarily halted for dry bulk cargo vessels."
+      },
+      {
+        "date": "2026-10-03",
+        "phase": "Alternative Routes",
+        "desc": "Rail transit redirected through Romania and Poland border nodes."
+      }
+    ],
+    "trend": {
+      "percentage": -1.9,
+      "direction": "Stable",
+      "recent_period_events": 153,
+      "previous_period_events": 156
+    }
+  },
+  {
+    "cluster_id": "CL-AP-01",
+    "title": "Taiwan Strait & East Asian Semiconductor Supply Alert",
+    "region": "Asia-Pacific",
+    "primary_country": "TWN",
+    "country_name": "Taiwan",
+    "latitude": 24.0,
+    "longitude": 121.0,
+    "total_events": 141,
+    "conflict_events": 112,
+    "severity_score": 75.0,
+    "severity_level": "CRITICAL",
+    "mentions": 100685,
+    "sources": 12381,
+    "articles": 48766,
+    "avg_tone": -4.15,
+    "affected_sectors": [
+      "Technology",
+      "Trade",
+      "Industry",
+      "Shipping"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-12",
+        "phase": "Air Defense Patrol",
+        "desc": "Substantial ADIZ incursions reported over southwestern sector."
+      },
+      {
+        "date": "2026-09-21",
+        "phase": "Naval Drills",
+        "desc": "Live-fire maritime closure zones declared along median line."
+      },
+      {
+        "date": "2026-09-29",
+        "phase": "Supply Chain Anxiety",
+        "desc": "Chip foundry contingency protocols reviewed by global electronics firms."
+      },
+      {
+        "date": "2026-10-04",
+        "phase": "Active Readiness",
+        "desc": "Bilateral radar monitoring and carrier battle group shadowing active."
+      }
+    ],
+    "trend": {
+      "percentage": -21.5,
+      "direction": "Declining",
+      "recent_period_events": 62,
+      "previous_period_events": 79
+    }
+  },
+  {
+    "cluster_id": "CL-AP-02",
+    "title": "South China Sea Second Thomas Shoal Maritime Standoff",
+    "region": "Asia-Pacific",
+    "primary_country": "PHL",
+    "country_name": "Philippines",
+    "latitude": 9.8,
+    "longitude": 115.8,
+    "total_events": 111,
+    "conflict_events": 92,
+    "severity_score": 78.8,
+    "severity_level": "CRITICAL",
+    "mentions": 82231,
+    "sources": 10508,
+    "articles": 37976,
+    "avg_tone": -5.0,
+    "affected_sectors": [
+      "Fisheries",
+      "Maritime Security",
+      "Trade Routes"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-14",
+        "phase": "Resupply Interception",
+        "desc": "Water cannon and acoustic dispersion interdiction during rotation mission."
+      },
+      {
+        "date": "2026-09-23",
+        "phase": "Diplomatic Protest",
+        "desc": "Formal diplomatic note verbale and bilateral security consultation."
+      },
+      {
+        "date": "2026-10-02",
+        "phase": "Joint Air Patrols",
+        "desc": "Multilateral maritime presence operations initiated in contiguous zone."
+      }
+    ],
+    "trend": {
+      "percentage": 5.6,
+      "direction": "Escalating",
+      "recent_period_events": 57,
+      "previous_period_events": 54
+    }
+  },
+  {
+    "cluster_id": "CL-IN-01",
+    "title": "India Northern Border Reconnaissance & Infrastructure Surveillance",
+    "region": "South Asia",
+    "primary_country": "IND",
+    "country_name": "India",
+    "latitude": 34.0,
+    "longitude": 77.5,
+    "total_events": 55,
+    "conflict_events": 13,
+    "severity_score": 61.6,
+    "severity_level": "HIGH",
+    "mentions": 40794,
+    "sources": 5113,
+    "articles": 16726,
+    "avg_tone": -2.15,
+    "affected_sectors": [
+      "Regional Security",
+      "Trade",
+      "Diplomacy"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-16",
+        "phase": "Border Talks",
+        "desc": "21st round of Corps Commander level dialogue held."
+      },
+      {
+        "date": "2026-09-25",
+        "phase": "Patrolling Protocol",
+        "desc": "Verification flights along disengagement friction points completed."
+      },
+      {
+        "date": "2026-10-03",
+        "phase": "Stabilization",
+        "desc": "Buffer zone monitoring maintained without kinetic escalation."
+      }
+    ],
+    "trend": {
+      "percentage": 3.7,
+      "direction": "Stable",
+      "recent_period_events": 28,
+      "previous_period_events": 27
+    }
+  }
+]

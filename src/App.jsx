@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import GlobalEventIntelligence from './components/GlobalEventIntelligence';
 import {
   Menu,
   X,
@@ -311,7 +312,7 @@ export default function App() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 w-full sm:w-auto mb-12 sm:mb-16">
             <a
-              href="#explore"
+              href="#events"
               className="w-full sm:w-auto bg-gradient-to-r from-emerald-400 to-cyan-500 text-white font-semibold text-xs sm:text-sm tracking-wider px-8 py-3.5 rounded-full inline-flex items-center justify-center gap-2.5 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
             >
               <span>EXPLORE INTELLIGENCE</span>
@@ -659,6 +660,11 @@ export default function App() {
                 </div>
               </div>
 
+            </div>
+
+            {/* Operational Feature 1: Global Event & Conflict Intelligence Engine */}
+            <div className="mt-20 pt-16 border-t border-white/10">
+              <GlobalEventIntelligence />
             </div>
           </div>
         </section>
