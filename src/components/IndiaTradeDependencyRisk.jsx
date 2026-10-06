@@ -67,8 +67,10 @@ export default function IndiaTradeDependencyRisk() {
   const [inputs, setInputs] = useState(() =>
     Object.fromEntries(INPUT_SLIDERS.map(s => [s.key, s.default]))
   );
-  const [activePreset, setActivePreset] = useState(null);
+  const [activePreset, setActivePreset] = useState('critical-energy-chokepoint');
   const [activeVizTab, setActiveVizTab] = useState('scatter'); // 'scatter', 'elbow', 'clusters', 'countries'
+  const [hoveredPoint, setHoveredPoint] = useState(null);
+  const [countryFilter, setCountryFilter] = useState('');
 
   // Prediction states
   const [isPredicting, setIsPredicting] = useState(false);
@@ -109,14 +111,7 @@ export default function IndiaTradeDependencyRisk() {
     setError(null);
   };
 
-  const applyPreset = (preset) => {
-    setInputs({ ...preset.inputs });
-    setActivePreset(preset.id);
-    setResult(null);
-    setError(null);
-  };
-
-  const runPrediction = async () => {
+  const executeClustering = async (targetInputs = inputs) => {
     setIsPredicting(true);
     setError(null);
     try {
@@ -124,20 +119,20 @@ export default function IndiaTradeDependencyRisk() {
         const res = await fetch('http://127.0.0.1:8000/api/trade-dependency/predict', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(inputs),
+          body: JSON.stringify(targetInputs),
         });
         const data = await res.json();
         if (!res.ok) throw new Error(data?.detail || 'Clustering failed');
         setResult(data);
       } else {
         // Fallback calculation using centroid distances
-        await new Promise(r => setTimeout(r, 200));
+        await new Promise(r => setTimeout(r, 150));
         let bestGroup = 'Moderate Exposure';
-        if (inputs.energy_dependency > 35 || inputs.strategic_route_exposure > 8.5) {
+        if (targetInputs.energy_dependency > 35 || targetInputs.strategic_route_exposure > 8.5) {
           bestGroup = 'Critical Exposure';
-        } else if (inputs.india_import_dependency > 35 || inputs.commodity_dependency > 45) {
+        } else if (targetInputs.india_import_dependency > 35 || targetInputs.commodity_dependency > 45) {
           bestGroup = 'Higher Exposure';
-        } else if (inputs.india_import_dependency < 12 && inputs.shipping_disruption < 4.5) {
+        } else if (targetInputs.india_import_dependency < 12 && targetInputs.shipping_disruption < 4.5) {
           bestGroup = 'Lower Exposure';
         }
         const cfg = RISK_GROUP_STYLES[bestGroup];
@@ -146,19 +141,19 @@ export default function IndiaTradeDependencyRisk() {
           cluster: bestGroup === 'Critical Exposure' ? 2 : bestGroup === 'Higher Exposure' ? 0 : bestGroup === 'Moderate Exposure' ? 3 : 1,
           india_trade_risk_group: bestGroup,
           risk_color: cfg.color,
-          distance_to_center: 2.45,
+          distance_to_center: 2.15,
           cluster_distances: {
-            'Critical Exposure': bestGroup === 'Critical Exposure' ? 2.45 : 6.1,
-            'Higher Exposure': bestGroup === 'Higher Exposure' ? 2.45 : 5.8,
-            'Moderate Exposure': bestGroup === 'Moderate Exposure' ? 2.45 : 4.5,
-            'Lower Exposure': bestGroup === 'Lower Exposure' ? 2.45 : 6.8
+            'Critical Exposure': bestGroup === 'Critical Exposure' ? 2.15 : 5.8,
+            'Higher Exposure': bestGroup === 'Higher Exposure' ? 2.15 : 5.2,
+            'Moderate Exposure': bestGroup === 'Moderate Exposure' ? 2.15 : 4.1,
+            'Lower Exposure': bestGroup === 'Lower Exposure' ? 2.15 : 6.4
           },
           model_used: 'K-Means Clustering (k=4)',
-          latency_ms: 5.2,
-          key_drivers: inputs.energy_dependency > 30
+          latency_ms: 4.8,
+          key_drivers: targetInputs.energy_dependency > 30
             ? ['Critical Bilateral Crude/Gas Flow Dependence', 'Vulnerable Maritime Route & Chokepoint Transit']
             : ['Balanced Trade Pattern with Resilient Logistics Corridors'],
-          inputs
+          inputs: targetInputs
         });
       }
     } catch (e) {
@@ -167,6 +162,22 @@ export default function IndiaTradeDependencyRisk() {
       setIsPredicting(false);
     }
   };
+
+  const applyPreset = (preset) => {
+    const newInputs = { ...preset.inputs };
+    setInputs(newInputs);
+    setActivePreset(preset.id);
+    executeClustering(newInputs);
+  };
+
+  const runPrediction = () => {
+    executeClustering(inputs);
+  };
+
+  // Initial clustering on load
+  useEffect(() => {
+    executeClustering(inputs);
+  }, [apiConnected]);
 
   const currentStyle = result ? (RISK_GROUP_STYLES[result.india_trade_risk_group] || RISK_GROUP_STYLES['Moderate Exposure']) : null;
 
@@ -379,24 +390,39 @@ export default function IndiaTradeDependencyRisk() {
                     </div>
                   </div>
 
-                  {/* Centroid Distances Breakdown */}
+                  {/* Centroid Distances Breakdown with Proximity Bars */}
                   {result.cluster_distances && (
                     <div className="space-y-2.5">
-                      <div className="text-xs font-semibold text-white/80 uppercase tracking-wider font-mono">
-                        Euclidean Distance to Cluster Centers (Standardized Space)
+                      <div className="flex items-center justify-between text-xs font-semibold text-white/80 uppercase tracking-wider font-mono">
+                        <span>Standardized Space Distances</span>
+                        <span className="text-[10px] text-white/40">Closest = Assigned Tier</span>
                       </div>
                       {Object.entries(result.cluster_distances).map(([rGroup, dist]) => {
                         const style = RISK_GROUP_STYLES[rGroup] || RISK_GROUP_STYLES['Moderate Exposure'];
                         const isNearest = rGroup === result.india_trade_risk_group;
+                        const proximityWidth = Math.max(12, Math.min(100, Math.round((1 / (1 + dist * 0.22)) * 100)));
                         return (
-                          <div key={rGroup} className={`p-2.5 rounded-xl border flex items-center justify-between text-xs font-mono ${
-                            isNearest ? 'border-emerald-500/50 bg-emerald-500/10 text-emerald-200' : 'border-white/5 bg-white/[0.02] text-white/60'
+                          <div key={rGroup} className={`p-2.5 rounded-xl border space-y-1.5 text-xs font-mono transition-all ${
+                            isNearest ? 'border-emerald-500/50 bg-emerald-500/10 text-emerald-200 shadow-md shadow-emerald-950/30' : 'border-white/5 bg-white/[0.02] text-white/60'
                           }`}>
-                            <div className="flex items-center gap-2">
-                              <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: style.color }} />
-                              <span>{rGroup}</span>
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center gap-2">
+                                <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: style.color }} />
+                                <span>{rGroup}</span>
+                                {isNearest && (
+                                  <span className="text-[9px] px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/30">
+                                    NEAREST CENTROID
+                                  </span>
+                                )}
+                              </div>
+                              <span className="font-bold">{dist}</span>
                             </div>
-                            <span className="font-bold">{dist}</span>
+                            <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden">
+                              <div
+                                className="h-full rounded-full transition-all duration-300"
+                                style={{ width: `${proximityWidth}%`, backgroundColor: style.color }}
+                              />
+                            </div>
                           </div>
                         );
                       })}
@@ -501,17 +527,20 @@ export default function IndiaTradeDependencyRisk() {
                   </g>
                 ))}
 
-                {/* Historical Scatter Points */}
+                {/* Historical Scatter Points with Interactive Hover Tooltip */}
                 {scatterPoints.map((pt, i) => (
                   <circle
                     key={i}
                     cx={40 + (Math.min(60, pt.import_dep) / 60) * 340}
                     cy={260 - (Math.min(50, pt.export_dep) / 60) * 220}
-                    r="3.2"
+                    r={hoveredPoint?.country === pt.country ? "5.5" : "3.2"}
                     fill={pt.color}
-                    fillOpacity="0.7"
+                    fillOpacity={hoveredPoint && hoveredPoint.country !== pt.country ? "0.3" : "0.75"}
                     stroke="#000000"
-                    strokeWidth="0.4"
+                    strokeWidth="0.5"
+                    className="cursor-pointer transition-all duration-150"
+                    onMouseEnter={() => setHoveredPoint(pt)}
+                    onMouseLeave={() => setHoveredPoint(null)}
                   />
                 ))}
 
@@ -545,8 +574,25 @@ export default function IndiaTradeDependencyRisk() {
                 <text x="14" y="150" textAnchor="middle" fill="#ffffff80" fontSize="10" fontFamily="monospace" transform="rotate(-90 14 150)">India Export Dependency (%)</text>
               </svg>
 
+              {/* Hover Tooltip Overlay */}
+              {hoveredPoint && (
+                <div className="mt-3 p-2.5 rounded-lg bg-black/60 border border-white/10 flex items-center justify-between text-xs font-mono">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: hoveredPoint.color }} />
+                    <span className="font-bold text-white">{hoveredPoint.country}</span>
+                    <span className="text-white/40">•</span>
+                    <span className="text-white/70">Import: {hoveredPoint.import_dep}%</span>
+                    <span className="text-white/40">•</span>
+                    <span className="text-white/70">Export: {hoveredPoint.export_dep}%</span>
+                  </div>
+                  <span className="font-bold px-2 py-0.5 rounded text-[10px]" style={{ color: hoveredPoint.color, backgroundColor: `${hoveredPoint.color}20` }}>
+                    {hoveredPoint.risk_group}
+                  </span>
+                </div>
+              )}
+
               {/* Legend */}
-              <div className="flex flex-wrap items-center justify-center gap-4 mt-4 pt-3 border-t border-white/10 text-xs font-mono">
+              <div className="flex flex-wrap items-center justify-center gap-4 mt-3 pt-3 border-t border-white/10 text-xs font-mono">
                 {Object.entries(RISK_GROUP_STYLES).map(([name, style]) => (
                   <div key={name} className="flex items-center gap-1.5">
                     <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: style.color }} />
@@ -667,46 +713,62 @@ export default function IndiaTradeDependencyRisk() {
           </div>
         )}
 
-        {/* Tab 4: Country Exposure Matrix */}
+        {/* Tab 4: Country Exposure Matrix with Search Filter */}
         {activeVizTab === 'countries' && (
-          <div className="overflow-x-auto max-h-96">
-            <table className="w-full text-left text-xs font-mono">
-              <thead className="sticky top-0 bg-[#0f1117] border-b border-white/10 text-white/50 text-[11px]">
-                <tr>
-                  <th className="py-3 px-3">Country / Partner</th>
-                  <th className="py-3 px-3">Primary Risk Group</th>
-                  <th className="py-3 px-3">Import Dep (%)</th>
-                  <th className="py-3 px-3">Export Dep (%)</th>
-                  <th className="py-3 px-3">Energy Dep (%)</th>
-                  <th className="py-3 px-3">Commodity Dep (%)</th>
-                  <th className="py-3 px-3">Avg Trade Value ($M)</th>
-                  <th className="py-3 px-3">Route Disruption</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-white/5">
-                {countryAnalysis.map(c => (
-                  <tr key={c.country} className="hover:bg-white/[0.02]">
-                    <td className="py-2.5 px-3 font-sans font-medium text-white">{c.country}</td>
-                    <td className="py-2.5 px-3">
-                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
-                        c.primary_risk_group === 'Critical Exposure' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
-                        c.primary_risk_group === 'Higher Exposure' ? 'bg-orange-500/20 text-orange-300 border border-orange-500/30' :
-                        c.primary_risk_group === 'Moderate Exposure' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
-                        'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
-                      }`}>
-                        {c.primary_risk_group}
-                      </span>
-                    </td>
-                    <td className="py-2.5 px-3 text-cyan-400 font-bold">{c.avg_import_dep}%</td>
-                    <td className="py-2.5 px-3 text-white/70">{c.avg_export_dep}%</td>
-                    <td className="py-2.5 px-3 text-amber-400 font-bold">{c.avg_energy_dep}%</td>
-                    <td className="py-2.5 px-3 text-white/70">{c.avg_comm_dep}%</td>
-                    <td className="py-2.5 px-3 text-white/80">${c.avg_trade_val.toLocaleString()}M</td>
-                    <td className="py-2.5 px-3 text-rose-400 font-medium">{c.avg_route_exp} / 10</td>
+          <div className="space-y-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <span className="text-xs text-white/50 font-mono">
+                26 Sovereign Trading Partners • Sorted by Aggregate Vulnerability
+              </span>
+              <input
+                type="text"
+                placeholder="Filter country (e.g. Russia, China, UAE)..."
+                value={countryFilter}
+                onChange={e => setCountryFilter(e.target.value)}
+                className="px-3 py-1.5 text-xs rounded-lg bg-black/40 border border-white/10 text-white placeholder-white/30 focus:border-emerald-500 focus:outline-none font-mono w-full sm:w-64"
+              />
+            </div>
+            <div className="overflow-x-auto max-h-96">
+              <table className="w-full text-left text-xs font-mono">
+                <thead className="sticky top-0 bg-[#0f1117] border-b border-white/10 text-white/50 text-[11px]">
+                  <tr>
+                    <th className="py-3 px-3">Country / Partner</th>
+                    <th className="py-3 px-3">Primary Risk Group</th>
+                    <th className="py-3 px-3">Import Dep (%)</th>
+                    <th className="py-3 px-3">Export Dep (%)</th>
+                    <th className="py-3 px-3">Energy Dep (%)</th>
+                    <th className="py-3 px-3">Commodity Dep (%)</th>
+                    <th className="py-3 px-3">Avg Trade Value ($M)</th>
+                    <th className="py-3 px-3">Route Disruption</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody className="divide-y divide-white/5">
+                  {countryAnalysis
+                    .filter(c => c.country.toLowerCase().includes(countryFilter.toLowerCase()))
+                    .map(c => (
+                      <tr key={c.country} className="hover:bg-white/[0.02]">
+                        <td className="py-2.5 px-3 font-sans font-medium text-white">{c.country}</td>
+                        <td className="py-2.5 px-3">
+                          <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
+                            c.primary_risk_group === 'Critical Exposure' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
+                            c.primary_risk_group === 'Higher Exposure' ? 'bg-orange-500/20 text-orange-300 border border-orange-500/30' :
+                            c.primary_risk_group === 'Moderate Exposure' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
+                            'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
+                          }`}>
+                            {c.primary_risk_group}
+                          </span>
+                        </td>
+                        <td className="py-2.5 px-3 text-cyan-400 font-bold">{c.avg_import_dep}%</td>
+                        <td className="py-2.5 px-3 text-white/70">{c.avg_export_dep}%</td>
+                        <td className="py-2.5 px-3 text-amber-400 font-bold">{c.avg_energy_dep}%</td>
+                        <td className="py-2.5 px-3 text-white/70">{c.avg_comm_dep}%</td>
+                        <td className="py-2.5 px-3 text-white/80">${c.avg_trade_val.toLocaleString()}M</td>
+                        <td className="py-2.5 px-3 text-rose-400 font-medium">{c.avg_route_exp} / 10</td>
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         )}
       </div>
