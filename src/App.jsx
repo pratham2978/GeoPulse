@@ -97,6 +97,30 @@ const footerColumns = [
   },
 ];
 
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  componentDidCatch(error, errorInfo) {
+    console.error("ErrorBoundary caught an error:", error, errorInfo);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="p-6 rounded-2xl bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs font-mono my-4">
+          <div className="font-bold text-sm mb-1 text-rose-400">Feature Module Unavailable</div>
+          <p>{this.state.error?.message || 'Error rendering module'}</p>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
@@ -724,22 +748,30 @@ export default function App() {
 
             {/* Operational Feature 4: India Economic Impact Intelligence (Supervised Regression ML) */}
             <div id="india-impact" className="mt-20 pt-16 border-t border-white/10">
-              <IndiaEconomicImpact />
+              <ErrorBoundary>
+                <IndiaEconomicImpact />
+              </ErrorBoundary>
             </div>
 
             {/* Operational Feature 5: India Energy Supply Risk Intelligence (Supervised Multi-Class ML) */}
             <div id="india-energy-risk" className="mt-20 pt-16 border-t border-white/10">
-              <IndiaEnergyRiskIntelligence />
+              <ErrorBoundary>
+                <IndiaEnergyRiskIntelligence />
+              </ErrorBoundary>
             </div>
 
             {/* Operational Feature 7: India Trade Dependency & Country Risk (K-Means Clustering) */}
             <div id="trade-dependency" className="mt-20 pt-16 border-t border-white/10">
-              <IndiaTradeDependencyRisk />
+              <ErrorBoundary>
+                <IndiaTradeDependencyRisk />
+              </ErrorBoundary>
             </div>
 
             {/* Operational Feature 9: Geopolitical Shock Fingerprinting (PCA + K-Means) */}
             <div id="shock-fingerprint" className="mt-20 pt-16 border-t border-white/10">
-              <GeopoliticalShockFingerprint />
+              <ErrorBoundary>
+                <GeopoliticalShockFingerprint />
+              </ErrorBoundary>
             </div>
           </div>
         </section>

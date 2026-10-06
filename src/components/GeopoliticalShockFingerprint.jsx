@@ -505,7 +505,7 @@ export default function GeopoliticalShockFingerprint() {
 
               {/* Points */}
               <div className="relative w-full h-full">
-                {pcaPoints.map((pt, idx) => {
+                {conflicts.map((pt, idx) => {
                   // Map PC1 (-3 to 3) to 5% to 95%
                   // Map PC2 (-2 to 2) to 90% to 10%
                   const left = Math.min(92, Math.max(8, ((pt.pc1 + 3) / 6) * 100));
