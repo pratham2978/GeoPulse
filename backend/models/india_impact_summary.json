@@ -1,0 +1,22 @@
+{
+  "total_records": 620,
+  "cleaned_records": 620,
+  "training_records": 496,
+  "testing_records": 124,
+  "countries": 46,
+  "date_range_start": "2015-01-12",
+  "date_range_end": "2025-06-14",
+  "target_variable": "india_economic_impact",
+  "target_min": 4.55,
+  "target_max": 29.47,
+  "target_mean": 17.19,
+  "features": [
+    "oil_price_change",
+    "commodity_price_change",
+    "trade_disruption",
+    "shipping_disruption",
+    "india_trade_exposure",
+    "india_energy_exposure",
+    "market_volatility"
+  ]
+}

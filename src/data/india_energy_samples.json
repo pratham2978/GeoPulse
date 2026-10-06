@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hormuz-blockade",
+    "name": "Strait of Hormuz Naval Chokepoint Crisis",
+    "country": "Iran",
+    "tag": "Critical Maritime Chokepoint",
+    "description": "Naval confrontation & drone interdictions near Bandar Abbas. ~85% of Persian Gulf crude/LNG transits this narrow 21-mile strait.",
+    "inputs": {
+      "oil_import_dependency": 87.5,
+      "oil_price_change": 22.5,
+      "energy_supply_disruption": 85.0,
+      "shipping_disruption": 94.0,
+      "india_energy_exposure": 18.5,
+      "strategic_route_exposure": 95.0,
+      "commodity_price_change": 16.0
+    },
+    "expected_risk": "Critical"
+  },
+  {
+    "id": "red-sea-houthi",
+    "name": "Red Sea / Bab el-Mandeb Tanker Assault",
+    "country": "Yemen",
+    "tag": "Suez & Cape Route Divergence",
+    "description": "Anti-ship ballistic missile and drone strikes targeting commercial crude carriers transiting Bab el-Mandeb toward Suez.",
+    "inputs": {
+      "oil_import_dependency": 86.8,
+      "oil_price_change": 14.0,
+      "energy_supply_disruption": 68.0,
+      "shipping_disruption": 88.0,
+      "india_energy_exposure": 8.0,
+      "strategic_route_exposure": 85.0,
+      "commodity_price_change": 10.5
+    },
+    "expected_risk": "High"
+  },
+  {
+    "id": "niger-delta-strike",
+    "name": "Niger Delta Bonny Light Pipeline Sabotage",
+    "country": "Nigeria",
+    "tag": "Secondary Sweet Crude Interruption",
+    "description": "Militant blast shuts down onshore export pipeline network, cutting sweet crude loadings to Indian coastal refineries.",
+    "inputs": {
+      "oil_import_dependency": 85.0,
+      "oil_price_change": 6.5,
+      "energy_supply_disruption": 58.0,
+      "shipping_disruption": 38.0,
+      "india_energy_exposure": 4.5,
+      "strategic_route_exposure": 45.0,
+      "commodity_price_change": 4.2
+    },
+    "expected_risk": "Moderate"
+  },
+  {
+    "id": "us-permian-buffer",
+    "name": "US Gulf Coast WTI Export Expansion",
+    "country": "USA",
+    "tag": "Diversified Atlantic Basin Flow",
+    "description": "High inventory buffers and record US export loadings dampen international supply premiums; open Atlantic shipping lane.",
+    "inputs": {
+      "oil_import_dependency": 85.2,
+      "oil_price_change": -3.5,
+      "energy_supply_disruption": 15.0,
+      "shipping_disruption": 20.0,
+      "india_energy_exposure": 7.0,
+      "strategic_route_exposure": 35.0,
+      "commodity_price_change": -1.8
+    },
+    "expected_risk": "Low"
+  }
+]

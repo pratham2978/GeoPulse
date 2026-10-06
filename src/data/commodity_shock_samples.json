@@ -1,0 +1,92 @@
+[
+  {
+    "id": "persian-gulf-crisis",
+    "name": "Persian Gulf Naval Escalation & Hormuz Alert",
+    "country": "Iran",
+    "tag": "Severe Crude & LNG Squeeze",
+    "description": "Retaliatory missile attacks and maritime seizures shut tanker lanes in Strait of Hormuz. Widespread crude price surge and freight insurance spike.",
+    "inputs": {
+      "crude_oil_change": 24.5,
+      "natural_gas_change": 28.0,
+      "gold_price_change": 12.0,
+      "essential_commodity_change": 14.5,
+      "trade_disruption": 8.5,
+      "shipping_disruption": 9.2,
+      "conflict_intensity": 9.0,
+      "india_import_dependency": 82.5
+    },
+    "expected_tier": "CRITICAL"
+  },
+  {
+    "id": "black-sea-blockade",
+    "name": "Black Sea Agri & Fertilizer Corridor Freeze",
+    "country": "Ukraine",
+    "tag": "Essential Edible Oil & Potash Shock",
+    "description": "Blockade of Odesa and Danube ports halts sunflower oil and grain shipments. Ammonia pipeline shutdown triggers domestic fertilizer inflation.",
+    "inputs": {
+      "crude_oil_change": 14.0,
+      "natural_gas_change": 22.0,
+      "gold_price_change": 7.5,
+      "essential_commodity_change": 32.0,
+      "trade_disruption": 7.8,
+      "shipping_disruption": 8.0,
+      "conflict_intensity": 8.8,
+      "india_import_dependency": 76.0
+    },
+    "expected_tier": "HIGH"
+  },
+  {
+    "id": "red-sea-reroute",
+    "name": "Red Sea Houthi Drone Interdictions",
+    "country": "Yemen",
+    "tag": "Maritime Rerouting & War Risk Surcharge",
+    "description": "Attacks at Bab el-Mandeb force commercial container ships and tankers to reroute via Cape of Good Hope, adding 12 days transit and shipping fees.",
+    "inputs": {
+      "crude_oil_change": 8.5,
+      "natural_gas_change": 11.5,
+      "gold_price_change": 5.0,
+      "essential_commodity_change": 7.2,
+      "trade_disruption": 7.2,
+      "shipping_disruption": 9.0,
+      "conflict_intensity": 8.2,
+      "india_import_dependency": 79.5
+    },
+    "expected_tier": "HIGH"
+  },
+  {
+    "id": "opec-quota-rebalance",
+    "name": "OPEC+ Supply Extension with High Inventories",
+    "country": "Saudi Arabia",
+    "tag": "Modest Benchmark Crude Pass-through",
+    "description": "OPEC+ extends voluntary cuts by 500k bpd into strong Atlantic supply. Indian domestic refiners offset with term contracts.",
+    "inputs": {
+      "crude_oil_change": 5.0,
+      "natural_gas_change": 3.0,
+      "gold_price_change": 1.5,
+      "essential_commodity_change": 2.5,
+      "trade_disruption": 3.5,
+      "shipping_disruption": 3.0,
+      "conflict_intensity": 3.0,
+      "india_import_dependency": 75.0
+    },
+    "expected_tier": "MODERATE"
+  },
+  {
+    "id": "atlantic-basin-buffer",
+    "name": "US-Brazil Record Bumper Harvest & Energy Surge",
+    "country": "USA",
+    "tag": "Global Commodity Supply Cushion",
+    "description": "Record US Permian basin crude extraction and South American soybean export expansion soften international benchmark prices.",
+    "inputs": {
+      "crude_oil_change": -6.5,
+      "natural_gas_change": -4.0,
+      "gold_price_change": -2.0,
+      "essential_commodity_change": -5.5,
+      "trade_disruption": 1.5,
+      "shipping_disruption": 1.8,
+      "conflict_intensity": 1.5,
+      "india_import_dependency": 69.0
+    },
+    "expected_tier": "LOW"
+  }
+]

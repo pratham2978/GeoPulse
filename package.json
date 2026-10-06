@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "python run_platform.py",
+    "dev:all": "python run_platform.py",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",

@@ -1,0 +1,30 @@
+{
+  "total_records": 760,
+  "countries_count": 26,
+  "date_range_start": "2015-01-29",
+  "date_range_end": "2025-06-16",
+  "n_clusters": 4,
+  "inertia": 2537.01,
+  "features": [
+    "india_import_dependency",
+    "india_export_dependency",
+    "energy_dependency",
+    "commodity_dependency",
+    "trade_value",
+    "trade_disruption",
+    "shipping_disruption",
+    "strategic_route_exposure"
+  ],
+  "risk_names": [
+    "Lower Exposure",
+    "Moderate Exposure",
+    "Higher Exposure",
+    "Critical Exposure"
+  ],
+  "cluster_distribution": {
+    "Lower Exposure": 269,
+    "Moderate Exposure": 325,
+    "Higher Exposure": 107,
+    "Critical Exposure": 59
+  }
+}

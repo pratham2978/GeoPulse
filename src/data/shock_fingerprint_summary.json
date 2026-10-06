@@ -1,0 +1,22 @@
+{
+  "dataset_name": "feature9_geopolitical_shock_fingerprints.csv",
+  "total_conflicts": 22,
+  "shock_features": [
+    "energy_shock",
+    "trade_disruption",
+    "shipping_disruption",
+    "commodity_shock",
+    "financial_stress"
+  ],
+  "impact_features": [
+    "inflation_change",
+    "gdp_growth_change",
+    "trade_growth_change",
+    "oil_price_change"
+  ],
+  "selected_k": 2,
+  "silhouette_score": 0.3699,
+  "pc1_variance": 73.27,
+  "pc2_variance": 14.3,
+  "total_pca_variance": 87.56
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "cluster_id": 0,
+    "name": "Maritime Chokepoint & Supply-Chain Crises",
+    "tag": "Maritime & Freight Stress",
+    "description": "Severe transit lane blockage, surging container freight costs, and trade flow friction with moderate macroeconomic contraction.",
+    "color": "#06b6d4",
+    "badgeBg": "bg-cyan-500/20 text-cyan-400 border-cyan-500/40",
+    "record_count": 9,
+    "center_pca": [
+      1.8975,
+      0.0802
+    ],
+    "shock_means": {
+      "energy_shock": 78.78,
+      "trade_disruption": 75.11,
+      "shipping_disruption": 76.78,
+      "commodity_shock": 71.78,
+      "financial_stress": 74.56
+    },
+    "impact_means": {
+      "inflation_change": 4.26,
+      "gdp_growth_change": -2.0,
+      "trade_growth_change": -4.88,
+      "oil_price_change": 69.78
+    },
+    "conflicts": [
+      "1973 Yom Kippur / Arab Oil Embargo",
+      "1979 Iranian Revolution & Second Oil Shock",
+      "1980 Iran-Iraq Tanker War",
+      "1990 Gulf War (Kuwait Invasion)",
+      "2008 Russo-Georgian War & Global Liquidity Shock",
+      "2021 Suez Canal Ever Given Crisis",
+      "2022 Russia-Ukraine War (Full-Scale Invasion)",
+      "2023 Israel-Gaza War",
+      "2024 Red Sea Chokepoint & Houthi Maritime Crisis"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "name": "Localized Conventional Warfare",
+    "tag": "Contained Regional Friction",
+    "description": "Geographically focused military operations with contained contagion to global maritime routes and global energy balances.",
+    "color": "#10b981",
+    "badgeBg": "bg-emerald-500/20 text-emerald-400 border-emerald-500/40",
+    "record_count": 13,
+    "center_pca": [
+      -1.3137,
+      -0.0555
+    ],
+    "shock_means": {
+      "energy_shock": 52.77,
+      "trade_disruption": 46.85,
+      "shipping_disruption": 51.54,
+      "commodity_shock": 43.0,
+      "financial_stress": 53.85
+    },
+    "impact_means": {
+      "inflation_change": 1.45,
+      "gdp_growth_change": -0.47,
+      "trade_growth_change": -1.29,
+      "oil_price_change": 7.31
+    },
+    "conflicts": [
+      "1999 Kargil Conflict",
+      "2001 Post-9/11 War on Terror & Afghanistan",
+      "2003 Iraq War (Operation Iraqi Freedom)",
+      "2006 Lebanon War",
+      "2011 Libyan Civil War & Arab Spring",
+      "2014 Crimean Annexation & Donbas Conflict",
+      "2019 Abqaiq-Khurais Drone Attacks (Saudi Aramco)",
+      "2020 Nagorno-Karabakh War",
+      "1994 Yemeni Civil War",
+      "1998 Operation Desert Fox (Iraq Bombing)",
+      "2015 Yemen Conflict & Bab el-Mandeb Alert",
+      "1987 Operation Nimble Archer (Gulf Escort)",
+      "2000 USS Cole Attack & Aden Threat"
+    ]
+  }
+]

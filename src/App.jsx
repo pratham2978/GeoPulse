@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import GlobalEventIntelligence from './components/GlobalEventIntelligence';
+import NewsNarrativeIntelligence from './components/NewsNarrativeIntelligence';
+import SentimentIntelligence from './components/SentimentIntelligence';
+import IndiaEconomicImpact from './components/IndiaEconomicImpact';
+import IndiaEnergyRiskIntelligence from './components/IndiaEnergyRiskIntelligence';
+import IndiaCommodityShockIntelligence from './components/IndiaCommodityShockIntelligence';
+import IndiaTradeDependencyRisk from './components/IndiaTradeDependencyRisk';
+import IndiaSupplyRouteDisruption from './components/IndiaSupplyRouteDisruption';
 import {
   Menu,
   X,
@@ -15,7 +22,9 @@ import {
   Zap,
   BarChart3,
   ExternalLink,
-  ChevronRight
+  ChevronRight,
+  Droplet,
+  Ship
 } from 'lucide-react';
 
 // Brand icons styled in the Feather/Lucide design language
@@ -66,7 +75,13 @@ const Instagram = ({ className = "w-4 h-4" }) => (
 const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'Global Events', href: '#events' },
-  { name: 'Impact', href: '#impact' },
+  { name: 'News Intelligence', href: '#news-intelligence' },
+  { name: 'Sentiment Analysis', href: '#sentiment-intelligence' },
+  { name: 'India Impact 🇮🇳', href: '#india-impact' },
+  { name: 'Energy Risk ⚡', href: '#india-energy-risk' },
+  { name: 'Commodity Shock 🛢️', href: '#commodity-shock' },
+  { name: 'Trade Risk 🌐', href: '#trade-dependency' },
+  { name: 'Supply Routes 🚢', href: '#supply-route' },
   { name: 'Risk Analysis', href: '#risk' },
   { name: 'AI Intelligence', href: '#flow' },
 ];
@@ -324,6 +339,54 @@ export default function App() {
               className="w-full sm:w-auto liquid-glass text-white text-[11px] sm:text-xs tracking-[0.18em] font-medium px-8 py-3.5 rounded-full uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer"
             >
               VIEW GLOBAL EVENTS
+            </a>
+
+            <a
+              href="#news-intelligence"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 hover:bg-cyan-500/20 text-cyan-300 text-[11px] sm:text-xs tracking-[0.18em] font-medium uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer gap-2 shadow-lg shadow-cyan-950/50"
+            >
+              <Cpu className="w-3.5 h-3.5 text-cyan-400" />
+              <span>NARRATIVE ML</span>
+            </a>
+
+            <a
+              href="#india-impact"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-emerald-500/30 bg-emerald-950/40 hover:bg-emerald-500/20 text-emerald-300 text-[11px] sm:text-xs tracking-[0.18em] font-medium uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer gap-2 shadow-lg shadow-emerald-950/50"
+            >
+              <TrendingUp className="w-3.5 h-3.5 text-emerald-400" />
+              <span>INDIA IMPACT 🇮🇳</span>
+            </a>
+
+            <a
+              href="#india-energy-risk"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-amber-500/30 bg-amber-950/40 hover:bg-amber-500/20 text-amber-300 text-[11px] sm:text-xs tracking-[0.18em] font-medium uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer gap-2 shadow-lg shadow-amber-950/50"
+            >
+              <Zap className="w-3.5 h-3.5 text-amber-400" />
+              <span>ENERGY RISK ⚡</span>
+            </a>
+
+            <a
+              href="#commodity-shock"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 hover:bg-cyan-500/20 text-cyan-300 text-[11px] sm:text-xs tracking-[0.18em] font-medium uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer gap-2 shadow-lg shadow-cyan-950/50"
+            >
+              <Droplet className="w-3.5 h-3.5 text-cyan-400" />
+              <span>COMMODITY SHOCK 🛢️</span>
+            </a>
+
+            <a
+              href="#trade-dependency"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-emerald-500/30 bg-emerald-950/40 hover:bg-emerald-500/20 text-emerald-300 text-[11px] sm:text-xs tracking-[0.18em] font-medium uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer gap-2 shadow-lg shadow-emerald-950/50"
+            >
+              <Globe className="w-3.5 h-3.5 text-emerald-400" />
+              <span>TRADE RISK 🌐</span>
+            </a>
+
+            <a
+              href="#supply-route"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 hover:bg-cyan-500/20 text-cyan-300 text-[11px] sm:text-xs tracking-[0.18em] font-medium uppercase transition-all duration-300 hover:scale-105 active:scale-95 inline-flex items-center justify-center cursor-pointer gap-2 shadow-lg shadow-cyan-950/50"
+            >
+              <Ship className="w-3.5 h-3.5 text-cyan-400" />
+              <span>SUPPLY ROUTES 🚢</span>
             </a>
           </div>
 
@@ -665,6 +728,44 @@ export default function App() {
             {/* Operational Feature 1: Global Event & Conflict Intelligence Engine */}
             <div className="mt-20 pt-16 border-t border-white/10">
               <GlobalEventIntelligence />
+            </div>
+
+            {/* Operational Feature 2: News & Narrative Classification Engine (Syllabus ML) */}
+            <div id="news-intelligence" className="mt-20 pt-16 border-t border-white/10">
+              <NewsNarrativeIntelligence onNavigateToEvents={() => {
+                const el = document.getElementById('events');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }} />
+            </div>
+
+            {/* Operational Feature 3: News Sentiment Analysis Engine (Supervised ML) */}
+            <div id="sentiment-intelligence" className="mt-20 pt-16 border-t border-white/10">
+              <SentimentIntelligence />
+            </div>
+
+            {/* Operational Feature 4: India Economic Impact Intelligence (Supervised Regression ML) */}
+            <div id="india-impact" className="mt-20 pt-16 border-t border-white/10">
+              <IndiaEconomicImpact />
+            </div>
+
+            {/* Operational Feature 5: India Energy Supply Risk Intelligence (Supervised Multi-Class ML) */}
+            <div id="india-energy-risk" className="mt-20 pt-16 border-t border-white/10">
+              <IndiaEnergyRiskIntelligence />
+            </div>
+
+            {/* Operational Feature 6: India Oil & Commodity Shock Intelligence (Multiple Linear Regression) */}
+            <div id="commodity-shock" className="mt-20 pt-16 border-t border-white/10">
+              <IndiaCommodityShockIntelligence />
+            </div>
+
+            {/* Operational Feature 7: India Trade Dependency & Country Risk (K-Means Clustering) */}
+            <div id="trade-dependency" className="mt-20 pt-16 border-t border-white/10">
+              <IndiaTradeDependencyRisk />
+            </div>
+
+            {/* Operational Feature 8: India Supply-Route Disruption Intelligence (Supervised Multi-Class ML) */}
+            <div id="supply-route" className="mt-20 pt-16 border-t border-white/10">
+              <IndiaSupplyRouteDisruption />
             </div>
           </div>
         </section>

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Logistic Regression",
+    "accuracy": 91.33,
+    "precision": 91.83,
+    "recall": 91.33,
+    "f1": 91.4,
+    "train_f1": 88.82,
+    "cv_f1_mean": 87.0,
+    "cv_f1_std": 3.28,
+    "train_test_gap": -2.58,
+    "roc_auc": 98.64,
+    "best_params": {
+      "model__C": 10.0
+    },
+    "overfitting_status": "Underfitting Risk"
+  },
+  {
+    "name": "SVM",
+    "accuracy": 90.67,
+    "precision": 91.6,
+    "recall": 90.67,
+    "f1": 90.75,
+    "train_f1": 89.48,
+    "cv_f1_mean": 87.55,
+    "cv_f1_std": 3.76,
+    "train_test_gap": -1.27,
+    "roc_auc": 98.51,
+    "best_params": {
+      "model__C": 10.0
+    },
+    "overfitting_status": "Underfitting Risk"
+  },
+  {
+    "name": "Random Forest",
+    "accuracy": 90.0,
+    "precision": 90.26,
+    "recall": 90.0,
+    "f1": 89.93,
+    "train_f1": 99.0,
+    "cv_f1_mean": 82.87,
+    "cv_f1_std": 1.97,
+    "train_test_gap": 9.07,
+    "roc_auc": 97.95,
+    "best_params": {
+      "model__max_depth": 8,
+      "model__n_estimators": 100
+    },
+    "overfitting_status": "Overfitting Risk"
+  },
+  {
+    "name": "k-NN",
+    "accuracy": 86.0,
+    "precision": 86.55,
+    "recall": 86.0,
+    "f1": 85.95,
+    "train_f1": 85.96,
+    "cv_f1_mean": 82.07,
+    "cv_f1_std": 2.51,
+    "train_test_gap": 0.01,
+    "roc_auc": 96.31,
+    "best_params": {
+      "model__n_neighbors": 9
+    },
+    "overfitting_status": "Well-Regularized"
+  },
+  {
+    "name": "Decision Tree",
+    "accuracy": 80.67,
+    "precision": 80.83,
+    "recall": 80.67,
+    "f1": 80.62,
+    "train_f1": 88.56,
+    "cv_f1_mean": 78.26,
+    "cv_f1_std": 1.96,
+    "train_test_gap": 7.94,
+    "roc_auc": 89.34,
+    "best_params": {
+      "model__max_depth": 5
+    },
+    "overfitting_status": "Well-Regularized"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "model_name": "Multiple Linear Regression",
+  "mae": 2.079,
+  "mse": 10.235,
+  "rmse": 3.199,
+  "r2": 0.9705,
+  "train_r2": 0.9791,
+  "gap": 0.0086,
+  "cv_r2_mean": 0.9757,
+  "cv_r2_std": 0.0037,
+  "fit_status": "Well-Regularized & Optimal",
+  "coefficients": [
+    {
+      "feature": "shipping_disruption",
+      "label": "Shipping Disruption Index (1-10)",
+      "coefficient": 2.2685,
+      "absolute_impact": 2.2685,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "conflict_intensity",
+      "label": "Conflict Intensity (1-10)",
+      "coefficient": 1.8844,
+      "absolute_impact": 1.8844,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "trade_disruption",
+      "label": "Trade Disruption Index (1-10)",
+      "coefficient": 1.4446,
+      "absolute_impact": 1.4446,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "india_import_dependency",
+      "label": "India Import Dependency (%)",
+      "coefficient": 0.426,
+      "absolute_impact": 0.426,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "crude_oil_change",
+      "label": "Crude Oil Shock (%)",
+      "coefficient": 0.2836,
+      "absolute_impact": 0.2836,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "essential_commodity_change",
+      "label": "Essential Commodity Shock (%)",
+      "coefficient": 0.2655,
+      "absolute_impact": 0.2655,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "natural_gas_change",
+      "label": "Natural Gas Shock (%)",
+      "coefficient": 0.1694,
+      "absolute_impact": 0.1694,
+      "direction": "Positive Pressure"
+    },
+    {
+      "feature": "gold_price_change",
+      "label": "Gold Price Change (%)",
+      "coefficient": 0.067,
+      "absolute_impact": 0.067,
+      "direction": "Positive Pressure"
+    }
+  ],
+  "intercept": -0.5876
+}

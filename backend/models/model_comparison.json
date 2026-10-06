@@ -1,0 +1,162 @@
+{
+  "comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "cv_mean": 100.0,
+      "cv_std": 0.0
+    },
+    {
+      "model": "k-Nearest Neighbors (k-NN)",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "cv_mean": 100.0,
+      "cv_std": 0.0
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 98.85,
+      "precision": 98.89,
+      "recall": 98.83,
+      "f1_score": 98.84,
+      "cv_mean": 98.75,
+      "cv_std": 1.35
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "cv_mean": 100.0,
+      "cv_std": 0.0
+    },
+    {
+      "model": "Support Vector Machine (SVM)",
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "cv_mean": 100.0,
+      "cv_std": 0.0
+    }
+  ],
+  "best_model": {
+    "model": "Logistic Regression",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "cv_mean": 100.0,
+    "cv_std": 0.0
+  },
+  "overfitting_analysis": [
+    {
+      "model": "Logistic Regression",
+      "train_accuracy": 100.0,
+      "test_accuracy": 100.0,
+      "accuracy_difference": 0.0,
+      "diagnosis": "Good Fit (Balanced Bias-Variance tradeoff with solid generalization)"
+    },
+    {
+      "model": "k-Nearest Neighbors (k-NN)",
+      "train_accuracy": 100.0,
+      "test_accuracy": 100.0,
+      "accuracy_difference": 0.0,
+      "diagnosis": "Good Fit (Balanced Bias-Variance tradeoff with solid generalization)"
+    },
+    {
+      "model": "Decision Tree",
+      "train_accuracy": 100.0,
+      "test_accuracy": 98.85,
+      "accuracy_difference": 1.15,
+      "diagnosis": "Good Fit (Balanced Bias-Variance tradeoff with solid generalization)"
+    },
+    {
+      "model": "Random Forest",
+      "train_accuracy": 100.0,
+      "test_accuracy": 100.0,
+      "accuracy_difference": 0.0,
+      "diagnosis": "Good Fit (Balanced Bias-Variance tradeoff with solid generalization)"
+    },
+    {
+      "model": "Support Vector Machine (SVM)",
+      "train_accuracy": 100.0,
+      "test_accuracy": 100.0,
+      "accuracy_difference": 0.0,
+      "diagnosis": "Good Fit (Balanced Bias-Variance tradeoff with solid generalization)"
+    }
+  ],
+  "tuning_comparisons": [
+    {
+      "model": "Logistic Regression",
+      "tuning_parameter": "Regularization strength C tuned from 0.5 to 2.5 (optimal L2 penalty)",
+      "before_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "after_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "improvement": 0.0
+    },
+    {
+      "model": "k-Nearest Neighbors (k-NN)",
+      "tuning_parameter": "n_neighbors tuned from 9 to 5 with cosine distance for high-dimensional TF-IDF",
+      "before_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "after_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "improvement": 0.0
+    },
+    {
+      "model": "Decision Tree",
+      "tuning_parameter": "max_depth constrained from None (unpruned) to 16, min_samples_split=6 to control variance",
+      "before_tuning": {
+        "accuracy": 98.85,
+        "f1_score": 98.84
+      },
+      "after_tuning": {
+        "accuracy": 98.85,
+        "f1_score": 98.84
+      },
+      "improvement": 0.0
+    },
+    {
+      "model": "Random Forest",
+      "tuning_parameter": "n_estimators expanded to 150, max_depth tuned to 22 for ensemble stability",
+      "before_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "after_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "improvement": 0.0
+    },
+    {
+      "model": "Support Vector Machine (SVM)",
+      "tuning_parameter": "Kernel compared RBF vs Linear; Linear kernel with C=1.5 achieved superior text separation",
+      "before_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "after_tuning": {
+        "accuracy": 100.0,
+        "f1_score": 100.0
+      },
+      "improvement": 0.0
+    }
+  ]
+}

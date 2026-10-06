@@ -1,0 +1,23 @@
+conflict,period,energy_shock,trade_disruption,shipping_disruption,commodity_shock,financial_stress,inflation_change,gdp_growth_change,trade_growth_change,oil_price_change
+1973 Yom Kippur / Arab Oil Embargo,1973-1974,96.0,68.0,72.0,78.0,84.0,8.4,-3.2,-5.6,285.0
+1979 Iranian Revolution & Second Oil Shock,1979-1980,92.0,62.0,58.0,74.0,80.0,6.8,-2.4,-4.1,138.0
+1980 Iran-Iraq Tanker War,1980-1988,86.0,70.0,88.0,60.0,65.0,4.2,-1.5,-3.8,45.0
+1990 Gulf War (Kuwait Invasion),1990-1991,88.0,74.0,82.0,66.0,72.0,3.6,-1.8,-3.2,94.0
+1999 Kargil Conflict,1999,28.0,35.0,22.0,25.0,48.0,1.2,-0.4,-1.1,14.0
+2001 Post-9/11 War on Terror & Afghanistan,2001-2002,42.0,55.0,48.0,38.0,78.0,1.4,-1.2,-2.8,-12.0
+2003 Iraq War (Operation Iraqi Freedom),2003,72.0,58.0,64.0,54.0,62.0,2.1,-0.6,-1.5,32.0
+2006 Lebanon War,2006,58.0,42.0,68.0,45.0,52.0,1.5,-0.3,-0.9,18.0
+2008 Russo-Georgian War & Global Liquidity Shock,2008-2009,64.0,76.0,50.0,82.0,95.0,3.8,-4.2,-10.5,-52.0
+2011 Libyan Civil War & Arab Spring,2011,78.0,48.0,56.0,68.0,58.0,2.8,-0.8,-1.9,38.0
+2014 Crimean Annexation & Donbas Conflict,2014-2015,52.0,64.0,44.0,50.0,66.0,1.9,-0.7,-2.2,-46.0
+2019 Abqaiq-Khurais Drone Attacks (Saudi Aramco),2019,82.0,42.0,48.0,56.0,54.0,1.1,-0.2,-0.6,19.5
+2020 Nagorno-Karabakh War,2020,34.0,38.0,26.0,30.0,42.0,0.8,-0.3,-0.8,8.0
+2021 Suez Canal Ever Given Crisis,2021,45.0,88.0,95.0,62.0,55.0,1.7,-0.5,-4.2,12.0
+2022 Russia-Ukraine War (Full-Scale Invasion),2022-2023,94.0,92.0,84.0,96.0,88.0,5.4,-2.6,-5.8,68.0
+2023 Israel-Gaza War,2023,68.0,60.0,70.0,58.0,64.0,1.8,-0.7,-2.1,16.0
+2024 Red Sea Chokepoint & Houthi Maritime Crisis,2024,76.0,86.0,92.0,70.0,68.0,2.6,-1.1,-4.6,22.0
+1994 Yemeni Civil War,1994,36.0,40.0,54.0,32.0,40.0,1.0,-0.3,-0.7,6.5
+1998 Operation Desert Fox (Iraq Bombing),1998,48.0,45.0,40.0,35.0,46.0,0.9,-0.2,-0.5,11.0
+2015 Yemen Conflict & Bab el-Mandeb Alert,2015,50.0,54.0,66.0,44.0,50.0,1.3,-0.4,-1.4,-18.0
+1987 Operation Nimble Archer (Gulf Escort),1987,66.0,52.0,76.0,48.0,60.0,2.0,-0.5,-1.8,15.0
+2000 USS Cole Attack & Aden Threat,2000,40.0,36.0,58.0,34.0,44.0,0.8,-0.2,-0.6,9.0

@@ -1,0 +1,44 @@
+{
+  "total_raw_records": 1550,
+  "duplicates_removed": 284,
+  "missing_values_removed": 12,
+  "cleaned_records": 1300,
+  "training_records": 1040,
+  "testing_records": 260,
+  "number_of_classes": 6,
+  "classes": [
+    "Military Conflict",
+    "Diplomatic / Political",
+    "Energy Risk",
+    "Trade & Shipping",
+    "Economic Impact",
+    "Humanitarian Impact"
+  ],
+  "class_distribution": {
+    "Energy Risk": 223,
+    "Humanitarian Impact": 220,
+    "Economic Impact": 219,
+    "Military Conflict": 215,
+    "Diplomatic / Political": 214,
+    "Trade & Shipping": 209
+  },
+  "train_class_distribution": {
+    "Energy Risk": 179,
+    "Humanitarian Impact": 176,
+    "Economic Impact": 175,
+    "Military Conflict": 172,
+    "Diplomatic / Political": 171,
+    "Trade & Shipping": 167
+  },
+  "test_class_distribution": {
+    "Energy Risk": 44,
+    "Economic Impact": 44,
+    "Humanitarian Impact": 44,
+    "Military Conflict": 43,
+    "Diplomatic / Political": 43,
+    "Trade & Shipping": 42
+  },
+  "best_model": "Logistic Regression",
+  "best_f1_score": 100.0,
+  "best_accuracy": 100.0
+}

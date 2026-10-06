@@ -1,0 +1,21 @@
+{
+  "total_raw_records": 4846,
+  "missing_values_removed": 0,
+  "duplicates_removed": 6,
+  "cleaned_records": 4840,
+  "training_records": 3872,
+  "testing_records": 968,
+  "classes": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "class_distribution": {
+    "Neutral": 2873,
+    "Positive": 1363,
+    "Negative": 604
+  },
+  "best_model": "Random Forest",
+  "best_f1_score": 72.97,
+  "best_accuracy": 74.9
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "year": 2015,
+    "crude_oil": 4.38,
+    "natural_gas": 5.02,
+    "gold": 3.02,
+    "essential": 5.12,
+    "india_impact": 57.91
+  },
+  {
+    "year": 2016,
+    "crude_oil": 5.13,
+    "natural_gas": 6.5,
+    "gold": 2.96,
+    "essential": 5.76,
+    "india_impact": 58.47
+  },
+  {
+    "year": 2017,
+    "crude_oil": 2.62,
+    "natural_gas": 4.81,
+    "gold": 1.83,
+    "essential": 4.33,
+    "india_impact": 55.26
+  },
+  {
+    "year": 2018,
+    "crude_oil": 3.18,
+    "natural_gas": 5.27,
+    "gold": 2.12,
+    "essential": 4.34,
+    "india_impact": 56.06
+  },
+  {
+    "year": 2019,
+    "crude_oil": 4.61,
+    "natural_gas": 8.01,
+    "gold": 2.96,
+    "essential": 4.86,
+    "india_impact": 59.49
+  },
+  {
+    "year": 2020,
+    "crude_oil": 1.45,
+    "natural_gas": 1.85,
+    "gold": 1.38,
+    "essential": 3.04,
+    "india_impact": 51.9
+  },
+  {
+    "year": 2021,
+    "crude_oil": 3.99,
+    "natural_gas": 6.3,
+    "gold": 2.73,
+    "essential": 5.36,
+    "india_impact": 59.71
+  },
+  {
+    "year": 2022,
+    "crude_oil": 1.67,
+    "natural_gas": 4.05,
+    "gold": 1.41,
+    "essential": 3.6,
+    "india_impact": 54.15
+  },
+  {
+    "year": 2023,
+    "crude_oil": 3.29,
+    "natural_gas": 3.95,
+    "gold": 2.38,
+    "essential": 3.55,
+    "india_impact": 56.7
+  },
+  {
+    "year": 2024,
+    "crude_oil": 2.61,
+    "natural_gas": 4.14,
+    "gold": 2.04,
+    "essential": 4.27,
+    "india_impact": 57.68
+  },
+  {
+    "year": 2025,
+    "crude_oil": 2.68,
+    "natural_gas": 4.23,
+    "gold": 1.57,
+    "essential": 2.13,
+    "india_impact": 57.35
+  }
+]

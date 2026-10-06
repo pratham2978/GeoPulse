@@ -1,0 +1,324 @@
+[
+  {
+    "country": "Saudi Arabia",
+    "count": 10,
+    "mean": 23.52,
+    "min": 19.57,
+    "max": 29.01
+  },
+  {
+    "country": "Russia",
+    "count": 15,
+    "mean": 21.68,
+    "min": 14.89,
+    "max": 26.93
+  },
+  {
+    "country": "Libya",
+    "count": 18,
+    "mean": 20.29,
+    "min": 12.04,
+    "max": 25.35
+  },
+  {
+    "country": "Iran",
+    "count": 17,
+    "mean": 20.15,
+    "min": 12.38,
+    "max": 27.59
+  },
+  {
+    "country": "China",
+    "count": 8,
+    "mean": 20.04,
+    "min": 15.52,
+    "max": 27.68
+  },
+  {
+    "country": "USA",
+    "count": 15,
+    "mean": 19.47,
+    "min": 14.45,
+    "max": 24.64
+  },
+  {
+    "country": "Yemen",
+    "count": 14,
+    "mean": 19.4,
+    "min": 15.24,
+    "max": 23.09
+  },
+  {
+    "country": "Egypt",
+    "count": 19,
+    "mean": 19.38,
+    "min": 8.92,
+    "max": 29.47
+  },
+  {
+    "country": "Qatar",
+    "count": 16,
+    "mean": 19.31,
+    "min": 13.48,
+    "max": 28.01
+  },
+  {
+    "country": "Kuwait",
+    "count": 25,
+    "mean": 19.28,
+    "min": 7.59,
+    "max": 28.88
+  },
+  {
+    "country": "UAE",
+    "count": 11,
+    "mean": 19.16,
+    "min": 14.26,
+    "max": 27.19
+  },
+  {
+    "country": "Israel",
+    "count": 14,
+    "mean": 19.13,
+    "min": 12.13,
+    "max": 25.62
+  },
+  {
+    "country": "Kazakhstan",
+    "count": 13,
+    "mean": 18.82,
+    "min": 13.93,
+    "max": 23.59
+  },
+  {
+    "country": "North Korea",
+    "count": 6,
+    "mean": 17.79,
+    "min": 14.1,
+    "max": 23.04
+  },
+  {
+    "country": "Ukraine",
+    "count": 8,
+    "mean": 17.73,
+    "min": 14.22,
+    "max": 23.88
+  },
+  {
+    "country": "Canada",
+    "count": 13,
+    "mean": 17.6,
+    "min": 7.73,
+    "max": 25.42
+  },
+  {
+    "country": "Taiwan",
+    "count": 9,
+    "mean": 17.38,
+    "min": 12.68,
+    "max": 21.82
+  },
+  {
+    "country": "Iraq",
+    "count": 9,
+    "mean": 17.34,
+    "min": 11.48,
+    "max": 22.22
+  },
+  {
+    "country": "South Korea",
+    "count": 13,
+    "mean": 17.29,
+    "min": 7.77,
+    "max": 23.37
+  },
+  {
+    "country": "Pakistan",
+    "count": 15,
+    "mean": 16.8,
+    "min": 11.63,
+    "max": 25.47
+  },
+  {
+    "country": "Sri Lanka",
+    "count": 14,
+    "mean": 16.79,
+    "min": 10.29,
+    "max": 27.09
+  },
+  {
+    "country": "Nigeria",
+    "count": 17,
+    "mean": 16.75,
+    "min": 10.34,
+    "max": 23.83
+  },
+  {
+    "country": "Turkey",
+    "count": 12,
+    "mean": 16.54,
+    "min": 11.93,
+    "max": 22.25
+  },
+  {
+    "country": "South Africa",
+    "count": 12,
+    "mean": 16.5,
+    "min": 10.04,
+    "max": 21.07
+  },
+  {
+    "country": "Bhutan",
+    "count": 14,
+    "mean": 16.42,
+    "min": 9.85,
+    "max": 22.31
+  },
+  {
+    "country": "Venezuela",
+    "count": 9,
+    "mean": 16.33,
+    "min": 11.51,
+    "max": 21.35
+  },
+  {
+    "country": "France",
+    "count": 17,
+    "mean": 16.33,
+    "min": 8.79,
+    "max": 22.63
+  },
+  {
+    "country": "Poland",
+    "count": 18,
+    "mean": 16.03,
+    "min": 8.58,
+    "max": 21.13
+  },
+  {
+    "country": "Japan",
+    "count": 12,
+    "mean": 16.01,
+    "min": 11.49,
+    "max": 21.01
+  },
+  {
+    "country": "Malaysia",
+    "count": 7,
+    "mean": 15.99,
+    "min": 10.82,
+    "max": 22.89
+  },
+  {
+    "country": "Oman",
+    "count": 12,
+    "mean": 15.9,
+    "min": 11.45,
+    "max": 20.35
+  },
+  {
+    "country": "Brazil",
+    "count": 11,
+    "mean": 15.83,
+    "min": 12.42,
+    "max": 20.46
+  },
+  {
+    "country": "Germany",
+    "count": 13,
+    "mean": 15.82,
+    "min": 11.38,
+    "max": 23.56
+  },
+  {
+    "country": "Bangladesh",
+    "count": 16,
+    "mean": 15.81,
+    "min": 8.73,
+    "max": 19.81
+  },
+  {
+    "country": "Mexico",
+    "count": 15,
+    "mean": 15.79,
+    "min": 9.75,
+    "max": 23.29
+  },
+  {
+    "country": "Vietnam",
+    "count": 15,
+    "mean": 15.62,
+    "min": 8.82,
+    "max": 22.95
+  },
+  {
+    "country": "Indonesia",
+    "count": 14,
+    "mean": 15.57,
+    "min": 9.37,
+    "max": 21.14
+  },
+  {
+    "country": "Australia",
+    "count": 18,
+    "mean": 15.37,
+    "min": 7.19,
+    "max": 25.24
+  },
+  {
+    "country": "Sudan",
+    "count": 14,
+    "mean": 15.26,
+    "min": 10.26,
+    "max": 19.38
+  },
+  {
+    "country": "Afghanistan",
+    "count": 13,
+    "mean": 15.01,
+    "min": 7.03,
+    "max": 24.3
+  },
+  {
+    "country": "Maldives",
+    "count": 13,
+    "mean": 14.98,
+    "min": 4.55,
+    "max": 21.51
+  },
+  {
+    "country": "UK",
+    "count": 10,
+    "mean": 14.9,
+    "min": 8.12,
+    "max": 20.0
+  },
+  {
+    "country": "Ethiopia",
+    "count": 11,
+    "mean": 14.85,
+    "min": 11.43,
+    "max": 18.25
+  },
+  {
+    "country": "Argentina",
+    "count": 14,
+    "mean": 14.81,
+    "min": 7.6,
+    "max": 23.68
+  },
+  {
+    "country": "Nepal",
+    "count": 18,
+    "mean": 14.4,
+    "min": 9.03,
+    "max": 20.48
+  },
+  {
+    "country": "Myanmar",
+    "count": 13,
+    "mean": 14.03,
+    "min": 9.7,
+    "max": 19.2
+  }
+]

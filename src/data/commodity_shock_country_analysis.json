@@ -1,0 +1,182 @@
+[
+  {
+    "country": "Russia",
+    "avg_impact": 63.26,
+    "min_impact": 34.46,
+    "max_impact": 96.5,
+    "std_impact": 20.13,
+    "events_count": 68,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "UAE",
+    "avg_impact": 59.86,
+    "min_impact": 36.57,
+    "max_impact": 96.5,
+    "std_impact": 18.23,
+    "events_count": 54,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Egypt",
+    "avg_impact": 59.4,
+    "min_impact": 36.64,
+    "max_impact": 96.5,
+    "std_impact": 16.74,
+    "events_count": 33,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Qatar",
+    "avg_impact": 58.26,
+    "min_impact": 32.33,
+    "max_impact": 96.5,
+    "std_impact": 18.63,
+    "events_count": 39,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Nigeria",
+    "avg_impact": 58.18,
+    "min_impact": 33.71,
+    "max_impact": 96.5,
+    "std_impact": 17.29,
+    "events_count": 17,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Iran",
+    "avg_impact": 58.1,
+    "min_impact": 33.37,
+    "max_impact": 96.5,
+    "std_impact": 19.42,
+    "events_count": 42,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Yemen",
+    "avg_impact": 57.66,
+    "min_impact": 35.59,
+    "max_impact": 96.5,
+    "std_impact": 16.48,
+    "events_count": 54,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Saudi Arabia",
+    "avg_impact": 57.54,
+    "min_impact": 32.69,
+    "max_impact": 96.5,
+    "std_impact": 19.27,
+    "events_count": 66,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Ukraine",
+    "avg_impact": 57.52,
+    "min_impact": 34.88,
+    "max_impact": 96.5,
+    "std_impact": 16.21,
+    "events_count": 32,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Kazakhstan",
+    "avg_impact": 56.97,
+    "min_impact": 37.01,
+    "max_impact": 96.5,
+    "std_impact": 19.16,
+    "events_count": 27,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "USA",
+    "avg_impact": 56.82,
+    "min_impact": 33.05,
+    "max_impact": 96.5,
+    "std_impact": 19.94,
+    "events_count": 41,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Brazil",
+    "avg_impact": 56.64,
+    "min_impact": 31.22,
+    "max_impact": 96.5,
+    "std_impact": 21.09,
+    "events_count": 22,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Israel",
+    "avg_impact": 56.12,
+    "min_impact": 36.18,
+    "max_impact": 96.5,
+    "std_impact": 19.16,
+    "events_count": 35,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Canada",
+    "avg_impact": 55.44,
+    "min_impact": 33.52,
+    "max_impact": 96.5,
+    "std_impact": 18.45,
+    "events_count": 17,
+    "risk_tier": "HIGH"
+  },
+  {
+    "country": "Iraq",
+    "avg_impact": 54.76,
+    "min_impact": 34.41,
+    "max_impact": 96.5,
+    "std_impact": 17.3,
+    "events_count": 65,
+    "risk_tier": "MODERATE"
+  },
+  {
+    "country": "Indonesia",
+    "avg_impact": 54.27,
+    "min_impact": 31.63,
+    "max_impact": 96.5,
+    "std_impact": 16.84,
+    "events_count": 42,
+    "risk_tier": "MODERATE"
+  },
+  {
+    "country": "South Africa",
+    "avg_impact": 52.17,
+    "min_impact": 34.05,
+    "max_impact": 93.98,
+    "std_impact": 16.9,
+    "events_count": 22,
+    "risk_tier": "MODERATE"
+  },
+  {
+    "country": "Malaysia",
+    "avg_impact": 52.09,
+    "min_impact": 32.31,
+    "max_impact": 96.5,
+    "std_impact": 19.25,
+    "events_count": 45,
+    "risk_tier": "MODERATE"
+  },
+  {
+    "country": "Australia",
+    "avg_impact": 51.97,
+    "min_impact": 32.37,
+    "max_impact": 93.51,
+    "std_impact": 15.02,
+    "events_count": 35,
+    "risk_tier": "MODERATE"
+  },
+  {
+    "country": "Switzerland",
+    "avg_impact": 50.71,
+    "min_impact": 35.55,
+    "max_impact": 87.61,
+    "std_impact": 14.46,
+    "events_count": 24,
+    "risk_tier": "MODERATE"
+  }
+]

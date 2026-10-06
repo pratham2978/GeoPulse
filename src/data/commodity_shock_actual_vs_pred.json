@@ -1,0 +1,782 @@
+[
+  {
+    "actual": 96.5,
+    "predicted": 97.12,
+    "residual": -0.62
+  },
+  {
+    "actual": 49.75,
+    "predicted": 48.61,
+    "residual": 1.14
+  },
+  {
+    "actual": 44.19,
+    "predicted": 44.14,
+    "residual": 0.05
+  },
+  {
+    "actual": 36.04,
+    "predicted": 38.3,
+    "residual": -2.26
+  },
+  {
+    "actual": 51.85,
+    "predicted": 52.19,
+    "residual": -0.34
+  },
+  {
+    "actual": 54.07,
+    "predicted": 53.31,
+    "residual": 0.76
+  },
+  {
+    "actual": 34.53,
+    "predicted": 38.29,
+    "residual": -3.76
+  },
+  {
+    "actual": 96.5,
+    "predicted": 104.0,
+    "residual": -7.5
+  },
+  {
+    "actual": 41.87,
+    "predicted": 41.19,
+    "residual": 0.68
+  },
+  {
+    "actual": 42.08,
+    "predicted": 43.32,
+    "residual": -1.24
+  },
+  {
+    "actual": 43.36,
+    "predicted": 42.29,
+    "residual": 1.07
+  },
+  {
+    "actual": 74.44,
+    "predicted": 72.64,
+    "residual": 1.8
+  },
+  {
+    "actual": 41.75,
+    "predicted": 42.41,
+    "residual": -0.66
+  },
+  {
+    "actual": 46.22,
+    "predicted": 46.47,
+    "residual": -0.25
+  },
+  {
+    "actual": 50.04,
+    "predicted": 50.74,
+    "residual": -0.7
+  },
+  {
+    "actual": 96.5,
+    "predicted": 98.6,
+    "residual": -2.1
+  },
+  {
+    "actual": 76.01,
+    "predicted": 73.94,
+    "residual": 2.07
+  },
+  {
+    "actual": 37.71,
+    "predicted": 41.48,
+    "residual": -3.77
+  },
+  {
+    "actual": 58.16,
+    "predicted": 57.98,
+    "residual": 0.18
+  },
+  {
+    "actual": 36.06,
+    "predicted": 37.63,
+    "residual": -1.57
+  },
+  {
+    "actual": 67.8,
+    "predicted": 70.12,
+    "residual": -2.32
+  },
+  {
+    "actual": 40.45,
+    "predicted": 41.52,
+    "residual": -1.07
+  },
+  {
+    "actual": 36.88,
+    "predicted": 37.53,
+    "residual": -0.65
+  },
+  {
+    "actual": 57.8,
+    "predicted": 57.48,
+    "residual": 0.32
+  },
+  {
+    "actual": 37.23,
+    "predicted": 38.2,
+    "residual": -0.97
+  },
+  {
+    "actual": 96.5,
+    "predicted": 99.93,
+    "residual": -3.43
+  },
+  {
+    "actual": 34.63,
+    "predicted": 38.04,
+    "residual": -3.41
+  },
+  {
+    "actual": 75.32,
+    "predicted": 74.42,
+    "residual": 0.9
+  },
+  {
+    "actual": 58.61,
+    "predicted": 56.79,
+    "residual": 1.82
+  },
+  {
+    "actual": 51.6,
+    "predicted": 49.19,
+    "residual": 2.41
+  },
+  {
+    "actual": 49.2,
+    "predicted": 50.0,
+    "residual": -0.8
+  },
+  {
+    "actual": 73.35,
+    "predicted": 71.98,
+    "residual": 1.37
+  },
+  {
+    "actual": 47.63,
+    "predicted": 49.34,
+    "residual": -1.71
+  },
+  {
+    "actual": 96.5,
+    "predicted": 102.64,
+    "residual": -6.14
+  },
+  {
+    "actual": 79.21,
+    "predicted": 73.25,
+    "residual": 5.96
+  },
+  {
+    "actual": 37.06,
+    "predicted": 37.69,
+    "residual": -0.63
+  },
+  {
+    "actual": 76.84,
+    "predicted": 75.51,
+    "residual": 1.33
+  },
+  {
+    "actual": 50.2,
+    "predicted": 52.57,
+    "residual": -2.37
+  },
+  {
+    "actual": 40.21,
+    "predicted": 39.57,
+    "residual": 0.64
+  },
+  {
+    "actual": 50.42,
+    "predicted": 51.39,
+    "residual": -0.97
+  },
+  {
+    "actual": 44.42,
+    "predicted": 42.56,
+    "residual": 1.86
+  },
+  {
+    "actual": 39.14,
+    "predicted": 38.85,
+    "residual": 0.29
+  },
+  {
+    "actual": 55.21,
+    "predicted": 55.76,
+    "residual": -0.55
+  },
+  {
+    "actual": 77.76,
+    "predicted": 76.01,
+    "residual": 1.75
+  },
+  {
+    "actual": 53.83,
+    "predicted": 52.58,
+    "residual": 1.25
+  },
+  {
+    "actual": 37.92,
+    "predicted": 38.24,
+    "residual": -0.32
+  },
+  {
+    "actual": 96.5,
+    "predicted": 105.69,
+    "residual": -9.19
+  },
+  {
+    "actual": 60.07,
+    "predicted": 58.1,
+    "residual": 1.97
+  },
+  {
+    "actual": 50.13,
+    "predicted": 50.27,
+    "residual": -0.14
+  },
+  {
+    "actual": 82.35,
+    "predicted": 77.31,
+    "residual": 5.04
+  },
+  {
+    "actual": 57.59,
+    "predicted": 55.99,
+    "residual": 1.6
+  },
+  {
+    "actual": 51.97,
+    "predicted": 54.52,
+    "residual": -2.55
+  },
+  {
+    "actual": 36.01,
+    "predicted": 35.73,
+    "residual": 0.28
+  },
+  {
+    "actual": 40.95,
+    "predicted": 44.98,
+    "residual": -4.03
+  },
+  {
+    "actual": 96.5,
+    "predicted": 104.02,
+    "residual": -7.52
+  },
+  {
+    "actual": 75.06,
+    "predicted": 73.11,
+    "residual": 1.95
+  },
+  {
+    "actual": 42.88,
+    "predicted": 44.88,
+    "residual": -2.0
+  },
+  {
+    "actual": 51.35,
+    "predicted": 54.32,
+    "residual": -2.97
+  },
+  {
+    "actual": 71.93,
+    "predicted": 72.01,
+    "residual": -0.08
+  },
+  {
+    "actual": 39.76,
+    "predicted": 40.7,
+    "residual": -0.94
+  },
+  {
+    "actual": 48.29,
+    "predicted": 50.35,
+    "residual": -2.06
+  },
+  {
+    "actual": 43.82,
+    "predicted": 43.61,
+    "residual": 0.21
+  },
+  {
+    "actual": 96.07,
+    "predicted": 91.41,
+    "residual": 4.66
+  },
+  {
+    "actual": 52.92,
+    "predicted": 52.61,
+    "residual": 0.31
+  },
+  {
+    "actual": 37.77,
+    "predicted": 37.12,
+    "residual": 0.65
+  },
+  {
+    "actual": 56.97,
+    "predicted": 58.32,
+    "residual": -1.35
+  },
+  {
+    "actual": 32.33,
+    "predicted": 34.34,
+    "residual": -2.01
+  },
+  {
+    "actual": 61.37,
+    "predicted": 58.33,
+    "residual": 3.04
+  },
+  {
+    "actual": 42.16,
+    "predicted": 41.06,
+    "residual": 1.1
+  },
+  {
+    "actual": 56.28,
+    "predicted": 55.01,
+    "residual": 1.27
+  },
+  {
+    "actual": 96.5,
+    "predicted": 106.8,
+    "residual": -10.3
+  },
+  {
+    "actual": 55.7,
+    "predicted": 55.6,
+    "residual": 0.1
+  },
+  {
+    "actual": 54.21,
+    "predicted": 54.56,
+    "residual": -0.35
+  },
+  {
+    "actual": 37.16,
+    "predicted": 35.7,
+    "residual": 1.46
+  },
+  {
+    "actual": 54.49,
+    "predicted": 53.28,
+    "residual": 1.21
+  },
+  {
+    "actual": 42.71,
+    "predicted": 40.16,
+    "residual": 2.55
+  },
+  {
+    "actual": 74.59,
+    "predicted": 71.55,
+    "residual": 3.04
+  },
+  {
+    "actual": 41.94,
+    "predicted": 43.27,
+    "residual": -1.33
+  },
+  {
+    "actual": 33.37,
+    "predicted": 36.71,
+    "residual": -3.34
+  },
+  {
+    "actual": 36.31,
+    "predicted": 41.74,
+    "residual": -5.43
+  },
+  {
+    "actual": 78.14,
+    "predicted": 76.96,
+    "residual": 1.18
+  },
+  {
+    "actual": 67.09,
+    "predicted": 67.69,
+    "residual": -0.6
+  },
+  {
+    "actual": 47.46,
+    "predicted": 46.02,
+    "residual": 1.44
+  },
+  {
+    "actual": 77.83,
+    "predicted": 73.18,
+    "residual": 4.65
+  },
+  {
+    "actual": 38.12,
+    "predicted": 40.65,
+    "residual": -2.53
+  },
+  {
+    "actual": 56.16,
+    "predicted": 56.03,
+    "residual": 0.13
+  },
+  {
+    "actual": 71.03,
+    "predicted": 69.66,
+    "residual": 1.37
+  },
+  {
+    "actual": 78.15,
+    "predicted": 75.12,
+    "residual": 3.03
+  },
+  {
+    "actual": 43.73,
+    "predicted": 43.66,
+    "residual": 0.07
+  },
+  {
+    "actual": 52.26,
+    "predicted": 50.83,
+    "residual": 1.43
+  },
+  {
+    "actual": 96.5,
+    "predicted": 106.45,
+    "residual": -9.95
+  },
+  {
+    "actual": 39.67,
+    "predicted": 40.12,
+    "residual": -0.45
+  },
+  {
+    "actual": 46.41,
+    "predicted": 46.25,
+    "residual": 0.16
+  },
+  {
+    "actual": 65.94,
+    "predicted": 67.34,
+    "residual": -1.4
+  },
+  {
+    "actual": 36.75,
+    "predicted": 40.05,
+    "residual": -3.3
+  },
+  {
+    "actual": 60.14,
+    "predicted": 60.34,
+    "residual": -0.2
+  },
+  {
+    "actual": 79.98,
+    "predicted": 79.92,
+    "residual": 0.06
+  },
+  {
+    "actual": 75.89,
+    "predicted": 72.95,
+    "residual": 2.94
+  },
+  {
+    "actual": 43.08,
+    "predicted": 43.68,
+    "residual": -0.6
+  },
+  {
+    "actual": 52.74,
+    "predicted": 48.63,
+    "residual": 4.11
+  },
+  {
+    "actual": 59.59,
+    "predicted": 58.07,
+    "residual": 1.52
+  },
+  {
+    "actual": 36.52,
+    "predicted": 38.78,
+    "residual": -2.26
+  },
+  {
+    "actual": 72.38,
+    "predicted": 69.4,
+    "residual": 2.98
+  },
+  {
+    "actual": 54.97,
+    "predicted": 55.88,
+    "residual": -0.91
+  },
+  {
+    "actual": 40.07,
+    "predicted": 42.34,
+    "residual": -2.27
+  },
+  {
+    "actual": 85.98,
+    "predicted": 83.17,
+    "residual": 2.81
+  },
+  {
+    "actual": 75.26,
+    "predicted": 71.76,
+    "residual": 3.5
+  },
+  {
+    "actual": 53.65,
+    "predicted": 50.13,
+    "residual": 3.52
+  },
+  {
+    "actual": 59.66,
+    "predicted": 58.93,
+    "residual": 0.73
+  },
+  {
+    "actual": 96.5,
+    "predicted": 109.91,
+    "residual": -13.41
+  },
+  {
+    "actual": 41.47,
+    "predicted": 42.16,
+    "residual": -0.69
+  },
+  {
+    "actual": 41.63,
+    "predicted": 40.99,
+    "residual": 0.64
+  },
+  {
+    "actual": 43.16,
+    "predicted": 41.58,
+    "residual": 1.58
+  },
+  {
+    "actual": 60.99,
+    "predicted": 60.16,
+    "residual": 0.83
+  },
+  {
+    "actual": 56.77,
+    "predicted": 55.05,
+    "residual": 1.72
+  },
+  {
+    "actual": 58.7,
+    "predicted": 55.88,
+    "residual": 2.82
+  },
+  {
+    "actual": 36.18,
+    "predicted": 39.14,
+    "residual": -2.96
+  },
+  {
+    "actual": 38.37,
+    "predicted": 38.48,
+    "residual": -0.11
+  },
+  {
+    "actual": 43.31,
+    "predicted": 42.35,
+    "residual": 0.96
+  },
+  {
+    "actual": 47.32,
+    "predicted": 46.52,
+    "residual": 0.8
+  },
+  {
+    "actual": 50.49,
+    "predicted": 51.78,
+    "residual": -1.29
+  },
+  {
+    "actual": 80.1,
+    "predicted": 78.84,
+    "residual": 1.26
+  },
+  {
+    "actual": 79.99,
+    "predicted": 77.15,
+    "residual": 2.84
+  },
+  {
+    "actual": 43.85,
+    "predicted": 41.66,
+    "residual": 2.19
+  },
+  {
+    "actual": 52.46,
+    "predicted": 54.7,
+    "residual": -2.24
+  },
+  {
+    "actual": 56.58,
+    "predicted": 56.71,
+    "residual": -0.13
+  },
+  {
+    "actual": 36.87,
+    "predicted": 37.05,
+    "residual": -0.18
+  },
+  {
+    "actual": 44.57,
+    "predicted": 43.66,
+    "residual": 0.91
+  },
+  {
+    "actual": 57.01,
+    "predicted": 55.54,
+    "residual": 1.47
+  },
+  {
+    "actual": 45.37,
+    "predicted": 44.75,
+    "residual": 0.62
+  },
+  {
+    "actual": 45.23,
+    "predicted": 43.19,
+    "residual": 2.04
+  },
+  {
+    "actual": 92.02,
+    "predicted": 90.36,
+    "residual": 1.66
+  },
+  {
+    "actual": 58.13,
+    "predicted": 59.61,
+    "residual": -1.48
+  },
+  {
+    "actual": 87.61,
+    "predicted": 84.84,
+    "residual": 2.77
+  },
+  {
+    "actual": 37.85,
+    "predicted": 39.9,
+    "residual": -2.05
+  },
+  {
+    "actual": 51.6,
+    "predicted": 51.4,
+    "residual": 0.2
+  },
+  {
+    "actual": 43.69,
+    "predicted": 43.01,
+    "residual": 0.68
+  },
+  {
+    "actual": 52.39,
+    "predicted": 50.03,
+    "residual": 2.36
+  },
+  {
+    "actual": 80.73,
+    "predicted": 79.25,
+    "residual": 1.48
+  },
+  {
+    "actual": 51.94,
+    "predicted": 50.77,
+    "residual": 1.17
+  },
+  {
+    "actual": 96.5,
+    "predicted": 108.5,
+    "residual": -12.0
+  },
+  {
+    "actual": 80.59,
+    "predicted": 79.89,
+    "residual": 0.7
+  },
+  {
+    "actual": 74.57,
+    "predicted": 75.73,
+    "residual": -1.16
+  },
+  {
+    "actual": 40.25,
+    "predicted": 40.32,
+    "residual": -0.07
+  },
+  {
+    "actual": 46.48,
+    "predicted": 43.17,
+    "residual": 3.31
+  },
+  {
+    "actual": 96.5,
+    "predicted": 111.97,
+    "residual": -15.47
+  },
+  {
+    "actual": 36.89,
+    "predicted": 39.46,
+    "residual": -2.57
+  },
+  {
+    "actual": 96.5,
+    "predicted": 96.37,
+    "residual": 0.13
+  },
+  {
+    "actual": 41.67,
+    "predicted": 42.84,
+    "residual": -1.17
+  },
+  {
+    "actual": 43.19,
+    "predicted": 43.09,
+    "residual": 0.1
+  },
+  {
+    "actual": 55.79,
+    "predicted": 55.7,
+    "residual": 0.09
+  },
+  {
+    "actual": 40.92,
+    "predicted": 42.05,
+    "residual": -1.13
+  },
+  {
+    "actual": 40.69,
+    "predicted": 44.22,
+    "residual": -3.53
+  },
+  {
+    "actual": 33.97,
+    "predicted": 35.25,
+    "residual": -1.28
+  },
+  {
+    "actual": 61.99,
+    "predicted": 64.1,
+    "residual": -2.11
+  },
+  {
+    "actual": 71.98,
+    "predicted": 71.84,
+    "residual": 0.14
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "red_sea_houthi",
+    "name": "Bab el-Mandeb / Red Sea Crisis (Houthi Attacks)",
+    "route": "Bab el-Mandeb / Red Sea",
+    "region": "Middle East / Red Sea",
+    "description": "Commercial missile attacks forcing vessel rerouting via Cape of Good Hope, severe freight spikes.",
+    "inputs": {
+      "route_disruption": 85.0,
+      "shipping_delay": 18.0,
+      "freight_cost_change": 165.0,
+      "trade_volume_exposure": 82.0,
+      "india_import_exposure": 78.0,
+      "india_export_exposure": 88.0,
+      "energy_route_exposure": 65.0,
+      "commodity_exposure": 74.0,
+      "conflict_intensity": 90.0
+    }
+  },
+  {
+    "id": "hormuz_blockade",
+    "name": "Strait of Hormuz Escalation / Tanker Seizure",
+    "route": "Strait of Hormuz",
+    "region": "Persian Gulf",
+    "description": "Military standoff closing maritime lanes for crude oil & LNG tankers to Mangalore, Jamnagar, and Kochi.",
+    "inputs": {
+      "route_disruption": 92.0,
+      "shipping_delay": 22.0,
+      "freight_cost_change": 190.0,
+      "trade_volume_exposure": 95.0,
+      "india_import_exposure": 94.0,
+      "india_export_exposure": 52.0,
+      "energy_route_exposure": 98.0,
+      "commodity_exposure": 86.0,
+      "conflict_intensity": 94.0
+    }
+  },
+  {
+    "id": "malacca_congestion",
+    "name": "Malacca Strait Naval Drills & Congestion",
+    "route": "Malacca Strait",
+    "region": "Southeast Asia / Indo-Pacific",
+    "description": "Geopolitical tension in the South China Sea causing port delays in Singapore and Strait choke slowdown.",
+    "inputs": {
+      "route_disruption": 55.0,
+      "shipping_delay": 8.5,
+      "freight_cost_change": 45.0,
+      "trade_volume_exposure": 75.0,
+      "india_import_exposure": 68.0,
+      "india_export_exposure": 62.0,
+      "energy_route_exposure": 40.0,
+      "commodity_exposure": 58.0,
+      "conflict_intensity": 50.0
+    }
+  },
+  {
+    "id": "suez_canal_grounding",
+    "name": "Suez Canal Blockage / Grounding",
+    "route": "Suez Canal",
+    "region": "Egypt / Mediterranean",
+    "description": "Physical maritime obstruction delaying European container traffic bound for Nhava Sheva and Mundra.",
+    "inputs": {
+      "route_disruption": 78.0,
+      "shipping_delay": 14.0,
+      "freight_cost_change": 110.0,
+      "trade_volume_exposure": 80.0,
+      "india_import_exposure": 72.0,
+      "india_export_exposure": 82.0,
+      "energy_route_exposure": 52.0,
+      "commodity_exposure": 65.0,
+      "conflict_intensity": 35.0
+    }
+  },
+  {
+    "id": "cape_detour",
+    "name": "Cape of Good Hope Reroute (High Weather & Cost)",
+    "route": "Cape of Good Hope",
+    "region": "South Africa / Southern Ocean",
+    "description": "Extended voyage transit +14 days with elevated bunker fuel and insurance premiums for Indian exporters.",
+    "inputs": {
+      "route_disruption": 45.0,
+      "shipping_delay": 15.0,
+      "freight_cost_change": 85.0,
+      "trade_volume_exposure": 65.0,
+      "india_import_exposure": 58.0,
+      "india_export_exposure": 68.0,
+      "energy_route_exposure": 45.0,
+      "commodity_exposure": 50.0,
+      "conflict_intensity": 20.0
+    }
+  },
+  {
+    "id": "black_sea_grain",
+    "name": "Black Sea Drone Attacks on Commercial Shipping",
+    "route": "Black Sea & Bosporus",
+    "region": "Eastern Europe / Black Sea",
+    "description": "Sunflower oil and fertilizer shipments to India subjected to maritime war-risk insurance surcharges.",
+    "inputs": {
+      "route_disruption": 72.0,
+      "shipping_delay": 12.0,
+      "freight_cost_change": 95.0,
+      "trade_volume_exposure": 48.0,
+      "india_import_exposure": 56.0,
+      "india_export_exposure": 28.0,
+      "energy_route_exposure": 32.0,
+      "commodity_exposure": 72.0,
+      "conflict_intensity": 85.0
+    }
+  },
+  {
+    "id": "mozambique_piracy",
+    "name": "Mozambique Channel Security Alert",
+    "route": "Mozambique Channel",
+    "region": "East Africa / Indian Ocean",
+    "description": "Insurgency flare-up along coastal gas infrastructure, mild disruption to East African coal and mineral trade.",
+    "inputs": {
+      "route_disruption": 38.0,
+      "shipping_delay": 4.5,
+      "freight_cost_change": 25.0,
+      "trade_volume_exposure": 35.0,
+      "india_import_exposure": 42.0,
+      "india_export_exposure": 30.0,
+      "energy_route_exposure": 38.0,
+      "commodity_exposure": 45.0,
+      "conflict_intensity": 45.0
+    }
+  },
+  {
+    "id": "persian_gulf_routine",
+    "name": "Persian Gulf Coastal Normal Patrols",
+    "route": "Persian Gulf Coastal",
+    "region": "Gulf Cooperation Council",
+    "description": "Routine maritime operations with slight customs inspections and baseline normal freight conditions.",
+    "inputs": {
+      "route_disruption": 18.0,
+      "shipping_delay": 1.5,
+      "freight_cost_change": 6.0,
+      "trade_volume_exposure": 55.0,
+      "india_import_exposure": 58.0,
+      "india_export_exposure": 45.0,
+      "energy_route_exposure": 52.0,
+      "commodity_exposure": 40.0,
+      "conflict_intensity": 15.0
+    }
+  }
+]

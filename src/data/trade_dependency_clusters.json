@@ -1,0 +1,110 @@
+[
+  {
+    "cluster_id": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981",
+    "record_count": 269,
+    "record_percentage": 35.4,
+    "centers": {
+      "india_import_dependency": 13.54,
+      "india_export_dependency": 12.0,
+      "energy_dependency": 9.5,
+      "commodity_dependency": 26.44,
+      "trade_value": 2610.84,
+      "trade_disruption": 4.55,
+      "shipping_disruption": 5.44,
+      "strategic_route_exposure": 6.26
+    },
+    "scaled_centers": {
+      "india_import_dependency": -0.399,
+      "india_export_dependency": -0.04,
+      "energy_dependency": -0.499,
+      "commodity_dependency": 0.13,
+      "trade_value": -0.471,
+      "trade_disruption": -0.84,
+      "shipping_disruption": -0.769,
+      "strategic_route_exposure": -0.729
+    }
+  },
+  {
+    "cluster_id": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b",
+    "record_count": 325,
+    "record_percentage": 42.8,
+    "centers": {
+      "india_import_dependency": 15.17,
+      "india_export_dependency": 5.41,
+      "energy_dependency": 22.94,
+      "commodity_dependency": 17.32,
+      "trade_value": 2633.72,
+      "trade_disruption": 7.32,
+      "shipping_disruption": 7.94,
+      "strategic_route_exposure": 8.34
+    },
+    "scaled_centers": {
+      "india_import_dependency": -0.254,
+      "india_export_dependency": -0.635,
+      "energy_dependency": 0.552,
+      "commodity_dependency": -0.526,
+      "trade_value": -0.466,
+      "trade_disruption": 0.764,
+      "shipping_disruption": 0.881,
+      "strategic_route_exposure": 0.783
+    }
+  },
+  {
+    "cluster_id": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316",
+    "record_count": 107,
+    "record_percentage": 14.1,
+    "centers": {
+      "india_import_dependency": 22.67,
+      "india_export_dependency": 35.39,
+      "energy_dependency": 16.32,
+      "commodity_dependency": 25.01,
+      "trade_value": 11723.24,
+      "trade_disruption": 4.85,
+      "shipping_disruption": 5.66,
+      "strategic_route_exposure": 6.41
+    },
+    "scaled_centers": {
+      "india_import_dependency": 0.411,
+      "india_export_dependency": 2.074,
+      "energy_dependency": 0.035,
+      "commodity_dependency": 0.027,
+      "trade_value": 1.593,
+      "trade_disruption": -0.664,
+      "shipping_disruption": -0.624,
+      "strategic_route_exposure": -0.624
+    }
+  },
+  {
+    "cluster_id": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e",
+    "record_count": 59,
+    "record_percentage": 7.8,
+    "centers": {
+      "india_import_dependency": 45.9,
+      "india_export_dependency": 11.51,
+      "energy_dependency": 5.22,
+      "commodity_dependency": 56.01,
+      "trade_value": 12740.3,
+      "trade_disruption": 7.43,
+      "shipping_disruption": 6.28,
+      "strategic_route_exposure": 7.46
+    },
+    "scaled_centers": {
+      "india_import_dependency": 2.474,
+      "india_export_dependency": -0.084,
+      "energy_dependency": -0.834,
+      "commodity_dependency": 2.255,
+      "trade_value": 1.824,
+      "trade_disruption": 0.828,
+      "shipping_disruption": -0.216,
+      "strategic_route_exposure": 0.142
+    }
+  }
+]

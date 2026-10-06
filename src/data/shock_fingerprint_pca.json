@@ -1,0 +1,26 @@
+{
+  "components": [
+    {
+      "name": "PC1",
+      "variance_ratio": 73.27,
+      "loadings": {
+        "energy_shock": 0.4422,
+        "trade_disruption": 0.4648,
+        "shipping_disruption": 0.3856,
+        "commodity_shock": 0.5001,
+        "financial_stress": 0.4355
+      }
+    },
+    {
+      "name": "PC2",
+      "variance_ratio": 14.3,
+      "loadings": {
+        "energy_shock": -0.1686,
+        "trade_disruption": 0.2237,
+        "shipping_disruption": 0.7726,
+        "commodity_shock": -0.1853,
+        "financial_stress": -0.5388
+      }
+    }
+  ]
+}

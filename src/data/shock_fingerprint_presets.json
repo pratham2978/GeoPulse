@@ -1,0 +1,67 @@
+[
+  {
+    "id": "red_sea_crisis",
+    "name": "2024 Red Sea Houthi Drone & Missile Standoff",
+    "category": "Maritime & Chokepoint Disruption",
+    "description": "Commercial vessel rerouting around Africa, container freight surcharges, war-risk insurance spikes.",
+    "inputs": {
+      "energy_shock": 74.0,
+      "trade_disruption": 85.0,
+      "shipping_disruption": 92.0,
+      "commodity_shock": 68.0,
+      "financial_stress": 66.0
+    }
+  },
+  {
+    "id": "russia_ukraine_escalation",
+    "name": "Russia-Ukraine Energy & Commodity Embargo",
+    "category": "Compound Global Commodity Shock",
+    "description": "Severed Nord Stream / Black Sea pipelines, European gas crisis, fertilizer spikes, multi-decade high inflation.",
+    "inputs": {
+      "energy_shock": 95.0,
+      "trade_disruption": 90.0,
+      "shipping_disruption": 82.0,
+      "commodity_shock": 94.0,
+      "financial_stress": 85.0
+    }
+  },
+  {
+    "id": "strait_of_hormuz_standoff",
+    "name": "Strait of Hormuz Tanker Interdiction & Mine Threat",
+    "category": "Severe Hydrocarbon Supply Choke",
+    "description": "Immediate naval interdiction in the Persian Gulf, 20M bpd crude traffic halted, benchmark Brent surge.",
+    "inputs": {
+      "energy_shock": 92.0,
+      "trade_disruption": 72.0,
+      "shipping_disruption": 86.0,
+      "commodity_shock": 70.0,
+      "financial_stress": 78.0
+    }
+  },
+  {
+    "id": "taiwan_strait_naval_drills",
+    "name": "Taiwan Strait Air-Sea Blockade Simulation",
+    "category": "Advanced Semiconductor & Electronics Shock",
+    "description": "East Asian maritime shipping corridors rerouted, semiconductor supply-chain halt, acute global market stress.",
+    "inputs": {
+      "energy_shock": 50.0,
+      "trade_disruption": 94.0,
+      "shipping_disruption": 88.0,
+      "commodity_shock": 72.0,
+      "financial_stress": 92.0
+    }
+  },
+  {
+    "id": "regional_border_skirmish",
+    "name": "Isolated High-Altitude Border Clash",
+    "category": "Contained Conventional Friction",
+    "description": "Tactical skirmish between regional powers without closure of primary maritime lanes or global oil flows.",
+    "inputs": {
+      "energy_shock": 26.0,
+      "trade_disruption": 32.0,
+      "shipping_disruption": 20.0,
+      "commodity_shock": 24.0,
+      "financial_stress": 42.0
+    }
+  }
+]

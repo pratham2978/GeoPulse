@@ -1,0 +1,74 @@
+[
+  {
+    "id": "critical-energy-chokepoint",
+    "name": "Strait of Hormuz Petro-Trade Anchor",
+    "country": "Persian Gulf Exporter",
+    "tag": "Critical Energy & Chokepoint Dependency",
+    "description": "High crude and gas dependency with critical transit vulnerability across the Strait of Hormuz.",
+    "inputs": {
+      "india_import_dependency": 36.5,
+      "india_export_dependency": 4.5,
+      "energy_dependency": 46.0,
+      "commodity_dependency": 22.0,
+      "trade_value": 4800.0,
+      "trade_disruption": 8.0,
+      "shipping_disruption": 8.5,
+      "strategic_route_exposure": 9.2
+    },
+    "expected_group": "Critical Exposure"
+  },
+  {
+    "id": "manufacturing-critical-hub",
+    "name": "High-Tech Electronics & Industrial Hub",
+    "country": "East Asian Manufacturer",
+    "tag": "High Non-Energy Import Concentration",
+    "description": "Massive import concentration in active pharmaceutical ingredients, electronics, and heavy machinery.",
+    "inputs": {
+      "india_import_dependency": 48.0,
+      "india_export_dependency": 11.5,
+      "energy_dependency": 4.0,
+      "commodity_dependency": 58.0,
+      "trade_value": 9800.0,
+      "trade_disruption": 7.2,
+      "shipping_disruption": 6.5,
+      "strategic_route_exposure": 7.5
+    },
+    "expected_group": "Higher Exposure"
+  },
+  {
+    "id": "balanced-western-partner",
+    "name": "Diversified Western Services & Trade Partner",
+    "country": "Transatlantic Partner",
+    "tag": "High Export Value & Open Maritime Lanes",
+    "description": "Large bilateral merchandise and services trade with balanced dependencies and open Atlantic shipping.",
+    "inputs": {
+      "india_import_dependency": 21.0,
+      "india_export_dependency": 42.0,
+      "energy_dependency": 11.0,
+      "commodity_dependency": 16.0,
+      "trade_value": 11500.0,
+      "trade_disruption": 4.0,
+      "shipping_disruption": 4.5,
+      "strategic_route_exposure": 5.0
+    },
+    "expected_group": "Moderate Exposure"
+  },
+  {
+    "id": "peripheral-specialized-exporter",
+    "name": "Niche Agricultural & Mineral Partner",
+    "country": "South American / African Exporter",
+    "tag": "Low Strategic Disruption Exposure",
+    "description": "Targeted bilateral commodity exchange with minimal chokepoint friction and low aggregate dependency.",
+    "inputs": {
+      "india_import_dependency": 7.5,
+      "india_export_dependency": 5.0,
+      "energy_dependency": 3.0,
+      "commodity_dependency": 18.0,
+      "trade_value": 950.0,
+      "trade_disruption": 3.0,
+      "shipping_disruption": 3.5,
+      "strategic_route_exposure": 4.0
+    },
+    "expected_group": "Lower Exposure"
+  }
+]

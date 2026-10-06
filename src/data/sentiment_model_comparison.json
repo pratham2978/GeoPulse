@@ -1,0 +1,137 @@
+{
+  "comparison": [
+    {
+      "model": "Random Forest",
+      "accuracy": 74.9,
+      "precision": 75.15,
+      "recall": 74.9,
+      "f1_score": 72.97,
+      "cv_mean": 72.2,
+      "cv_std": 1.29
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 73.55,
+      "precision": 72.75,
+      "recall": 73.55,
+      "f1_score": 72.4,
+      "cv_mean": 73.27,
+      "cv_std": 0.75
+    },
+    {
+      "model": "SVM",
+      "accuracy": 73.86,
+      "precision": 73.63,
+      "recall": 73.86,
+      "f1_score": 72.1,
+      "cv_mean": 72.36,
+      "cv_std": 1.34
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 70.76,
+      "precision": 69.96,
+      "recall": 70.76,
+      "f1_score": 70.24,
+      "cv_mean": 69.3,
+      "cv_std": 1.09
+    },
+    {
+      "model": "k-NN",
+      "accuracy": 65.6,
+      "precision": 65.45,
+      "recall": 65.6,
+      "f1_score": 59.16,
+      "cv_mean": 56.87,
+      "cv_std": 0.79
+    }
+  ],
+  "best_model": {
+    "model": "Random Forest",
+    "accuracy": 74.9,
+    "precision": 75.15,
+    "recall": 74.9,
+    "f1_score": 72.97,
+    "cv_mean": 72.2,
+    "cv_std": 1.29
+  },
+  "overfitting_analysis": [
+    {
+      "model": "Logistic Regression",
+      "train_f1": 98.52,
+      "test_f1": 72.4,
+      "gap": 26.12,
+      "diagnosis": "Overfitting Observed (High Variance \u2014 training memory exceeds generalization)"
+    },
+    {
+      "model": "k-NN",
+      "train_f1": 60.57,
+      "test_f1": 56.43,
+      "gap": 4.15,
+      "diagnosis": "Underfitting Observed (High Bias \u2014 model fails to capture sentiment features)"
+    },
+    {
+      "model": "Decision Tree",
+      "train_f1": 76.12,
+      "test_f1": 65.68,
+      "gap": 10.44,
+      "diagnosis": "Good Fit (Balanced Bias-Variance tradeoff with solid generalization)"
+    },
+    {
+      "model": "Random Forest",
+      "train_f1": 99.92,
+      "test_f1": 72.97,
+      "gap": 26.96,
+      "diagnosis": "Overfitting Observed (High Variance \u2014 training memory exceeds generalization)"
+    },
+    {
+      "model": "SVM",
+      "train_f1": 99.43,
+      "test_f1": 72.44,
+      "gap": 26.99,
+      "diagnosis": "Overfitting Observed (High Variance \u2014 training memory exceeds generalization)"
+    }
+  ],
+  "tuning_comparisons": [
+    {
+      "model": "Logistic Regression",
+      "best_params": "{'model__C': 1.0}",
+      "baseline_f1": 72.4,
+      "tuned_f1": 72.4,
+      "improvement": 0.0,
+      "best_cv_score": 73.27
+    },
+    {
+      "model": "k-NN",
+      "best_params": "{'model__n_neighbors': 3}",
+      "baseline_f1": 56.43,
+      "tuned_f1": 59.16,
+      "improvement": 2.73,
+      "best_cv_score": 56.87
+    },
+    {
+      "model": "Decision Tree",
+      "best_params": "{'model__max_depth': None}",
+      "baseline_f1": 65.68,
+      "tuned_f1": 70.24,
+      "improvement": 4.56,
+      "best_cv_score": 69.3
+    },
+    {
+      "model": "Random Forest",
+      "best_params": "{'model__max_depth': None, 'model__n_estimators': 150}",
+      "baseline_f1": 72.97,
+      "tuned_f1": 72.97,
+      "improvement": -0.0,
+      "best_cv_score": 72.2
+    },
+    {
+      "model": "SVM",
+      "best_params": "{'model__C': 0.1}",
+      "baseline_f1": 72.44,
+      "tuned_f1": 72.1,
+      "improvement": -0.34,
+      "best_cv_score": 72.36
+    }
+  ]
+}

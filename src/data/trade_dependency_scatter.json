@@ -1,0 +1,7602 @@
+[
+  {
+    "country": "Canada",
+    "import_dep": 5.5,
+    "export_dep": 5.3,
+    "energy_dep": 7.3,
+    "trade_val": 815.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 17.4,
+    "export_dep": 18.5,
+    "energy_dep": 11.3,
+    "trade_val": 3584.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 47.3,
+    "export_dep": 12.1,
+    "energy_dep": 5.9,
+    "trade_val": 12655.8,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 39.3,
+    "export_dep": 4.2,
+    "energy_dep": 42.1,
+    "trade_val": 4817.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 11.0,
+    "export_dep": 2.8,
+    "energy_dep": 14.1,
+    "trade_val": 1751.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 6.9,
+    "export_dep": 15.6,
+    "energy_dep": 1.7,
+    "trade_val": 2086.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 9.2,
+    "export_dep": 2.1,
+    "energy_dep": 1.6,
+    "trade_val": 1232.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 15.9,
+    "export_dep": 2.9,
+    "energy_dep": 21.6,
+    "trade_val": 1673.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 17.5,
+    "export_dep": 5.9,
+    "energy_dep": 6.2,
+    "trade_val": 1379.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 22.8,
+    "export_dep": 34.3,
+    "energy_dep": 22.1,
+    "trade_val": 7070.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 12.0,
+    "export_dep": 11.1,
+    "energy_dep": 1.3,
+    "trade_val": 2581.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 20.7,
+    "export_dep": 47.9,
+    "energy_dep": 8.8,
+    "trade_val": 9255.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 15.1,
+    "export_dep": 9.3,
+    "energy_dep": 17.7,
+    "trade_val": 1813.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 26.2,
+    "export_dep": 3.3,
+    "energy_dep": 31.9,
+    "trade_val": 3287.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 13.6,
+    "export_dep": 3.2,
+    "energy_dep": 21.8,
+    "trade_val": 1203.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 25.8,
+    "export_dep": 23.3,
+    "energy_dep": 21.3,
+    "trade_val": 7650.7,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 50.8,
+    "export_dep": 13.6,
+    "energy_dep": 5.7,
+    "trade_val": 8327.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 24.7,
+    "export_dep": 4.6,
+    "energy_dep": 33.7,
+    "trade_val": 3225.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 13.3,
+    "export_dep": 10.6,
+    "energy_dep": 14.9,
+    "trade_val": 1369.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 17.7,
+    "export_dep": 3.0,
+    "energy_dep": 42.6,
+    "trade_val": 1308.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 4.2,
+    "export_dep": 7.9,
+    "energy_dep": 6.2,
+    "trade_val": 591.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 17.6,
+    "export_dep": 8.3,
+    "energy_dep": 19.6,
+    "trade_val": 1972.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 15.2,
+    "export_dep": 20.8,
+    "energy_dep": 9.8,
+    "trade_val": 2721.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.4,
+    "export_dep": 33.9,
+    "energy_dep": 18.6,
+    "trade_val": 6865.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 21.3,
+    "export_dep": 4.0,
+    "energy_dep": 33.8,
+    "trade_val": 3827.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 14.3,
+    "export_dep": 8.8,
+    "energy_dep": 11.8,
+    "trade_val": 1808.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 15.9,
+    "export_dep": 8.4,
+    "energy_dep": 12.6,
+    "trade_val": 1735.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 19.9,
+    "export_dep": 37.9,
+    "energy_dep": 12.0,
+    "trade_val": 12931.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 23.1,
+    "export_dep": 10.8,
+    "energy_dep": 6.4,
+    "trade_val": 1809.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 8.3,
+    "export_dep": 1.9,
+    "energy_dep": 4.6,
+    "trade_val": 1059.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.6,
+    "export_dep": 3.1,
+    "energy_dep": 3.3,
+    "trade_val": 328.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 15.7,
+    "export_dep": 9.0,
+    "energy_dep": 10.2,
+    "trade_val": 1977.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.2,
+    "export_dep": 5.7,
+    "energy_dep": 2.6,
+    "trade_val": 364.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.6,
+    "export_dep": 39.4,
+    "energy_dep": 10.3,
+    "trade_val": 10861.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 5.4,
+    "export_dep": 8.9,
+    "energy_dep": 3.7,
+    "trade_val": 1105.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 12.6,
+    "export_dep": 4.4,
+    "energy_dep": 25.5,
+    "trade_val": 1508.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 19.8,
+    "export_dep": 11.3,
+    "energy_dep": 28.2,
+    "trade_val": 3267.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 15.6,
+    "export_dep": 8.5,
+    "energy_dep": 17.8,
+    "trade_val": 2003.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 20.6,
+    "export_dep": 3.5,
+    "energy_dep": 31.9,
+    "trade_val": 4268.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 22.7,
+    "export_dep": 47.2,
+    "energy_dep": 9.7,
+    "trade_val": 12292.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 26.9,
+    "export_dep": 4.1,
+    "energy_dep": 39.2,
+    "trade_val": 6352.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 17.0,
+    "export_dep": 20.4,
+    "energy_dep": 10.0,
+    "trade_val": 3014.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 4.4,
+    "export_dep": 4.2,
+    "energy_dep": 9.9,
+    "trade_val": 1167.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 18.0,
+    "export_dep": 5.3,
+    "energy_dep": 47.5,
+    "trade_val": 1210.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 19.8,
+    "export_dep": 41.2,
+    "energy_dep": 12.5,
+    "trade_val": 13366.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 23.5,
+    "export_dep": 30.3,
+    "energy_dep": 21.8,
+    "trade_val": 7506.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 35.2,
+    "export_dep": 3.5,
+    "energy_dep": 33.1,
+    "trade_val": 5776.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 9.2,
+    "export_dep": 3.8,
+    "energy_dep": 17.6,
+    "trade_val": 1091.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 13.5,
+    "export_dep": 2.2,
+    "energy_dep": 1.4,
+    "trade_val": 613.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 25.0,
+    "export_dep": 7.7,
+    "energy_dep": 32.7,
+    "trade_val": 4085.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 19.5,
+    "export_dep": 6.6,
+    "energy_dep": 4.3,
+    "trade_val": 2693.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 17.3,
+    "export_dep": 6.0,
+    "energy_dep": 23.8,
+    "trade_val": 1650.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 22.9,
+    "export_dep": 34.9,
+    "energy_dep": 8.8,
+    "trade_val": 11509.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.9,
+    "export_dep": 10.6,
+    "energy_dep": 32.0,
+    "trade_val": 4056.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 7.1,
+    "export_dep": 7.1,
+    "energy_dep": 23.5,
+    "trade_val": 1290.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 16.7,
+    "export_dep": 2.7,
+    "energy_dep": 38.4,
+    "trade_val": 1910.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 12.2,
+    "export_dep": 5.0,
+    "energy_dep": 42.9,
+    "trade_val": 2282.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.4,
+    "export_dep": 44.1,
+    "energy_dep": 8.4,
+    "trade_val": 11440.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 22.7,
+    "export_dep": 46.5,
+    "energy_dep": 10.8,
+    "trade_val": 11770.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UK",
+    "import_dep": 10.8,
+    "export_dep": 16.1,
+    "energy_dep": 3.3,
+    "trade_val": 1463.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 20.2,
+    "export_dep": 39.6,
+    "energy_dep": 8.2,
+    "trade_val": 9582.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 16.0,
+    "export_dep": 8.6,
+    "energy_dep": 20.5,
+    "trade_val": 2893.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 14.0,
+    "export_dep": 4.8,
+    "energy_dep": 37.9,
+    "trade_val": 1898.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 9.8,
+    "export_dep": 3.8,
+    "energy_dep": 17.8,
+    "trade_val": 1168.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 11.4,
+    "export_dep": 7.2,
+    "energy_dep": 11.6,
+    "trade_val": 1380.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 39.4,
+    "export_dep": 3.8,
+    "energy_dep": 37.7,
+    "trade_val": 4981.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 17.8,
+    "export_dep": 7.5,
+    "energy_dep": 6.8,
+    "trade_val": 2228.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 13.3,
+    "export_dep": 1.7,
+    "energy_dep": 4.6,
+    "trade_val": 1108.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 5.4,
+    "export_dep": 4.9,
+    "energy_dep": 4.0,
+    "trade_val": 1201.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 14.3,
+    "export_dep": 6.9,
+    "energy_dep": 9.0,
+    "trade_val": 1931.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 20.9,
+    "export_dep": 2.5,
+    "energy_dep": 41.5,
+    "trade_val": 4345.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 11.9,
+    "export_dep": 12.2,
+    "energy_dep": 1.3,
+    "trade_val": 2054.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 7.4,
+    "export_dep": 3.5,
+    "energy_dep": 4.4,
+    "trade_val": 1145.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 19.4,
+    "export_dep": 2.0,
+    "energy_dep": 42.5,
+    "trade_val": 2957.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 21.5,
+    "export_dep": 4.2,
+    "energy_dep": 33.8,
+    "trade_val": 3809.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 20.3,
+    "export_dep": 9.1,
+    "energy_dep": 4.6,
+    "trade_val": 2046.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 24.1,
+    "export_dep": 4.6,
+    "energy_dep": 31.5,
+    "trade_val": 3644.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 22.1,
+    "export_dep": 12.4,
+    "energy_dep": 35.8,
+    "trade_val": 3975.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 21.6,
+    "export_dep": 5.3,
+    "energy_dep": 49.0,
+    "trade_val": 1553.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 10.8,
+    "export_dep": 4.4,
+    "energy_dep": 23.2,
+    "trade_val": 1065.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 20.2,
+    "export_dep": 12.2,
+    "energy_dep": 30.1,
+    "trade_val": 3473.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 11.3,
+    "export_dep": 10.0,
+    "energy_dep": 3.2,
+    "trade_val": 3140.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 36.8,
+    "export_dep": 3.9,
+    "energy_dep": 28.5,
+    "trade_val": 4002.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 7.2,
+    "export_dep": 2.9,
+    "energy_dep": 1.6,
+    "trade_val": 818.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 8.6,
+    "export_dep": 1.2,
+    "energy_dep": 3.5,
+    "trade_val": 690.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.3,
+    "export_dep": 8.6,
+    "energy_dep": 8.3,
+    "trade_val": 951.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 21.2,
+    "export_dep": 44.9,
+    "energy_dep": 14.8,
+    "trade_val": 14061.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 10.2,
+    "export_dep": 10.4,
+    "energy_dep": 9.6,
+    "trade_val": 1729.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 54.0,
+    "export_dep": 10.9,
+    "energy_dep": 3.3,
+    "trade_val": 10550.1,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 6.3,
+    "export_dep": 7.0,
+    "energy_dep": 14.1,
+    "trade_val": 1483.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.5,
+    "export_dep": 5.7,
+    "energy_dep": 20.3,
+    "trade_val": 2139.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 25.5,
+    "export_dep": 31.0,
+    "energy_dep": 15.1,
+    "trade_val": 8214.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.7,
+    "export_dep": 27.9,
+    "energy_dep": 23.6,
+    "trade_val": 6498.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.3,
+    "export_dep": 5.0,
+    "energy_dep": 7.4,
+    "trade_val": 832.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.9,
+    "export_dep": 19.4,
+    "energy_dep": 8.1,
+    "trade_val": 3171.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 15.8,
+    "export_dep": 6.8,
+    "energy_dep": 26.0,
+    "trade_val": 2804.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 11.0,
+    "export_dep": 3.8,
+    "energy_dep": 3.8,
+    "trade_val": 700.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 4.6,
+    "export_dep": 7.4,
+    "energy_dep": 7.9,
+    "trade_val": 1190.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 14.0,
+    "export_dep": 2.3,
+    "energy_dep": 18.1,
+    "trade_val": 1419.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 12.1,
+    "export_dep": 12.5,
+    "energy_dep": 3.4,
+    "trade_val": 2806.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 30.6,
+    "export_dep": 29.5,
+    "energy_dep": 17.7,
+    "trade_val": 7544.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 13.1,
+    "export_dep": 7.1,
+    "energy_dep": 21.4,
+    "trade_val": 1215.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 13.1,
+    "export_dep": 10.2,
+    "energy_dep": 4.9,
+    "trade_val": 1462.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 4.0,
+    "export_dep": 5.8,
+    "energy_dep": 7.5,
+    "trade_val": 742.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 21.3,
+    "export_dep": 9.5,
+    "energy_dep": 18.9,
+    "trade_val": 2214.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 23.6,
+    "export_dep": 5.0,
+    "energy_dep": 37.2,
+    "trade_val": 4341.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 16.1,
+    "export_dep": 7.9,
+    "energy_dep": 20.4,
+    "trade_val": 2474.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 8.2,
+    "export_dep": 6.1,
+    "energy_dep": 9.0,
+    "trade_val": 1459.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 41.6,
+    "export_dep": 14.0,
+    "energy_dep": 6.2,
+    "trade_val": 8527.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 13.2,
+    "export_dep": 2.7,
+    "energy_dep": 4.9,
+    "trade_val": 674.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 26.0,
+    "export_dep": 4.3,
+    "energy_dep": 43.7,
+    "trade_val": 5435.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 23.8,
+    "export_dep": 7.4,
+    "energy_dep": 4.8,
+    "trade_val": 2284.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 9.3,
+    "export_dep": 19.9,
+    "energy_dep": 2.7,
+    "trade_val": 2043.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 14.1,
+    "export_dep": 9.2,
+    "energy_dep": 4.0,
+    "trade_val": 1735.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 45.3,
+    "export_dep": 11.1,
+    "energy_dep": 2.1,
+    "trade_val": 9726.7,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 12.3,
+    "export_dep": 9.1,
+    "energy_dep": 1.9,
+    "trade_val": 1411.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 9.1,
+    "export_dep": 1.5,
+    "energy_dep": 4.7,
+    "trade_val": 781.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 27.7,
+    "export_dep": 3.4,
+    "energy_dep": 32.6,
+    "trade_val": 2759.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 4.1,
+    "export_dep": 5.1,
+    "energy_dep": 3.7,
+    "trade_val": 1299.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 6.7,
+    "export_dep": 21.9,
+    "energy_dep": 2.7,
+    "trade_val": 1722.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 9.0,
+    "export_dep": 28.8,
+    "energy_dep": 5.2,
+    "trade_val": 2031.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 7.3,
+    "export_dep": 13.8,
+    "energy_dep": 3.6,
+    "trade_val": 1535.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 17.5,
+    "export_dep": 14.7,
+    "energy_dep": 2.5,
+    "trade_val": 2292.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 17.0,
+    "export_dep": 10.7,
+    "energy_dep": 2.1,
+    "trade_val": 2916.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.7,
+    "export_dep": 4.6,
+    "energy_dep": 5.3,
+    "trade_val": 831.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 23.7,
+    "export_dep": 4.5,
+    "energy_dep": 40.2,
+    "trade_val": 3334.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 9.2,
+    "export_dep": 6.3,
+    "energy_dep": 9.9,
+    "trade_val": 1655.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 47.9,
+    "export_dep": 11.2,
+    "energy_dep": 3.5,
+    "trade_val": 11293.2,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 20.8,
+    "export_dep": 10.3,
+    "energy_dep": 37.3,
+    "trade_val": 3674.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 15.3,
+    "export_dep": 6.5,
+    "energy_dep": 11.9,
+    "trade_val": 1783.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 41.6,
+    "export_dep": 5.4,
+    "energy_dep": 30.3,
+    "trade_val": 5070.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 6.8,
+    "export_dep": 7.7,
+    "energy_dep": 18.6,
+    "trade_val": 1362.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 13.7,
+    "export_dep": 4.3,
+    "energy_dep": 19.6,
+    "trade_val": 1314.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 23.1,
+    "export_dep": 44.4,
+    "energy_dep": 15.3,
+    "trade_val": 8667.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.7,
+    "export_dep": 36.5,
+    "energy_dep": 14.6,
+    "trade_val": 10705.7,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 21.3,
+    "export_dep": 8.8,
+    "energy_dep": 5.2,
+    "trade_val": 1983.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 11.9,
+    "export_dep": 6.5,
+    "energy_dep": 7.5,
+    "trade_val": 1908.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 16.1,
+    "export_dep": 5.9,
+    "energy_dep": 45.8,
+    "trade_val": 2285.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 8.8,
+    "export_dep": 9.2,
+    "energy_dep": 8.4,
+    "trade_val": 1395.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 8.9,
+    "export_dep": 21.4,
+    "energy_dep": 1.0,
+    "trade_val": 2074.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 14.0,
+    "export_dep": 5.2,
+    "energy_dep": 16.1,
+    "trade_val": 2084.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 18.5,
+    "export_dep": 34.0,
+    "energy_dep": 11.5,
+    "trade_val": 10405.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.7,
+    "export_dep": 5.2,
+    "energy_dep": 17.8,
+    "trade_val": 2308.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 27.2,
+    "export_dep": 32.6,
+    "energy_dep": 22.3,
+    "trade_val": 7117.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 25.4,
+    "export_dep": 23.9,
+    "energy_dep": 21.8,
+    "trade_val": 8471.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 17.8,
+    "export_dep": 12.3,
+    "energy_dep": 33.0,
+    "trade_val": 4471.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.3,
+    "export_dep": 7.8,
+    "energy_dep": 35.5,
+    "trade_val": 5399.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 28.1,
+    "export_dep": 31.4,
+    "energy_dep": 22.3,
+    "trade_val": 8720.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 9.1,
+    "export_dep": 3.8,
+    "energy_dep": 20.4,
+    "trade_val": 1480.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.3,
+    "export_dep": 5.6,
+    "energy_dep": 21.6,
+    "trade_val": 3269.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 14.5,
+    "export_dep": 5.9,
+    "energy_dep": 16.2,
+    "trade_val": 2705.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 21.8,
+    "export_dep": 5.0,
+    "energy_dep": 17.5,
+    "trade_val": 1753.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 13.4,
+    "export_dep": 4.3,
+    "energy_dep": 14.6,
+    "trade_val": 2201.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 10.5,
+    "export_dep": 8.8,
+    "energy_dep": 9.0,
+    "trade_val": 1936.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 14.2,
+    "export_dep": 11.6,
+    "energy_dep": 3.9,
+    "trade_val": 1767.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.1,
+    "export_dep": 19.3,
+    "energy_dep": 5.4,
+    "trade_val": 2897.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 10.0,
+    "export_dep": 6.4,
+    "energy_dep": 15.6,
+    "trade_val": 1307.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 30.0,
+    "export_dep": 26.6,
+    "energy_dep": 23.6,
+    "trade_val": 6602.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 3.3,
+    "export_dep": 5.5,
+    "energy_dep": 7.0,
+    "trade_val": 553.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.4,
+    "export_dep": 37.2,
+    "energy_dep": 12.7,
+    "trade_val": 13968.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 42.0,
+    "export_dep": 11.9,
+    "energy_dep": 2.4,
+    "trade_val": 12203.7,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 13.0,
+    "export_dep": 7.0,
+    "energy_dep": 18.7,
+    "trade_val": 1319.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 27.9,
+    "export_dep": 3.6,
+    "energy_dep": 35.0,
+    "trade_val": 3771.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 39.3,
+    "export_dep": 13.5,
+    "energy_dep": 6.7,
+    "trade_val": 12006.1,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 7.6,
+    "export_dep": 4.7,
+    "energy_dep": 3.6,
+    "trade_val": 1234.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 7.4,
+    "export_dep": 11.8,
+    "energy_dep": 6.6,
+    "trade_val": 1954.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 42.6,
+    "export_dep": 15.6,
+    "energy_dep": 6.1,
+    "trade_val": 11467.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 20.9,
+    "export_dep": 4.3,
+    "energy_dep": 50.9,
+    "trade_val": 2003.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 15.5,
+    "export_dep": 8.0,
+    "energy_dep": 22.3,
+    "trade_val": 2335.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 35.9,
+    "export_dep": 6.5,
+    "energy_dep": 37.3,
+    "trade_val": 5506.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.1,
+    "export_dep": 40.9,
+    "energy_dep": 12.7,
+    "trade_val": 11429.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.6,
+    "export_dep": 13.8,
+    "energy_dep": 31.0,
+    "trade_val": 4484.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 8.4,
+    "export_dep": 7.5,
+    "energy_dep": 15.2,
+    "trade_val": 2002.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.2,
+    "export_dep": 13.9,
+    "energy_dep": 37.6,
+    "trade_val": 4349.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 27.5,
+    "export_dep": 4.5,
+    "energy_dep": 37.2,
+    "trade_val": 4254.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 54.8,
+    "export_dep": 12.5,
+    "energy_dep": 7.4,
+    "trade_val": 11555.7,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.6,
+    "export_dep": 37.5,
+    "energy_dep": 9.5,
+    "trade_val": 11586.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 6.7,
+    "export_dep": 8.0,
+    "energy_dep": 6.7,
+    "trade_val": 1612.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 38.7,
+    "export_dep": 6.1,
+    "energy_dep": 31.3,
+    "trade_val": 5334.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 18.9,
+    "export_dep": 5.5,
+    "energy_dep": 21.2,
+    "trade_val": 2641.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 12.2,
+    "export_dep": 7.5,
+    "energy_dep": 10.4,
+    "trade_val": 2177.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 20.5,
+    "export_dep": 8.2,
+    "energy_dep": 24.8,
+    "trade_val": 3418.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 24.3,
+    "export_dep": 4.3,
+    "energy_dep": 41.0,
+    "trade_val": 2904.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 25.9,
+    "export_dep": 31.9,
+    "energy_dep": 22.6,
+    "trade_val": 8240.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 6.7,
+    "export_dep": 7.1,
+    "energy_dep": 21.4,
+    "trade_val": 1510.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 18.0,
+    "export_dep": 18.6,
+    "energy_dep": 6.6,
+    "trade_val": 3028.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 8.7,
+    "export_dep": 2.5,
+    "energy_dep": 26.5,
+    "trade_val": 1762.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 25.3,
+    "export_dep": 3.8,
+    "energy_dep": 30.5,
+    "trade_val": 5384.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.3,
+    "export_dep": 4.5,
+    "energy_dep": 7.6,
+    "trade_val": 496.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 18.5,
+    "export_dep": 7.6,
+    "energy_dep": 18.0,
+    "trade_val": 1736.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 10.4,
+    "export_dep": 16.9,
+    "energy_dep": 2.0,
+    "trade_val": 2125.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 10.9,
+    "export_dep": 5.2,
+    "energy_dep": 14.4,
+    "trade_val": 1092.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 23.6,
+    "export_dep": 33.5,
+    "energy_dep": 11.4,
+    "trade_val": 9785.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 6.7,
+    "export_dep": 9.2,
+    "energy_dep": 8.6,
+    "trade_val": 2326.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 11.8,
+    "export_dep": 5.0,
+    "energy_dep": 14.6,
+    "trade_val": 1421.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.2,
+    "export_dep": 5.1,
+    "energy_dep": 4.3,
+    "trade_val": 287.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 16.5,
+    "export_dep": 3.6,
+    "energy_dep": 40.4,
+    "trade_val": 1461.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 16.7,
+    "export_dep": 6.4,
+    "energy_dep": 12.2,
+    "trade_val": 1626.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 8.2,
+    "export_dep": 18.9,
+    "energy_dep": 2.5,
+    "trade_val": 2200.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 22.3,
+    "export_dep": 35.4,
+    "energy_dep": 12.9,
+    "trade_val": 15853.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 20.3,
+    "export_dep": 30.8,
+    "energy_dep": 19.2,
+    "trade_val": 6792.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 12.7,
+    "export_dep": 2.8,
+    "energy_dep": 22.0,
+    "trade_val": 1149.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 15.6,
+    "export_dep": 4.4,
+    "energy_dep": 26.1,
+    "trade_val": 2652.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 12.0,
+    "export_dep": 2.5,
+    "energy_dep": 23.4,
+    "trade_val": 2355.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 11.2,
+    "export_dep": 4.7,
+    "energy_dep": 27.4,
+    "trade_val": 1829.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 23.4,
+    "export_dep": 29.1,
+    "energy_dep": 16.4,
+    "trade_val": 9500.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 10.2,
+    "export_dep": 9.1,
+    "energy_dep": 8.4,
+    "trade_val": 2026.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 10.6,
+    "export_dep": 13.8,
+    "energy_dep": 2.6,
+    "trade_val": 1861.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.2,
+    "export_dep": 47.2,
+    "energy_dep": 12.3,
+    "trade_val": 12726.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 12.1,
+    "export_dep": 9.1,
+    "energy_dep": 9.9,
+    "trade_val": 2315.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 7.6,
+    "export_dep": 12.2,
+    "energy_dep": 2.9,
+    "trade_val": 1692.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 32.7,
+    "export_dep": 4.1,
+    "energy_dep": 39.1,
+    "trade_val": 4514.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 26.6,
+    "export_dep": 2.8,
+    "energy_dep": 40.7,
+    "trade_val": 3509.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 40.0,
+    "export_dep": 6.3,
+    "energy_dep": 37.4,
+    "trade_val": 6891.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 22.5,
+    "export_dep": 9.1,
+    "energy_dep": 14.6,
+    "trade_val": 2578.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 23.5,
+    "export_dep": 36.7,
+    "energy_dep": 10.9,
+    "trade_val": 14967.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 7.7,
+    "export_dep": 4.6,
+    "energy_dep": 23.4,
+    "trade_val": 974.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 9.9,
+    "export_dep": 1.8,
+    "energy_dep": 1.0,
+    "trade_val": 588.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 19.8,
+    "export_dep": 5.2,
+    "energy_dep": 18.9,
+    "trade_val": 2881.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 19.5,
+    "export_dep": 7.5,
+    "energy_dep": 21.7,
+    "trade_val": 2973.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 9.0,
+    "export_dep": 18.9,
+    "energy_dep": 1.7,
+    "trade_val": 1829.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 13.5,
+    "export_dep": 3.5,
+    "energy_dep": 23.8,
+    "trade_val": 2045.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 25.2,
+    "export_dep": 11.0,
+    "energy_dep": 32.5,
+    "trade_val": 5367.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 20.6,
+    "export_dep": 5.5,
+    "energy_dep": 41.5,
+    "trade_val": 2659.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.8,
+    "export_dep": 26.4,
+    "energy_dep": 20.2,
+    "trade_val": 8916.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 6.2,
+    "export_dep": 3.5,
+    "energy_dep": 7.5,
+    "trade_val": 1589.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 13.3,
+    "export_dep": 7.7,
+    "energy_dep": 24.2,
+    "trade_val": 1763.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 26.0,
+    "export_dep": 7.1,
+    "energy_dep": 33.7,
+    "trade_val": 4486.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.1,
+    "export_dep": 8.9,
+    "energy_dep": 16.6,
+    "trade_val": 3547.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 11.9,
+    "export_dep": 6.4,
+    "energy_dep": 14.7,
+    "trade_val": 1072.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 12.6,
+    "export_dep": 4.0,
+    "energy_dep": 28.4,
+    "trade_val": 1590.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 13.2,
+    "export_dep": 1.9,
+    "energy_dep": 4.8,
+    "trade_val": 1603.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 16.0,
+    "export_dep": 5.7,
+    "energy_dep": 47.5,
+    "trade_val": 2368.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 9.9,
+    "export_dep": 3.9,
+    "energy_dep": 25.5,
+    "trade_val": 1826.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 38.0,
+    "export_dep": 6.8,
+    "energy_dep": 33.8,
+    "trade_val": 5826.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 16.3,
+    "export_dep": 4.5,
+    "energy_dep": 16.7,
+    "trade_val": 2931.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 26.4,
+    "export_dep": 27.1,
+    "energy_dep": 22.9,
+    "trade_val": 8169.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 39.6,
+    "export_dep": 8.6,
+    "energy_dep": 6.5,
+    "trade_val": 13351.0,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 13.9,
+    "export_dep": 2.9,
+    "energy_dep": 22.7,
+    "trade_val": 1528.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 18.2,
+    "export_dep": 37.9,
+    "energy_dep": 15.8,
+    "trade_val": 15049.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 11.1,
+    "export_dep": 5.9,
+    "energy_dep": 11.5,
+    "trade_val": 1878.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 17.7,
+    "export_dep": 17.0,
+    "energy_dep": 11.3,
+    "trade_val": 3449.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.1,
+    "export_dep": 8.6,
+    "energy_dep": 14.8,
+    "trade_val": 2811.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 16.6,
+    "export_dep": 6.5,
+    "energy_dep": 8.3,
+    "trade_val": 1994.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 8.2,
+    "export_dep": 17.5,
+    "energy_dep": 2.0,
+    "trade_val": 2228.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 15.7,
+    "export_dep": 11.3,
+    "energy_dep": 2.3,
+    "trade_val": 3138.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 8.6,
+    "export_dep": 13.9,
+    "energy_dep": 4.2,
+    "trade_val": 1686.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.8,
+    "export_dep": 43.5,
+    "energy_dep": 9.9,
+    "trade_val": 14659.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.0,
+    "export_dep": 41.8,
+    "energy_dep": 13.8,
+    "trade_val": 15734.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 21.6,
+    "export_dep": 7.9,
+    "energy_dep": 20.3,
+    "trade_val": 2617.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 10.8,
+    "export_dep": 13.1,
+    "energy_dep": 1.8,
+    "trade_val": 1507.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 23.2,
+    "export_dep": 7.9,
+    "energy_dep": 6.3,
+    "trade_val": 1952.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 34.0,
+    "export_dep": 3.1,
+    "energy_dep": 28.1,
+    "trade_val": 4660.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.7,
+    "export_dep": 2.5,
+    "energy_dep": 4.5,
+    "trade_val": 371.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 18.8,
+    "export_dep": 4.5,
+    "energy_dep": 39.9,
+    "trade_val": 4571.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.0,
+    "export_dep": 37.3,
+    "energy_dep": 11.2,
+    "trade_val": 16289.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.1,
+    "export_dep": 5.7,
+    "energy_dep": 4.8,
+    "trade_val": 1064.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 13.1,
+    "export_dep": 4.1,
+    "energy_dep": 24.6,
+    "trade_val": 2911.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 14.3,
+    "export_dep": 6.0,
+    "energy_dep": 10.2,
+    "trade_val": 1876.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 12.2,
+    "export_dep": 2.3,
+    "energy_dep": 2.6,
+    "trade_val": 1527.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 52.0,
+    "export_dep": 13.2,
+    "energy_dep": 5.6,
+    "trade_val": 12005.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 34.7,
+    "export_dep": 6.8,
+    "energy_dep": 31.5,
+    "trade_val": 7299.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 38.7,
+    "export_dep": 8.9,
+    "energy_dep": 6.8,
+    "trade_val": 11598.8,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 9.1,
+    "export_dep": 5.0,
+    "energy_dep": 4.2,
+    "trade_val": 1280.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 11.7,
+    "export_dep": 13.1,
+    "energy_dep": 4.9,
+    "trade_val": 1724.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 8.2,
+    "export_dep": 6.8,
+    "energy_dep": 11.5,
+    "trade_val": 1221.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 40.7,
+    "export_dep": 8.2,
+    "energy_dep": 6.8,
+    "trade_val": 10281.3,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 7.6,
+    "export_dep": 9.1,
+    "energy_dep": 5.9,
+    "trade_val": 1119.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 8.0,
+    "export_dep": 13.9,
+    "energy_dep": 3.6,
+    "trade_val": 1130.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 12.0,
+    "export_dep": 3.3,
+    "energy_dep": 15.7,
+    "trade_val": 976.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 41.5,
+    "export_dep": 11.9,
+    "energy_dep": 4.9,
+    "trade_val": 12572.5,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 17.4,
+    "export_dep": 2.1,
+    "energy_dep": 48.0,
+    "trade_val": 2678.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 23.5,
+    "export_dep": 24.0,
+    "energy_dep": 23.7,
+    "trade_val": 9880.7,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 9.1,
+    "export_dep": 4.1,
+    "energy_dep": 29.7,
+    "trade_val": 1666.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 39.5,
+    "export_dep": 6.3,
+    "energy_dep": 44.8,
+    "trade_val": 6826.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 31.9,
+    "export_dep": 27.7,
+    "energy_dep": 16.6,
+    "trade_val": 9925.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.2,
+    "export_dep": 5.9,
+    "energy_dep": 5.2,
+    "trade_val": 338.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 16.3,
+    "export_dep": 10.0,
+    "energy_dep": 17.1,
+    "trade_val": 3034.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 51.6,
+    "export_dep": 10.3,
+    "energy_dep": 2.2,
+    "trade_val": 13555.8,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 17.5,
+    "export_dep": 9.8,
+    "energy_dep": 10.8,
+    "trade_val": 1568.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 12.5,
+    "export_dep": 3.2,
+    "energy_dep": 48.9,
+    "trade_val": 2781.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 46.5,
+    "export_dep": 8.8,
+    "energy_dep": 7.9,
+    "trade_val": 14056.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "China",
+    "import_dep": 39.7,
+    "export_dep": 8.7,
+    "energy_dep": 4.6,
+    "trade_val": 12390.2,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 7.8,
+    "export_dep": 3.2,
+    "energy_dep": 1.4,
+    "trade_val": 669.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.2,
+    "export_dep": 8.6,
+    "energy_dep": 8.3,
+    "trade_val": 804.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.2,
+    "export_dep": 4.2,
+    "energy_dep": 4.2,
+    "trade_val": 441.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 17.2,
+    "export_dep": 24.2,
+    "energy_dep": 10.1,
+    "trade_val": 2759.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 12.4,
+    "export_dep": 3.5,
+    "energy_dep": 51.7,
+    "trade_val": 2098.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 23.8,
+    "export_dep": 5.2,
+    "energy_dep": 16.0,
+    "trade_val": 2878.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.1,
+    "export_dep": 7.7,
+    "energy_dep": 16.9,
+    "trade_val": 2638.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.7,
+    "export_dep": 4.3,
+    "energy_dep": 5.4,
+    "trade_val": 362.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 19.0,
+    "export_dep": 6.5,
+    "energy_dep": 21.7,
+    "trade_val": 3714.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 5.7,
+    "export_dep": 2.8,
+    "energy_dep": 1.2,
+    "trade_val": 866.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 46.7,
+    "export_dep": 11.3,
+    "energy_dep": 6.6,
+    "trade_val": 11705.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 23.2,
+    "export_dep": 25.5,
+    "energy_dep": 16.6,
+    "trade_val": 7566.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.9,
+    "export_dep": 24.0,
+    "energy_dep": 6.0,
+    "trade_val": 3165.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 50.8,
+    "export_dep": 9.1,
+    "energy_dep": 8.0,
+    "trade_val": 12516.2,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 20.0,
+    "export_dep": 4.7,
+    "energy_dep": 37.9,
+    "trade_val": 4468.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 21.5,
+    "export_dep": 43.1,
+    "energy_dep": 10.0,
+    "trade_val": 12361.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.3,
+    "export_dep": 27.4,
+    "energy_dep": 18.2,
+    "trade_val": 7403.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 9.9,
+    "export_dep": 9.0,
+    "energy_dep": 8.7,
+    "trade_val": 1839.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 33.9,
+    "export_dep": 3.0,
+    "energy_dep": 46.6,
+    "trade_val": 6325.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.3,
+    "export_dep": 4.3,
+    "energy_dep": 9.9,
+    "trade_val": 1223.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 26.4,
+    "export_dep": 2.5,
+    "energy_dep": 35.4,
+    "trade_val": 3626.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 20.9,
+    "export_dep": 9.8,
+    "energy_dep": 6.6,
+    "trade_val": 2902.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 22.2,
+    "export_dep": 10.9,
+    "energy_dep": 4.8,
+    "trade_val": 2718.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 21.3,
+    "export_dep": 42.2,
+    "energy_dep": 16.0,
+    "trade_val": 17067.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 10.1,
+    "export_dep": 7.1,
+    "energy_dep": 2.4,
+    "trade_val": 1937.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 21.2,
+    "export_dep": 32.9,
+    "energy_dep": 14.4,
+    "trade_val": 13386.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 24.9,
+    "export_dep": 7.2,
+    "energy_dep": 14.8,
+    "trade_val": 2279.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 13.6,
+    "export_dep": 4.6,
+    "energy_dep": 26.7,
+    "trade_val": 1507.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 22.3,
+    "export_dep": 8.9,
+    "energy_dep": 15.3,
+    "trade_val": 2824.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 18.1,
+    "export_dep": 10.8,
+    "energy_dep": 35.2,
+    "trade_val": 5412.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 14.8,
+    "export_dep": 8.4,
+    "energy_dep": 3.7,
+    "trade_val": 1242.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 34.4,
+    "export_dep": 3.3,
+    "energy_dep": 28.2,
+    "trade_val": 5749.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.3,
+    "export_dep": 32.6,
+    "energy_dep": 23.5,
+    "trade_val": 8416.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 10.2,
+    "export_dep": 13.4,
+    "energy_dep": 2.9,
+    "trade_val": 1809.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 12.2,
+    "export_dep": 3.1,
+    "energy_dep": 42.0,
+    "trade_val": 2938.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 14.9,
+    "export_dep": 4.9,
+    "energy_dep": 26.2,
+    "trade_val": 1224.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 14.8,
+    "export_dep": 5.0,
+    "energy_dep": 13.1,
+    "trade_val": 2181.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 21.4,
+    "export_dep": 11.5,
+    "energy_dep": 34.0,
+    "trade_val": 4270.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.7,
+    "export_dep": 3.8,
+    "energy_dep": 5.8,
+    "trade_val": 624.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.5,
+    "export_dep": 47.2,
+    "energy_dep": 15.0,
+    "trade_val": 14045.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.7,
+    "export_dep": 26.9,
+    "energy_dep": 24.2,
+    "trade_val": 6603.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 14.7,
+    "export_dep": 20.2,
+    "energy_dep": 9.5,
+    "trade_val": 3000.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 12.1,
+    "export_dep": 8.2,
+    "energy_dep": 21.7,
+    "trade_val": 2101.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 10.8,
+    "export_dep": 19.3,
+    "energy_dep": 3.1,
+    "trade_val": 2204.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 21.6,
+    "export_dep": 7.0,
+    "energy_dep": 4.5,
+    "trade_val": 2239.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 29.2,
+    "export_dep": 34.3,
+    "energy_dep": 15.2,
+    "trade_val": 9054.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 36.3,
+    "export_dep": 4.3,
+    "energy_dep": 40.1,
+    "trade_val": 7244.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 8.3,
+    "export_dep": 9.1,
+    "energy_dep": 1.4,
+    "trade_val": 2098.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 16.6,
+    "export_dep": 8.4,
+    "energy_dep": 16.9,
+    "trade_val": 2936.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 17.2,
+    "export_dep": 5.2,
+    "energy_dep": 45.4,
+    "trade_val": 1854.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 42.2,
+    "export_dep": 10.2,
+    "energy_dep": 6.7,
+    "trade_val": 11821.5,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 16.8,
+    "export_dep": 7.4,
+    "energy_dep": 36.6,
+    "trade_val": 4934.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 9.2,
+    "export_dep": 5.6,
+    "energy_dep": 24.9,
+    "trade_val": 1096.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 16.4,
+    "export_dep": 7.1,
+    "energy_dep": 15.9,
+    "trade_val": 2589.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 22.6,
+    "export_dep": 2.2,
+    "energy_dep": 35.7,
+    "trade_val": 3533.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 40.4,
+    "export_dep": 10.2,
+    "energy_dep": 2.5,
+    "trade_val": 12366.3,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 15.1,
+    "export_dep": 3.5,
+    "energy_dep": 11.4,
+    "trade_val": 1179.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 7.9,
+    "export_dep": 4.4,
+    "energy_dep": 4.4,
+    "trade_val": 1187.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 7.2,
+    "export_dep": 3.2,
+    "energy_dep": 11.9,
+    "trade_val": 1698.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.3,
+    "export_dep": 39.2,
+    "energy_dep": 13.4,
+    "trade_val": 13989.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 42.6,
+    "export_dep": 13.9,
+    "energy_dep": 4.2,
+    "trade_val": 10123.7,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 13.6,
+    "export_dep": 3.8,
+    "energy_dep": 29.8,
+    "trade_val": 1124.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 41.5,
+    "export_dep": 7.4,
+    "energy_dep": 37.9,
+    "trade_val": 6141.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 8.9,
+    "export_dep": 5.2,
+    "energy_dep": 16.3,
+    "trade_val": 2186.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.7,
+    "export_dep": 23.3,
+    "energy_dep": 4.1,
+    "trade_val": 3040.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 4.0,
+    "export_dep": 2.4,
+    "energy_dep": 7.0,
+    "trade_val": 427.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 17.1,
+    "export_dep": 8.0,
+    "energy_dep": 27.5,
+    "trade_val": 2797.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 7.3,
+    "export_dep": 7.2,
+    "energy_dep": 10.4,
+    "trade_val": 1883.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 15.3,
+    "export_dep": 2.8,
+    "energy_dep": 46.5,
+    "trade_val": 2692.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 18.9,
+    "export_dep": 2.2,
+    "energy_dep": 30.5,
+    "trade_val": 4963.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 10.2,
+    "export_dep": 12.3,
+    "energy_dep": 1.6,
+    "trade_val": 2677.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 18.5,
+    "export_dep": 8.0,
+    "energy_dep": 6.5,
+    "trade_val": 3423.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 33.0,
+    "export_dep": 3.2,
+    "energy_dep": 33.8,
+    "trade_val": 7683.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 49.2,
+    "export_dep": 13.5,
+    "energy_dep": 2.9,
+    "trade_val": 14185.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "China",
+    "import_dep": 41.5,
+    "export_dep": 8.4,
+    "energy_dep": 2.2,
+    "trade_val": 13160.1,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "China",
+    "import_dep": 52.7,
+    "export_dep": 15.6,
+    "energy_dep": 4.9,
+    "trade_val": 11909.6,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "China",
+    "import_dep": 43.2,
+    "export_dep": 9.4,
+    "energy_dep": 6.0,
+    "trade_val": 14734.5,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 3.0,
+    "export_dep": 3.3,
+    "energy_dep": 3.3,
+    "trade_val": 446.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 15.9,
+    "export_dep": 15.9,
+    "energy_dep": 3.9,
+    "trade_val": 2549.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 18.3,
+    "export_dep": 33.9,
+    "energy_dep": 14.2,
+    "trade_val": 15651.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 7.4,
+    "export_dep": 4.3,
+    "energy_dep": 5.0,
+    "trade_val": 1107.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 8.1,
+    "export_dep": 4.1,
+    "energy_dep": 25.1,
+    "trade_val": 1301.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 23.6,
+    "export_dep": 2.3,
+    "energy_dep": 38.1,
+    "trade_val": 3446.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 10.4,
+    "export_dep": 5.7,
+    "energy_dep": 21.6,
+    "trade_val": 1827.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 18.6,
+    "export_dep": 4.5,
+    "energy_dep": 31.2,
+    "trade_val": 4919.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.4,
+    "export_dep": 5.1,
+    "energy_dep": 4.8,
+    "trade_val": 1525.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 9.3,
+    "export_dep": 5.9,
+    "energy_dep": 24.4,
+    "trade_val": 1432.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 13.1,
+    "export_dep": 5.2,
+    "energy_dep": 23.4,
+    "trade_val": 2478.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.0,
+    "export_dep": 2.3,
+    "energy_dep": 3.5,
+    "trade_val": 549.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 6.0,
+    "export_dep": 6.4,
+    "energy_dep": 7.3,
+    "trade_val": 1583.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 10.7,
+    "export_dep": 2.7,
+    "energy_dep": 3.5,
+    "trade_val": 807.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.4,
+    "export_dep": 23.1,
+    "energy_dep": 9.2,
+    "trade_val": 4545.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 7.9,
+    "export_dep": 12.2,
+    "energy_dep": 5.1,
+    "trade_val": 1571.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 7.4,
+    "export_dep": 15.0,
+    "energy_dep": 2.2,
+    "trade_val": 1684.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.1,
+    "export_dep": 4.4,
+    "energy_dep": 4.7,
+    "trade_val": 578.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 9.9,
+    "export_dep": 20.0,
+    "energy_dep": 1.3,
+    "trade_val": 1754.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 13.6,
+    "export_dep": 12.9,
+    "energy_dep": 2.2,
+    "trade_val": 1675.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 14.4,
+    "export_dep": 8.9,
+    "energy_dep": 12.8,
+    "trade_val": 2473.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 20.3,
+    "export_dep": 3.1,
+    "energy_dep": 44.6,
+    "trade_val": 1618.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 12.3,
+    "export_dep": 14.5,
+    "energy_dep": 3.6,
+    "trade_val": 1301.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 45.6,
+    "export_dep": 9.9,
+    "energy_dep": 6.8,
+    "trade_val": 11567.1,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 12.1,
+    "export_dep": 19.9,
+    "energy_dep": 7.9,
+    "trade_val": 4258.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.2,
+    "export_dep": 43.3,
+    "energy_dep": 14.9,
+    "trade_val": 12331.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 4.3,
+    "export_dep": 7.5,
+    "energy_dep": 4.6,
+    "trade_val": 1084.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.1,
+    "export_dep": 35.1,
+    "energy_dep": 12.1,
+    "trade_val": 11260.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 7.9,
+    "export_dep": 5.9,
+    "energy_dep": 4.3,
+    "trade_val": 892.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 13.3,
+    "export_dep": 5.2,
+    "energy_dep": 8.1,
+    "trade_val": 2292.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 9.8,
+    "export_dep": 18.0,
+    "energy_dep": 2.8,
+    "trade_val": 2109.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 19.9,
+    "export_dep": 3.9,
+    "energy_dep": 32.1,
+    "trade_val": 3182.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 6.2,
+    "export_dep": 6.3,
+    "energy_dep": 2.2,
+    "trade_val": 1024.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 7.7,
+    "export_dep": 5.3,
+    "energy_dep": 4.1,
+    "trade_val": 1953.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.2,
+    "export_dep": 40.1,
+    "energy_dep": 10.2,
+    "trade_val": 13380.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 21.4,
+    "export_dep": 2.1,
+    "energy_dep": 47.5,
+    "trade_val": 2189.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.4,
+    "export_dep": 36.5,
+    "energy_dep": 11.3,
+    "trade_val": 11574.7,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.4,
+    "export_dep": 5.5,
+    "energy_dep": 5.0,
+    "trade_val": 507.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 19.2,
+    "export_dep": 3.5,
+    "energy_dep": 39.8,
+    "trade_val": 3980.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.3,
+    "export_dep": 8.7,
+    "energy_dep": 6.0,
+    "trade_val": 1533.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 31.0,
+    "export_dep": 28.0,
+    "energy_dep": 17.9,
+    "trade_val": 9376.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 40.8,
+    "export_dep": 9.3,
+    "energy_dep": 6.6,
+    "trade_val": 14057.0,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 31.2,
+    "export_dep": 6.3,
+    "energy_dep": 28.7,
+    "trade_val": 4894.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 3.3,
+    "export_dep": 4.7,
+    "energy_dep": 2.9,
+    "trade_val": 356.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 20.6,
+    "export_dep": 32.3,
+    "energy_dep": 15.0,
+    "trade_val": 13650.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 8.9,
+    "export_dep": 29.2,
+    "energy_dep": 3.3,
+    "trade_val": 3017.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 29.8,
+    "export_dep": 27.0,
+    "energy_dep": 17.5,
+    "trade_val": 6859.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.8,
+    "export_dep": 9.5,
+    "energy_dep": 37.5,
+    "trade_val": 4034.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 25.2,
+    "export_dep": 25.7,
+    "energy_dep": 22.5,
+    "trade_val": 9591.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.3,
+    "export_dep": 9.5,
+    "energy_dep": 4.3,
+    "trade_val": 764.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 11.4,
+    "export_dep": 11.2,
+    "energy_dep": 4.7,
+    "trade_val": 2451.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 8.2,
+    "export_dep": 4.3,
+    "energy_dep": 4.4,
+    "trade_val": 1660.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 37.9,
+    "export_dep": 6.1,
+    "energy_dep": 43.2,
+    "trade_val": 6182.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 52.4,
+    "export_dep": 10.0,
+    "energy_dep": 5.8,
+    "trade_val": 10542.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 19.8,
+    "export_dep": 10.3,
+    "energy_dep": 6.0,
+    "trade_val": 2650.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 5.2,
+    "export_dep": 2.2,
+    "energy_dep": 3.7,
+    "trade_val": 1208.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 24.0,
+    "export_dep": 9.5,
+    "energy_dep": 6.3,
+    "trade_val": 3091.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 14.9,
+    "export_dep": 5.9,
+    "energy_dep": 18.4,
+    "trade_val": 2465.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 15.7,
+    "export_dep": 14.9,
+    "energy_dep": 10.6,
+    "trade_val": 4529.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 27.4,
+    "export_dep": 33.2,
+    "energy_dep": 25.9,
+    "trade_val": 9435.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.9,
+    "export_dep": 44.7,
+    "energy_dep": 13.2,
+    "trade_val": 16115.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.5,
+    "export_dep": 29.8,
+    "energy_dep": 25.7,
+    "trade_val": 7289.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 9.0,
+    "export_dep": 11.3,
+    "energy_dep": 2.6,
+    "trade_val": 2377.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 44.5,
+    "export_dep": 10.5,
+    "energy_dep": 4.5,
+    "trade_val": 14691.6,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 12.8,
+    "export_dep": 14.3,
+    "energy_dep": 3.4,
+    "trade_val": 2906.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 19.4,
+    "export_dep": 4.2,
+    "energy_dep": 43.8,
+    "trade_val": 1621.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 29.8,
+    "export_dep": 23.3,
+    "energy_dep": 24.5,
+    "trade_val": 10821.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 49.1,
+    "export_dep": 12.6,
+    "energy_dep": 6.1,
+    "trade_val": 10285.8,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 8.3,
+    "export_dep": 4.8,
+    "energy_dep": 21.8,
+    "trade_val": 1867.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 15.8,
+    "export_dep": 3.5,
+    "energy_dep": 45.0,
+    "trade_val": 1692.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 43.8,
+    "export_dep": 12.5,
+    "energy_dep": 3.9,
+    "trade_val": 10177.1,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 15.9,
+    "export_dep": 14.7,
+    "energy_dep": 6.5,
+    "trade_val": 3638.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 29.3,
+    "export_dep": 6.2,
+    "energy_dep": 32.0,
+    "trade_val": 7880.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 18.8,
+    "export_dep": 3.0,
+    "energy_dep": 49.0,
+    "trade_val": 2597.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.7,
+    "export_dep": 2.4,
+    "energy_dep": 7.7,
+    "trade_val": 400.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 8.3,
+    "export_dep": 24.5,
+    "energy_dep": 5.2,
+    "trade_val": 2213.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 12.6,
+    "export_dep": 3.7,
+    "energy_dep": 19.1,
+    "trade_val": 1354.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 13.4,
+    "export_dep": 8.4,
+    "energy_dep": 19.7,
+    "trade_val": 2611.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 20.1,
+    "export_dep": 2.3,
+    "energy_dep": 49.6,
+    "trade_val": 1638.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 51.8,
+    "export_dep": 10.8,
+    "energy_dep": 4.5,
+    "trade_val": 14242.5,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 12.4,
+    "export_dep": 3.4,
+    "energy_dep": 24.3,
+    "trade_val": 1852.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.8,
+    "export_dep": 32.1,
+    "energy_dep": 13.4,
+    "trade_val": 18040.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 15.0,
+    "export_dep": 20.1,
+    "energy_dep": 10.2,
+    "trade_val": 3817.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 46.5,
+    "export_dep": 9.8,
+    "energy_dep": 2.3,
+    "trade_val": 11905.8,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.5,
+    "export_dep": 27.6,
+    "energy_dep": 5.9,
+    "trade_val": 2484.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 15.7,
+    "export_dep": 6.3,
+    "energy_dep": 3.4,
+    "trade_val": 2134.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 15.7,
+    "export_dep": 8.6,
+    "energy_dep": 17.8,
+    "trade_val": 2155.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 17.8,
+    "export_dep": 5.1,
+    "energy_dep": 17.2,
+    "trade_val": 2238.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 51.7,
+    "export_dep": 12.4,
+    "energy_dep": 5.7,
+    "trade_val": 11618.1,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.1,
+    "export_dep": 26.9,
+    "energy_dep": 4.8,
+    "trade_val": 3600.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 9.9,
+    "export_dep": 10.0,
+    "energy_dep": 3.0,
+    "trade_val": 1016.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 11.7,
+    "export_dep": 14.6,
+    "energy_dep": 2.9,
+    "trade_val": 3758.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 14.4,
+    "export_dep": 6.5,
+    "energy_dep": 9.9,
+    "trade_val": 2348.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 13.3,
+    "export_dep": 8.5,
+    "energy_dep": 19.9,
+    "trade_val": 2235.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 27.9,
+    "export_dep": 31.4,
+    "energy_dep": 21.7,
+    "trade_val": 9546.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 17.3,
+    "export_dep": 10.6,
+    "energy_dep": 4.0,
+    "trade_val": 3459.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 34.0,
+    "export_dep": 4.3,
+    "energy_dep": 29.2,
+    "trade_val": 7416.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 22.0,
+    "export_dep": 38.7,
+    "energy_dep": 14.0,
+    "trade_val": 13179.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 11.7,
+    "export_dep": 3.9,
+    "energy_dep": 20.9,
+    "trade_val": 1626.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 46.7,
+    "export_dep": 10.7,
+    "energy_dep": 4.7,
+    "trade_val": 11624.7,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 16.1,
+    "export_dep": 21.3,
+    "energy_dep": 10.9,
+    "trade_val": 4052.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 7.7,
+    "export_dep": 3.5,
+    "energy_dep": 2.6,
+    "trade_val": 751.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 28.4,
+    "export_dep": 23.8,
+    "energy_dep": 19.5,
+    "trade_val": 8334.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.5,
+    "export_dep": 4.0,
+    "energy_dep": 7.7,
+    "trade_val": 458.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 9.2,
+    "export_dep": 5.9,
+    "energy_dep": 14.8,
+    "trade_val": 1479.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 20.8,
+    "export_dep": 25.4,
+    "energy_dep": 21.3,
+    "trade_val": 9334.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.5,
+    "export_dep": 6.0,
+    "energy_dep": 4.9,
+    "trade_val": 756.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.6,
+    "export_dep": 42.1,
+    "energy_dep": 9.8,
+    "trade_val": 16752.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 7.7,
+    "export_dep": 6.6,
+    "energy_dep": 7.3,
+    "trade_val": 1510.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 17.6,
+    "export_dep": 44.3,
+    "energy_dep": 8.2,
+    "trade_val": 18609.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 14.8,
+    "export_dep": 5.3,
+    "energy_dep": 15.0,
+    "trade_val": 1613.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 31.6,
+    "export_dep": 7.0,
+    "energy_dep": 40.9,
+    "trade_val": 8099.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 10.2,
+    "export_dep": 7.0,
+    "energy_dep": 21.6,
+    "trade_val": 1299.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.9,
+    "export_dep": 9.2,
+    "energy_dep": 31.2,
+    "trade_val": 4725.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 14.9,
+    "export_dep": 8.4,
+    "energy_dep": 21.1,
+    "trade_val": 2622.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 30.3,
+    "export_dep": 27.2,
+    "energy_dep": 25.4,
+    "trade_val": 9538.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 19.8,
+    "export_dep": 10.8,
+    "energy_dep": 23.5,
+    "trade_val": 3818.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 21.7,
+    "export_dep": 4.9,
+    "energy_dep": 19.7,
+    "trade_val": 2139.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 30.6,
+    "export_dep": 33.2,
+    "energy_dep": 18.0,
+    "trade_val": 9152.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 28.5,
+    "export_dep": 23.6,
+    "energy_dep": 24.4,
+    "trade_val": 10438.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 19.5,
+    "export_dep": 9.2,
+    "energy_dep": 37.9,
+    "trade_val": 4937.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 14.0,
+    "export_dep": 4.6,
+    "energy_dep": 44.3,
+    "trade_val": 2370.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 11.8,
+    "export_dep": 4.5,
+    "energy_dep": 14.4,
+    "trade_val": 1944.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 14.1,
+    "export_dep": 10.5,
+    "energy_dep": 21.2,
+    "trade_val": 3931.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.9,
+    "export_dep": 6.9,
+    "energy_dep": 9.6,
+    "trade_val": 905.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 28.6,
+    "export_dep": 32.1,
+    "energy_dep": 16.8,
+    "trade_val": 10358.7,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 39.1,
+    "export_dep": 14.6,
+    "energy_dep": 7.5,
+    "trade_val": 12084.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 10.8,
+    "export_dep": 10.0,
+    "energy_dep": 7.7,
+    "trade_val": 2790.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 19.8,
+    "export_dep": 18.3,
+    "energy_dep": 10.6,
+    "trade_val": 4643.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 10.2,
+    "export_dep": 17.7,
+    "energy_dep": 2.7,
+    "trade_val": 2802.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 12.5,
+    "export_dep": 10.6,
+    "energy_dep": 9.4,
+    "trade_val": 1664.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 13.3,
+    "export_dep": 2.6,
+    "energy_dep": 2.7,
+    "trade_val": 1558.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.5,
+    "export_dep": 8.5,
+    "energy_dep": 7.9,
+    "trade_val": 1121.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 8.4,
+    "export_dep": 10.5,
+    "energy_dep": 7.3,
+    "trade_val": 2653.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 20.6,
+    "export_dep": 2.1,
+    "energy_dep": 36.9,
+    "trade_val": 2433.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 17.3,
+    "export_dep": 7.0,
+    "energy_dep": 23.1,
+    "trade_val": 3710.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 19.1,
+    "export_dep": 20.2,
+    "energy_dep": 9.6,
+    "trade_val": 3614.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 19.8,
+    "export_dep": 17.5,
+    "energy_dep": 8.1,
+    "trade_val": 4265.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 21.4,
+    "export_dep": 8.3,
+    "energy_dep": 23.7,
+    "trade_val": 3410.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 13.7,
+    "export_dep": 2.9,
+    "energy_dep": 19.4,
+    "trade_val": 1736.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 11.1,
+    "export_dep": 6.0,
+    "energy_dep": 24.9,
+    "trade_val": 2700.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 15.2,
+    "export_dep": 6.1,
+    "energy_dep": 16.6,
+    "trade_val": 2093.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 53.5,
+    "export_dep": 12.6,
+    "energy_dep": 4.3,
+    "trade_val": 16968.2,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 18.4,
+    "export_dep": 8.1,
+    "energy_dep": 32.2,
+    "trade_val": 4368.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 23.8,
+    "export_dep": 3.8,
+    "energy_dep": 43.6,
+    "trade_val": 3411.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 19.7,
+    "export_dep": 6.0,
+    "energy_dep": 25.0,
+    "trade_val": 3536.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 25.8,
+    "export_dep": 2.4,
+    "energy_dep": 38.1,
+    "trade_val": 3937.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 8.4,
+    "export_dep": 5.9,
+    "energy_dep": 10.3,
+    "trade_val": 1848.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 20.3,
+    "export_dep": 32.2,
+    "energy_dep": 17.7,
+    "trade_val": 10333.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 8.1,
+    "export_dep": 5.4,
+    "energy_dep": 24.2,
+    "trade_val": 1638.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 8.0,
+    "export_dep": 2.9,
+    "energy_dep": 3.3,
+    "trade_val": 782.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.3,
+    "export_dep": 4.6,
+    "energy_dep": 8.1,
+    "trade_val": 1313.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 39.0,
+    "export_dep": 11.8,
+    "energy_dep": 4.4,
+    "trade_val": 13988.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "China",
+    "import_dep": 45.9,
+    "export_dep": 9.9,
+    "energy_dep": 3.3,
+    "trade_val": 14556.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 12.1,
+    "export_dep": 7.7,
+    "energy_dep": 12.2,
+    "trade_val": 1651.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 13.5,
+    "export_dep": 2.9,
+    "energy_dep": 16.6,
+    "trade_val": 1349.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 16.3,
+    "export_dep": 24.6,
+    "energy_dep": 5.6,
+    "trade_val": 4457.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 4.1,
+    "export_dep": 18.6,
+    "energy_dep": 4.3,
+    "trade_val": 3171.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 8.2,
+    "export_dep": 5.8,
+    "energy_dep": 7.4,
+    "trade_val": 1394.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 8.4,
+    "export_dep": 5.5,
+    "energy_dep": 18.5,
+    "trade_val": 2114.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 10.4,
+    "export_dep": 10.9,
+    "energy_dep": 2.3,
+    "trade_val": 2959.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 8.4,
+    "export_dep": 9.3,
+    "energy_dep": 5.8,
+    "trade_val": 1427.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 7.9,
+    "export_dep": 31.8,
+    "energy_dep": 5.8,
+    "trade_val": 2219.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 11.9,
+    "export_dep": 6.7,
+    "energy_dep": 4.6,
+    "trade_val": 1563.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 6.8,
+    "export_dep": 2.8,
+    "energy_dep": 1.8,
+    "trade_val": 1508.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.2,
+    "export_dep": 44.1,
+    "energy_dep": 13.1,
+    "trade_val": 13247.1,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 26.5,
+    "export_dep": 4.0,
+    "energy_dep": 43.0,
+    "trade_val": 5256.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 15.7,
+    "export_dep": 6.3,
+    "energy_dep": 22.2,
+    "trade_val": 3867.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.6,
+    "export_dep": 8.8,
+    "energy_dep": 7.7,
+    "trade_val": 1345.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 21.2,
+    "export_dep": 5.9,
+    "energy_dep": 24.6,
+    "trade_val": 4365.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 19.7,
+    "export_dep": 8.4,
+    "energy_dep": 30.8,
+    "trade_val": 4673.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.1,
+    "export_dep": 6.2,
+    "energy_dep": 6.6,
+    "trade_val": 1475.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 20.7,
+    "export_dep": 43.0,
+    "energy_dep": 12.9,
+    "trade_val": 17430.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 20.1,
+    "export_dep": 4.1,
+    "energy_dep": 42.5,
+    "trade_val": 5337.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 6.8,
+    "export_dep": 7.6,
+    "energy_dep": 21.5,
+    "trade_val": 1212.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 10.2,
+    "export_dep": 9.9,
+    "energy_dep": 6.4,
+    "trade_val": 1873.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.9,
+    "export_dep": 30.2,
+    "energy_dep": 3.3,
+    "trade_val": 1929.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 13.9,
+    "export_dep": 3.3,
+    "energy_dep": 46.7,
+    "trade_val": 2526.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 14.6,
+    "export_dep": 5.9,
+    "energy_dep": 23.7,
+    "trade_val": 3187.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.9,
+    "export_dep": 14.0,
+    "energy_dep": 6.1,
+    "trade_val": 4462.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 23.5,
+    "export_dep": 3.6,
+    "energy_dep": 37.0,
+    "trade_val": 3730.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 24.8,
+    "export_dep": 6.9,
+    "energy_dep": 14.3,
+    "trade_val": 3959.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 5.5,
+    "export_dep": 13.6,
+    "energy_dep": 6.0,
+    "trade_val": 2127.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 50.3,
+    "export_dep": 14.7,
+    "energy_dep": 7.5,
+    "trade_val": 14094.2,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 19.2,
+    "export_dep": 10.9,
+    "energy_dep": 14.8,
+    "trade_val": 2384.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 12.1,
+    "export_dep": 3.9,
+    "energy_dep": 20.9,
+    "trade_val": 1509.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 22.0,
+    "export_dep": 5.0,
+    "energy_dep": 42.4,
+    "trade_val": 2745.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 44.2,
+    "export_dep": 12.3,
+    "energy_dep": 4.1,
+    "trade_val": 11243.8,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 27.0,
+    "export_dep": 3.9,
+    "energy_dep": 30.9,
+    "trade_val": 5531.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.8,
+    "export_dep": 46.6,
+    "energy_dep": 14.0,
+    "trade_val": 18629.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 13.6,
+    "export_dep": 16.4,
+    "energy_dep": 1.1,
+    "trade_val": 2817.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 40.3,
+    "export_dep": 14.8,
+    "energy_dep": 4.8,
+    "trade_val": 11649.6,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 10.6,
+    "export_dep": 5.0,
+    "energy_dep": 14.7,
+    "trade_val": 2596.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 6.9,
+    "export_dep": 2.2,
+    "energy_dep": 2.7,
+    "trade_val": 756.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 12.9,
+    "export_dep": 12.8,
+    "energy_dep": 3.6,
+    "trade_val": 1898.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 7.1,
+    "export_dep": 11.3,
+    "energy_dep": 2.3,
+    "trade_val": 2094.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.5,
+    "export_dep": 41.1,
+    "energy_dep": 15.8,
+    "trade_val": 11812.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.5,
+    "export_dep": 38.2,
+    "energy_dep": 13.1,
+    "trade_val": 17876.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 11.1,
+    "export_dep": 2.0,
+    "energy_dep": 26.5,
+    "trade_val": 1768.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 20.1,
+    "export_dep": 44.0,
+    "energy_dep": 12.6,
+    "trade_val": 16776.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 13.8,
+    "export_dep": 4.1,
+    "energy_dep": 35.6,
+    "trade_val": 3112.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 11.0,
+    "export_dep": 4.7,
+    "energy_dep": 17.8,
+    "trade_val": 1300.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 11.9,
+    "export_dep": 8.1,
+    "energy_dep": 13.2,
+    "trade_val": 2729.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 25.3,
+    "export_dep": 3.0,
+    "energy_dep": 30.2,
+    "trade_val": 5040.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 19.4,
+    "export_dep": 3.0,
+    "energy_dep": 38.1,
+    "trade_val": 5190.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.7,
+    "export_dep": 23.7,
+    "energy_dep": 5.9,
+    "trade_val": 3726.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 24.3,
+    "export_dep": 13.3,
+    "energy_dep": 30.9,
+    "trade_val": 6066.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 13.9,
+    "export_dep": 5.4,
+    "energy_dep": 6.2,
+    "trade_val": 2149.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 22.0,
+    "export_dep": 3.8,
+    "energy_dep": 43.5,
+    "trade_val": 4090.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 11.3,
+    "export_dep": 1.5,
+    "energy_dep": 2.4,
+    "trade_val": 1976.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.2,
+    "export_dep": 9.0,
+    "energy_dep": 4.8,
+    "trade_val": 1609.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.1,
+    "export_dep": 30.9,
+    "energy_dep": 24.3,
+    "trade_val": 9455.0,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.7,
+    "export_dep": 26.2,
+    "energy_dep": 19.5,
+    "trade_val": 9280.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 10.2,
+    "export_dep": 7.9,
+    "energy_dep": 10.4,
+    "trade_val": 2490.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 20.5,
+    "export_dep": 10.0,
+    "energy_dep": 16.7,
+    "trade_val": 3030.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 3.7,
+    "export_dep": 6.3,
+    "energy_dep": 8.4,
+    "trade_val": 1281.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 10.7,
+    "export_dep": 5.9,
+    "energy_dep": 19.6,
+    "trade_val": 1919.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 6.5,
+    "export_dep": 17.1,
+    "energy_dep": 3.4,
+    "trade_val": 2629.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.6,
+    "export_dep": 26.6,
+    "energy_dep": 3.0,
+    "trade_val": 3162.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 22.2,
+    "export_dep": 33.6,
+    "energy_dep": 25.9,
+    "trade_val": 10455.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 10.8,
+    "export_dep": 6.4,
+    "energy_dep": 4.6,
+    "trade_val": 3174.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 7.6,
+    "export_dep": 1.9,
+    "energy_dep": 1.4,
+    "trade_val": 860.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 13.2,
+    "export_dep": 4.1,
+    "energy_dep": 48.0,
+    "trade_val": 1989.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.9,
+    "export_dep": 25.3,
+    "energy_dep": 4.9,
+    "trade_val": 2601.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 10.6,
+    "export_dep": 2.3,
+    "energy_dep": 21.4,
+    "trade_val": 1588.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.3,
+    "export_dep": 46.7,
+    "energy_dep": 11.3,
+    "trade_val": 19664.5,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 4.3,
+    "export_dep": 4.0,
+    "energy_dep": 5.3,
+    "trade_val": 1146.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.1,
+    "export_dep": 42.3,
+    "energy_dep": 11.7,
+    "trade_val": 14200.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 49.4,
+    "export_dep": 13.0,
+    "energy_dep": 3.6,
+    "trade_val": 16535.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 10.2,
+    "export_dep": 3.7,
+    "energy_dep": 20.7,
+    "trade_val": 1899.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 35.4,
+    "export_dep": 5.5,
+    "energy_dep": 52.2,
+    "trade_val": 8871.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 13.2,
+    "export_dep": 7.1,
+    "energy_dep": 9.2,
+    "trade_val": 2193.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.9,
+    "export_dep": 5.9,
+    "energy_dep": 4.2,
+    "trade_val": 687.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 20.2,
+    "export_dep": 3.5,
+    "energy_dep": 44.9,
+    "trade_val": 5980.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 11.1,
+    "export_dep": 7.7,
+    "energy_dep": 15.7,
+    "trade_val": 2029.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 7.2,
+    "export_dep": 13.8,
+    "energy_dep": 5.8,
+    "trade_val": 1876.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 45.5,
+    "export_dep": 12.0,
+    "energy_dep": 6.4,
+    "trade_val": 14761.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 25.6,
+    "export_dep": 11.3,
+    "energy_dep": 33.1,
+    "trade_val": 4890.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 10.5,
+    "export_dep": 7.0,
+    "energy_dep": 15.7,
+    "trade_val": 2866.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.2,
+    "export_dep": 45.7,
+    "energy_dep": 14.2,
+    "trade_val": 16981.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 9.5,
+    "export_dep": 5.0,
+    "energy_dep": 21.4,
+    "trade_val": 1290.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 44.0,
+    "export_dep": 3.3,
+    "energy_dep": 49.7,
+    "trade_val": 10516.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 9.6,
+    "export_dep": 3.2,
+    "energy_dep": 6.8,
+    "trade_val": 1406.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.3,
+    "export_dep": 40.8,
+    "energy_dep": 13.8,
+    "trade_val": 16674.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 53.5,
+    "export_dep": 8.2,
+    "energy_dep": 6.2,
+    "trade_val": 14689.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 18.3,
+    "export_dep": 4.2,
+    "energy_dep": 33.2,
+    "trade_val": 4360.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 10.6,
+    "export_dep": 8.3,
+    "energy_dep": 5.2,
+    "trade_val": 1662.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 19.9,
+    "export_dep": 8.8,
+    "energy_dep": 21.7,
+    "trade_val": 2751.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 17.0,
+    "export_dep": 6.6,
+    "energy_dep": 22.9,
+    "trade_val": 3082.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 19.7,
+    "export_dep": 9.4,
+    "energy_dep": 5.7,
+    "trade_val": 2185.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 24.3,
+    "export_dep": 8.9,
+    "energy_dep": 30.4,
+    "trade_val": 4755.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 18.5,
+    "export_dep": 3.3,
+    "energy_dep": 42.6,
+    "trade_val": 5546.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 20.8,
+    "export_dep": 6.8,
+    "energy_dep": 20.0,
+    "trade_val": 3188.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 31.1,
+    "export_dep": 33.4,
+    "energy_dep": 15.1,
+    "trade_val": 8582.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 53.7,
+    "export_dep": 11.5,
+    "energy_dep": 4.8,
+    "trade_val": 13687.7,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 21.1,
+    "export_dep": 4.4,
+    "energy_dep": 32.2,
+    "trade_val": 5709.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 12.7,
+    "export_dep": 3.1,
+    "energy_dep": 2.1,
+    "trade_val": 1775.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 22.0,
+    "export_dep": 9.2,
+    "energy_dep": 4.3,
+    "trade_val": 3529.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UK",
+    "import_dep": 9.3,
+    "export_dep": 17.6,
+    "energy_dep": 1.5,
+    "trade_val": 2499.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 12.6,
+    "export_dep": 6.5,
+    "energy_dep": 10.0,
+    "trade_val": 1239.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "USA",
+    "import_dep": 19.8,
+    "export_dep": 46.7,
+    "energy_dep": 8.9,
+    "trade_val": 12345.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 7.7,
+    "export_dep": 11.2,
+    "energy_dep": 9.5,
+    "trade_val": 2965.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 17.8,
+    "export_dep": 12.4,
+    "energy_dep": 31.4,
+    "trade_val": 6627.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.1,
+    "export_dep": 3.1,
+    "energy_dep": 6.1,
+    "trade_val": 372.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 11.6,
+    "export_dep": 5.4,
+    "energy_dep": 19.8,
+    "trade_val": 1753.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 22.0,
+    "export_dep": 11.3,
+    "energy_dep": 35.1,
+    "trade_val": 6947.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.1,
+    "export_dep": 3.8,
+    "energy_dep": 6.0,
+    "trade_val": 436.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 46.0,
+    "export_dep": 13.3,
+    "energy_dep": 6.3,
+    "trade_val": 15977.6,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.6,
+    "export_dep": 30.7,
+    "energy_dep": 2.2,
+    "trade_val": 2350.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 14.7,
+    "export_dep": 8.7,
+    "energy_dep": 12.1,
+    "trade_val": 1798.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.7,
+    "export_dep": 26.3,
+    "energy_dep": 4.0,
+    "trade_val": 2034.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 13.1,
+    "export_dep": 9.5,
+    "energy_dep": 10.7,
+    "trade_val": 1811.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.2,
+    "export_dep": 24.3,
+    "energy_dep": 5.9,
+    "trade_val": 3920.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.1,
+    "export_dep": 7.8,
+    "energy_dep": 6.4,
+    "trade_val": 1121.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.3,
+    "export_dep": 23.4,
+    "energy_dep": 19.9,
+    "trade_val": 8518.2,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 18.9,
+    "export_dep": 40.2,
+    "energy_dep": 14.2,
+    "trade_val": 12272.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 14.4,
+    "export_dep": 10.2,
+    "energy_dep": 16.1,
+    "trade_val": 2625.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 14.9,
+    "export_dep": 4.8,
+    "energy_dep": 47.4,
+    "trade_val": 2860.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.3,
+    "export_dep": 22.1,
+    "energy_dep": 3.6,
+    "trade_val": 3670.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.7,
+    "export_dep": 14.7,
+    "energy_dep": 7.5,
+    "trade_val": 4179.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 46.9,
+    "export_dep": 15.8,
+    "energy_dep": 5.9,
+    "trade_val": 10904.0,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 5.1,
+    "export_dep": 2.2,
+    "energy_dep": 4.2,
+    "trade_val": 1500.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 12.6,
+    "export_dep": 13.9,
+    "energy_dep": 1.2,
+    "trade_val": 3496.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 16.3,
+    "export_dep": 7.1,
+    "energy_dep": 13.5,
+    "trade_val": 2013.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 10.6,
+    "export_dep": 15.1,
+    "energy_dep": 2.1,
+    "trade_val": 3900.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 16.4,
+    "export_dep": 46.5,
+    "energy_dep": 12.6,
+    "trade_val": 16897.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 14.1,
+    "export_dep": 3.7,
+    "energy_dep": 14.9,
+    "trade_val": 1859.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 9.5,
+    "export_dep": 13.7,
+    "energy_dep": 2.0,
+    "trade_val": 1318.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.0,
+    "export_dep": 3.0,
+    "energy_dep": 5.1,
+    "trade_val": 630.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.2,
+    "export_dep": 23.8,
+    "energy_dep": 4.2,
+    "trade_val": 2183.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 22.8,
+    "export_dep": 9.4,
+    "energy_dep": 14.9,
+    "trade_val": 4138.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 13.8,
+    "export_dep": 7.2,
+    "energy_dep": 21.2,
+    "trade_val": 3106.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.5,
+    "export_dep": 4.3,
+    "energy_dep": 6.3,
+    "trade_val": 1527.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 11.4,
+    "export_dep": 16.4,
+    "energy_dep": 3.1,
+    "trade_val": 3338.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.2,
+    "export_dep": 3.9,
+    "energy_dep": 5.6,
+    "trade_val": 615.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.6,
+    "export_dep": 26.6,
+    "energy_dep": 5.1,
+    "trade_val": 3802.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 5.0,
+    "export_dep": 5.9,
+    "energy_dep": 4.8,
+    "trade_val": 1336.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.3,
+    "export_dep": 24.0,
+    "energy_dep": 22.2,
+    "trade_val": 12370.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.0,
+    "export_dep": 32.9,
+    "energy_dep": 23.1,
+    "trade_val": 8410.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 45.7,
+    "export_dep": 8.8,
+    "energy_dep": 2.3,
+    "trade_val": 12408.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 15.0,
+    "export_dep": 2.3,
+    "energy_dep": 36.0,
+    "trade_val": 2622.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 17.6,
+    "export_dep": 8.4,
+    "energy_dep": 19.4,
+    "trade_val": 2633.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 12.2,
+    "export_dep": 4.3,
+    "energy_dep": 30.0,
+    "trade_val": 1494.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 47.1,
+    "export_dep": 9.9,
+    "energy_dep": 4.7,
+    "trade_val": 18113.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 45.3,
+    "export_dep": 4.4,
+    "energy_dep": 57.4,
+    "trade_val": 11229.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 24.2,
+    "export_dep": 32.7,
+    "energy_dep": 24.6,
+    "trade_val": 11914.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 14.6,
+    "export_dep": 6.5,
+    "energy_dep": 17.2,
+    "trade_val": 1223.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 19.4,
+    "export_dep": 8.9,
+    "energy_dep": 5.4,
+    "trade_val": 2639.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 20.6,
+    "export_dep": 3.7,
+    "energy_dep": 38.3,
+    "trade_val": 3412.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.3,
+    "export_dep": 25.6,
+    "energy_dep": 20.5,
+    "trade_val": 9117.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 22.5,
+    "export_dep": 7.5,
+    "energy_dep": 6.6,
+    "trade_val": 2462.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 9.4,
+    "export_dep": 3.2,
+    "energy_dep": 4.7,
+    "trade_val": 1305.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.4,
+    "export_dep": 3.3,
+    "energy_dep": 2.4,
+    "trade_val": 628.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 25.9,
+    "export_dep": 7.4,
+    "energy_dep": 33.4,
+    "trade_val": 7091.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 19.5,
+    "export_dep": 21.5,
+    "energy_dep": 8.0,
+    "trade_val": 5004.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.2,
+    "export_dep": 15.9,
+    "energy_dep": 8.7,
+    "trade_val": 4603.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 8.2,
+    "export_dep": 6.6,
+    "energy_dep": 15.6,
+    "trade_val": 2086.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.6,
+    "export_dep": 4.3,
+    "energy_dep": 7.1,
+    "trade_val": 1166.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 14.9,
+    "export_dep": 3.5,
+    "energy_dep": 37.8,
+    "trade_val": 3472.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 14.9,
+    "export_dep": 2.5,
+    "energy_dep": 24.4,
+    "trade_val": 2393.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 25.3,
+    "export_dep": 9.0,
+    "energy_dep": 34.2,
+    "trade_val": 5720.5,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 12.1,
+    "export_dep": 2.8,
+    "energy_dep": 28.7,
+    "trade_val": 2009.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 13.0,
+    "export_dep": 23.4,
+    "energy_dep": 8.1,
+    "trade_val": 5394.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Egypt",
+    "import_dep": 6.6,
+    "export_dep": 7.0,
+    "energy_dep": 5.0,
+    "trade_val": 1234.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 17.9,
+    "export_dep": 7.0,
+    "energy_dep": 20.7,
+    "trade_val": 3593.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 16.9,
+    "export_dep": 15.7,
+    "energy_dep": 10.3,
+    "trade_val": 5053.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 10.6,
+    "export_dep": 5.8,
+    "energy_dep": 23.5,
+    "trade_val": 2083.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 6.8,
+    "export_dep": 30.4,
+    "energy_dep": 4.9,
+    "trade_val": 2927.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 43.1,
+    "export_dep": 12.9,
+    "energy_dep": 6.9,
+    "trade_val": 12903.3,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "UK",
+    "import_dep": 6.3,
+    "export_dep": 20.2,
+    "energy_dep": 3.4,
+    "trade_val": 2034.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 42.7,
+    "export_dep": 13.4,
+    "energy_dep": 4.8,
+    "trade_val": 17049.0,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 11.7,
+    "export_dep": 8.5,
+    "energy_dep": 6.7,
+    "trade_val": 1935.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 21.9,
+    "export_dep": 40.9,
+    "energy_dep": 10.4,
+    "trade_val": 17735.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Africa",
+    "import_dep": 12.3,
+    "export_dep": 10.0,
+    "energy_dep": 8.5,
+    "trade_val": 2359.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 11.6,
+    "export_dep": 2.4,
+    "energy_dep": 3.7,
+    "trade_val": 823.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 22.1,
+    "export_dep": 3.5,
+    "energy_dep": 39.5,
+    "trade_val": 5377.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "China",
+    "import_dep": 53.3,
+    "export_dep": 12.1,
+    "energy_dep": 6.0,
+    "trade_val": 15434.9,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Nigeria",
+    "import_dep": 10.3,
+    "export_dep": 4.1,
+    "energy_dep": 21.6,
+    "trade_val": 2575.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 17.1,
+    "export_dep": 12.6,
+    "energy_dep": 37.1,
+    "trade_val": 5918.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 24.7,
+    "export_dep": 2.3,
+    "energy_dep": 37.7,
+    "trade_val": 4388.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 5.2,
+    "export_dep": 10.7,
+    "energy_dep": 3.6,
+    "trade_val": 2212.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 39.8,
+    "export_dep": 4.8,
+    "energy_dep": 43.2,
+    "trade_val": 9412.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 21.1,
+    "export_dep": 5.5,
+    "energy_dep": 40.7,
+    "trade_val": 2011.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 15.4,
+    "export_dep": 14.3,
+    "energy_dep": 3.9,
+    "trade_val": 4222.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Australia",
+    "import_dep": 13.6,
+    "export_dep": 7.4,
+    "energy_dep": 25.9,
+    "trade_val": 2174.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 9.9,
+    "export_dep": 12.0,
+    "energy_dep": 2.7,
+    "trade_val": 1832.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.4,
+    "export_dep": 13.4,
+    "energy_dep": 25.1,
+    "trade_val": 7118.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 14.9,
+    "export_dep": 4.7,
+    "energy_dep": 27.6,
+    "trade_val": 1773.9,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 15.2,
+    "export_dep": 4.4,
+    "energy_dep": 19.6,
+    "trade_val": 1844.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 16.0,
+    "export_dep": 4.8,
+    "energy_dep": 36.0,
+    "trade_val": 2583.6,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 13.8,
+    "export_dep": 5.3,
+    "energy_dep": 11.2,
+    "trade_val": 1313.1,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.0,
+    "export_dep": 34.6,
+    "energy_dep": 19.4,
+    "trade_val": 10583.8,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 21.1,
+    "export_dep": 11.9,
+    "energy_dep": 3.4,
+    "trade_val": 2965.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 18.1,
+    "export_dep": 4.4,
+    "energy_dep": 33.6,
+    "trade_val": 3895.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Vietnam",
+    "import_dep": 13.5,
+    "export_dep": 14.1,
+    "energy_dep": 3.7,
+    "trade_val": 2486.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 1.2,
+    "export_dep": 5.2,
+    "energy_dep": 2.4,
+    "trade_val": 561.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 9.9,
+    "export_dep": 18.9,
+    "energy_dep": 2.8,
+    "trade_val": 2319.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 21.9,
+    "export_dep": 10.5,
+    "energy_dep": 6.4,
+    "trade_val": 3315.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Saudi Arabia",
+    "import_dep": 23.7,
+    "export_dep": 7.4,
+    "energy_dep": 29.0,
+    "trade_val": 7197.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "UK",
+    "import_dep": 8.0,
+    "export_dep": 12.2,
+    "energy_dep": 2.0,
+    "trade_val": 3209.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 11.6,
+    "export_dep": 9.0,
+    "energy_dep": 5.4,
+    "trade_val": 1763.0,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 29.3,
+    "export_dep": 32.3,
+    "energy_dep": 21.6,
+    "trade_val": 12961.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 16.2,
+    "export_dep": 7.2,
+    "energy_dep": 4.6,
+    "trade_val": 4011.8,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 15.5,
+    "export_dep": 14.2,
+    "energy_dep": 7.8,
+    "trade_val": 4779.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Germany",
+    "import_dep": 17.5,
+    "export_dep": 15.7,
+    "energy_dep": 2.5,
+    "trade_val": 2738.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 30.0,
+    "export_dep": 25.2,
+    "energy_dep": 20.0,
+    "trade_val": 12079.3,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Canada",
+    "import_dep": 8.8,
+    "export_dep": 4.3,
+    "energy_dep": 5.2,
+    "trade_val": 1656.1,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 19.3,
+    "export_dep": 7.2,
+    "energy_dep": 6.9,
+    "trade_val": 3551.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 19.8,
+    "export_dep": 21.3,
+    "energy_dep": 5.5,
+    "trade_val": 5388.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "UAE",
+    "import_dep": 21.0,
+    "export_dep": 33.7,
+    "energy_dep": 18.2,
+    "trade_val": 8531.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "China",
+    "import_dep": 40.5,
+    "export_dep": 11.8,
+    "energy_dep": 5.6,
+    "trade_val": 17970.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.8,
+    "export_dep": 27.8,
+    "energy_dep": 5.4,
+    "trade_val": 4009.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 5.9,
+    "export_dep": 21.5,
+    "energy_dep": 2.4,
+    "trade_val": 3834.5,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Yemen",
+    "import_dep": 2.1,
+    "export_dep": 4.8,
+    "energy_dep": 6.9,
+    "trade_val": 393.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 9.7,
+    "export_dep": 30.8,
+    "energy_dep": 5.6,
+    "trade_val": 2267.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Indonesia",
+    "import_dep": 18.6,
+    "export_dep": 9.5,
+    "energy_dep": 20.0,
+    "trade_val": 3277.9,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 40.4,
+    "export_dep": 9.9,
+    "energy_dep": 6.2,
+    "trade_val": 11769.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "USA",
+    "import_dep": 23.4,
+    "export_dep": 47.3,
+    "energy_dep": 14.4,
+    "trade_val": 15703.9,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "USA",
+    "import_dep": 22.2,
+    "export_dep": 40.2,
+    "energy_dep": 13.4,
+    "trade_val": 19825.6,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "UK",
+    "import_dep": 6.2,
+    "export_dep": 13.2,
+    "energy_dep": 1.2,
+    "trade_val": 3615.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 39.2,
+    "export_dep": 11.4,
+    "energy_dep": 5.3,
+    "trade_val": 12140.4,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Brazil",
+    "import_dep": 6.7,
+    "export_dep": 7.5,
+    "energy_dep": 8.5,
+    "trade_val": 3059.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "China",
+    "import_dep": 50.8,
+    "export_dep": 9.3,
+    "energy_dep": 7.4,
+    "trade_val": 11384.5,
+    "cluster": 2,
+    "risk_group": "Critical Exposure",
+    "color": "#f43f5e"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 10.7,
+    "export_dep": 12.1,
+    "energy_dep": 4.6,
+    "trade_val": 1581.4,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 18.3,
+    "export_dep": 19.0,
+    "energy_dep": 6.2,
+    "trade_val": 5181.6,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "USA",
+    "import_dep": 24.9,
+    "export_dep": 44.8,
+    "energy_dep": 13.6,
+    "trade_val": 20616.4,
+    "cluster": 0,
+    "risk_group": "Higher Exposure",
+    "color": "#f97316"
+  },
+  {
+    "country": "Ukraine",
+    "import_dep": 5.7,
+    "export_dep": 3.9,
+    "energy_dep": 4.5,
+    "trade_val": 1892.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 7.9,
+    "export_dep": 18.5,
+    "energy_dep": 5.2,
+    "trade_val": 3617.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Qatar",
+    "import_dep": 12.9,
+    "export_dep": 3.7,
+    "energy_dep": 51.8,
+    "trade_val": 2101.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "South Korea",
+    "import_dep": 16.3,
+    "export_dep": 11.6,
+    "energy_dep": 6.7,
+    "trade_val": 3532.7,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Iraq",
+    "import_dep": 25.2,
+    "export_dep": 3.2,
+    "energy_dep": 39.8,
+    "trade_val": 4930.2,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Iran",
+    "import_dep": 11.4,
+    "export_dep": 6.3,
+    "energy_dep": 13.3,
+    "trade_val": 2100.8,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Singapore",
+    "import_dep": 14.2,
+    "export_dep": 24.6,
+    "energy_dep": 9.7,
+    "trade_val": 4774.4,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 8.6,
+    "export_dep": 27.2,
+    "energy_dep": 3.4,
+    "trade_val": 2120.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Israel",
+    "import_dep": 11.5,
+    "export_dep": 7.3,
+    "energy_dep": 5.1,
+    "trade_val": 2061.7,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 9.5,
+    "export_dep": 20.5,
+    "energy_dep": 4.3,
+    "trade_val": 2371.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Netherlands",
+    "import_dep": 8.4,
+    "export_dep": 24.8,
+    "energy_dep": 2.1,
+    "trade_val": 3282.2,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Kuwait",
+    "import_dep": 10.9,
+    "export_dep": 4.9,
+    "energy_dep": 24.8,
+    "trade_val": 1508.3,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  },
+  {
+    "country": "Malaysia",
+    "import_dep": 13.1,
+    "export_dep": 8.2,
+    "energy_dep": 6.9,
+    "trade_val": 2388.3,
+    "cluster": 1,
+    "risk_group": "Lower Exposure",
+    "color": "#10b981"
+  },
+  {
+    "country": "Russia",
+    "import_dep": 47.8,
+    "export_dep": 7.0,
+    "energy_dep": 42.8,
+    "trade_val": 9622.0,
+    "cluster": 3,
+    "risk_group": "Moderate Exposure",
+    "color": "#f59e0b"
+  }
+]

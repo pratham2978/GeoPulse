@@ -1,0 +1,35 @@
+{
+  "dataset_name": "feature8_india_supply_route_risk.csv",
+  "total_records": 750,
+  "train_records": 600,
+  "test_records": 150,
+  "features": [
+    "route_disruption",
+    "shipping_delay",
+    "freight_cost_change",
+    "trade_volume_exposure",
+    "india_import_exposure",
+    "india_export_exposure",
+    "energy_route_exposure",
+    "commodity_exposure",
+    "conflict_intensity"
+  ],
+  "classes": [
+    "Critical",
+    "High",
+    "Low",
+    "Moderate"
+  ],
+  "class_distribution": {
+    "Moderate": 288,
+    "High": 202,
+    "Low": 132,
+    "Critical": 128
+  },
+  "champion_model": "Logistic Regression",
+  "champion_f1": 0.926,
+  "champion_accuracy": 0.9267,
+  "champion_params": {
+    "model__C": 10
+  }
+}

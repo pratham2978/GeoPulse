@@ -1,0 +1,158 @@
+{
+  "route_risk_distribution": [
+    {
+      "route": "Bab el-Mandeb / Red Sea",
+      "low": 21,
+      "moderate": 57,
+      "high": 40,
+      "critical": 12,
+      "total": 130,
+      "high_critical_pct": 40.0
+    },
+    {
+      "route": "Black Sea & Bosporus",
+      "low": 15,
+      "moderate": 22,
+      "high": 8,
+      "critical": 8,
+      "total": 53,
+      "high_critical_pct": 30.2
+    },
+    {
+      "route": "Cape of Good Hope",
+      "low": 33,
+      "moderate": 32,
+      "high": 15,
+      "critical": 7,
+      "total": 87,
+      "high_critical_pct": 25.3
+    },
+    {
+      "route": "Malacca Strait",
+      "low": 28,
+      "moderate": 52,
+      "high": 23,
+      "critical": 12,
+      "total": 115,
+      "high_critical_pct": 30.4
+    },
+    {
+      "route": "Mozambique Channel",
+      "low": 17,
+      "moderate": 17,
+      "high": 12,
+      "critical": 7,
+      "total": 53,
+      "high_critical_pct": 35.8
+    },
+    {
+      "route": "Persian Gulf Coastal",
+      "low": 0,
+      "moderate": 27,
+      "high": 25,
+      "critical": 25,
+      "total": 77,
+      "high_critical_pct": 64.9
+    },
+    {
+      "route": "Strait of Hormuz",
+      "low": 0,
+      "moderate": 35,
+      "high": 49,
+      "critical": 44,
+      "total": 128,
+      "high_critical_pct": 72.7
+    },
+    {
+      "route": "Suez Canal",
+      "low": 18,
+      "moderate": 46,
+      "high": 30,
+      "critical": 13,
+      "total": 107,
+      "high_critical_pct": 40.2
+    }
+  ],
+  "route_metrics": [
+    {
+      "route": "Bab el-Mandeb / Red Sea",
+      "avg_disruption": 37.4,
+      "avg_delay_days": 7.8,
+      "avg_freight_change_pct": 22.9,
+      "avg_import_exposure": 62.2,
+      "avg_energy_exposure": 57.5,
+      "avg_commodity_exposure": 67.0,
+      "avg_conflict_intensity": 39.6
+    },
+    {
+      "route": "Black Sea & Bosporus",
+      "avg_disruption": 41.7,
+      "avg_delay_days": 9.6,
+      "avg_freight_change_pct": 30.0,
+      "avg_import_exposure": 48.3,
+      "avg_energy_exposure": 38.8,
+      "avg_commodity_exposure": 71.2,
+      "avg_conflict_intensity": 42.9
+    },
+    {
+      "route": "Cape of Good Hope",
+      "avg_disruption": 35.2,
+      "avg_delay_days": 7.6,
+      "avg_freight_change_pct": 20.9,
+      "avg_import_exposure": 51.6,
+      "avg_energy_exposure": 42.0,
+      "avg_commodity_exposure": 48.2,
+      "avg_conflict_intensity": 36.7
+    },
+    {
+      "route": "Malacca Strait",
+      "avg_disruption": 40.3,
+      "avg_delay_days": 8.5,
+      "avg_freight_change_pct": 26.5,
+      "avg_import_exposure": 66.8,
+      "avg_energy_exposure": 35.3,
+      "avg_commodity_exposure": 76.2,
+      "avg_conflict_intensity": 40.8
+    },
+    {
+      "route": "Mozambique Channel",
+      "avg_disruption": 44.6,
+      "avg_delay_days": 10.2,
+      "avg_freight_change_pct": 35.9,
+      "avg_import_exposure": 35.4,
+      "avg_energy_exposure": 31.2,
+      "avg_commodity_exposure": 46.1,
+      "avg_conflict_intensity": 46.8
+    },
+    {
+      "route": "Persian Gulf Coastal",
+      "avg_disruption": 43.6,
+      "avg_delay_days": 9.9,
+      "avg_freight_change_pct": 33.1,
+      "avg_import_exposure": 76.5,
+      "avg_energy_exposure": 80.7,
+      "avg_commodity_exposure": 55.2,
+      "avg_conflict_intensity": 47.8
+    },
+    {
+      "route": "Strait of Hormuz",
+      "avg_disruption": 41.9,
+      "avg_delay_days": 8.8,
+      "avg_freight_change_pct": 29.0,
+      "avg_import_exposure": 80.6,
+      "avg_energy_exposure": 89.0,
+      "avg_commodity_exposure": 52.9,
+      "avg_conflict_intensity": 43.7
+    },
+    {
+      "route": "Suez Canal",
+      "avg_disruption": 42.3,
+      "avg_delay_days": 9.3,
+      "avg_freight_change_pct": 29.3,
+      "avg_import_exposure": 56.2,
+      "avg_energy_exposure": 49.1,
+      "avg_commodity_exposure": 62.5,
+      "avg_conflict_intensity": 43.5
+    }
+  ]
+}
