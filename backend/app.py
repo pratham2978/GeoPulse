@@ -323,6 +323,7 @@ def predict_india_impact(req: IndiaImpactPredictRequest):
             status_code=503 if "unavailable" in result.get("error", "") else 400,
             detail=result.get("error", "Prediction failed.")
         )
+    return result
 # =============================================================================
 # FEATURE 5: INDIA ENERGY SUPPLY RISK INTELLIGENCE API ROUTES
 # =============================================================================
@@ -396,6 +397,7 @@ def predict_india_energy_risk(req: IndiaEnergyRiskPredictRequest):
             status_code=503 if "unavailable" in result.get("error", "") else 400,
             detail=result.get("error", "Energy supply risk prediction failed.")
         )
+    return result
 # =============================================================================
 # FEATURE 6: INDIA OIL & COMMODITY SHOCK INTELLIGENCE API ROUTES
 # =============================================================================
@@ -477,6 +479,7 @@ def predict_commodity_shock(req: CommodityShockPredictRequest):
             status_code=503 if "unavailable" in result.get("error", "") else 400,
             detail=result.get("error", "Commodity shock prediction failed.")
         )
+    return result
 # =============================================================================
 # FEATURE 7: INDIA TRADE DEPENDENCY & COUNTRY RISK INTELLIGENCE API ROUTES
 # =============================================================================
@@ -552,6 +555,7 @@ def predict_trade_dependency(req: TradeDependencyPredictRequest):
             status_code=503 if "unavailable" in result.get("error", "") else 400,
             detail=result.get("error", "Trade risk cluster assignment failed.")
         )
+    return result
 # =============================================================================
 # FEATURE 8: INDIA SUPPLY-ROUTE DISRUPTION INTELLIGENCE API ROUTES
 # =============================================================================

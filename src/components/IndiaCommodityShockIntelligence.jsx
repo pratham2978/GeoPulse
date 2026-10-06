@@ -192,8 +192,9 @@ export default function IndiaCommodityShockIntelligence() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
         });
-        if (!res.ok) throw new Error((await res.json()).detail || 'Prediction failed');
-        setResult(await res.json());
+        const data = await res.json();
+        if (!res.ok) throw new Error(data?.detail || 'Prediction failed');
+        setResult(data);
       } else {
         // Fallback calculation using pre-computed MLR equation
         await new Promise(r => setTimeout(r, 200));

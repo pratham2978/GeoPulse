@@ -133,8 +133,9 @@ export default function IndiaSupplyRouteDisruption() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(inputs),
         });
-        if (!res.ok) throw new Error((await res.json()).detail || 'Prediction failed');
-        setResult(await res.json());
+        const data = await res.json();
+        if (!res.ok) throw new Error(data?.detail || 'Prediction failed');
+        setResult(data);
       } else {
         // Deterministic client fallback simulation
         await new Promise(r => setTimeout(r, 160));

@@ -126,8 +126,9 @@ export default function IndiaTradeDependencyRisk() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(inputs),
         });
-        if (!res.ok) throw new Error((await res.json()).detail || 'Clustering failed');
-        setResult(await res.json());
+        const data = await res.json();
+        if (!res.ok) throw new Error(data?.detail || 'Clustering failed');
+        setResult(data);
       } else {
         // Fallback calculation using centroid distances
         await new Promise(r => setTimeout(r, 200));
