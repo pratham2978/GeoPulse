@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import GlobalEventIntelligence from './components/GlobalEventIntelligence';
-import NewsNarrativeIntelligence from './components/NewsNarrativeIntelligence';
-import SentimentIntelligence from './components/SentimentIntelligence';
 import IndiaEconomicImpact from './components/IndiaEconomicImpact';
 import IndiaEnergyRiskIntelligence from './components/IndiaEnergyRiskIntelligence';
-import IndiaCommodityShockIntelligence from './components/IndiaCommodityShockIntelligence';
 import IndiaTradeDependencyRisk from './components/IndiaTradeDependencyRisk';
-import IndiaSupplyRouteDisruption from './components/IndiaSupplyRouteDisruption';
+import GeopoliticalShockFingerprint from './components/GeopoliticalShockFingerprint';
 import {
   Menu,
   X,
@@ -24,7 +20,8 @@ import {
   ExternalLink,
   ChevronRight,
   Droplet,
-  Ship
+  Ship,
+  Fingerprint
 } from 'lucide-react';
 
 // Brand icons styled in the Feather/Lucide design language
@@ -74,16 +71,11 @@ const Instagram = ({ className = "w-4 h-4" }) => (
 
 const navLinks = [
   { name: 'Home', href: '#home' },
-  { name: 'Global Events', href: '#events' },
-  { name: 'News Intelligence', href: '#news-intelligence' },
-  { name: 'Sentiment Analysis', href: '#sentiment-intelligence' },
-  { name: 'India Impact 🇮🇳', href: '#india-impact' },
-  { name: 'Energy Risk ⚡', href: '#india-energy-risk' },
-  { name: 'Commodity Shock 🛢️', href: '#commodity-shock' },
-  { name: 'Trade Risk 🌐', href: '#trade-dependency' },
-  { name: 'Supply Routes 🚢', href: '#supply-route' },
-  { name: 'Risk Analysis', href: '#risk' },
-  { name: 'AI Intelligence', href: '#flow' },
+  { name: 'India Impact (F4) 🇮🇳', href: '#india-impact' },
+  { name: 'Energy Risk (F5) ⚡', href: '#india-energy-risk' },
+  { name: 'Trade Risk (F7) 🌐', href: '#trade-dependency' },
+  { name: 'Shock Fingerprint (F9) 🧬', href: '#shock-fingerprint' },
+  { name: 'Intelligence Flow', href: '#flow' },
 ];
 
 const footerColumns = [
@@ -645,102 +637,89 @@ export default function App() {
             </div>
 
             {/* 4 Feature Cards */}
+            {/* 4 Feature Overview Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-              {/* Card 1: EVENT INTELLIGENCE */}
-              <div className="glass-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between text-left transition-all duration-300 hover:-translate-y-1">
-                <div>
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500/20 to-orange-500/10 border border-red-500/30 flex items-center justify-center text-red-400 mb-5">
-                    <ShieldAlert className="w-6 h-6" />
-                  </div>
-                  <h3 className="text-white text-base sm:text-lg font-bold tracking-wider mb-2">
-                    EVENT INTELLIGENCE
-                  </h3>
-                  <p className="text-white/65 text-xs sm:text-sm font-light leading-relaxed">
-                    Track major global conflicts and geopolitical events in real time with multi-source verification and severity ranking.
-                  </p>
-                </div>
-                <div className="pt-6 mt-6 border-t border-white/10 flex items-center justify-between text-[11px] text-white/50 font-mono">
-                  <span>LIVE CLUSTERS</span>
-                  <span className="text-red-400 font-bold">14 Active Zones</span>
-                </div>
-              </div>
-
-              {/* Card 2: ECONOMIC IMPACT */}
+              {/* Card 1: FEATURE 4 */}
               <div className="glass-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between text-left transition-all duration-300 hover:-translate-y-1">
                 <div>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-cyan-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-5">
                     <TrendingUp className="w-6 h-6" />
                   </div>
+                  <div className="text-[10px] font-mono text-emerald-400 uppercase tracking-widest mb-1">FEATURE 4</div>
                   <h3 className="text-white text-base sm:text-lg font-bold tracking-wider mb-2">
-                    ECONOMIC IMPACT
+                    INDIA ECONOMIC IMPACT
                   </h3>
                   <p className="text-white/65 text-xs sm:text-sm font-light leading-relaxed">
-                    Understand how events influence commodities, markets, and regional economies through quantitative correlation models.
+                    Multiple Linear Regression quantifying how crude price spikes, commodity volatility, and shipping delays shock Indian macro stability.
                   </p>
                 </div>
                 <div className="pt-6 mt-6 border-t border-white/10 flex items-center justify-between text-[11px] text-white/50 font-mono">
-                  <span>MARKET SENSITIVITY</span>
-                  <span className="text-emerald-400 font-bold">98.4% Confidence</span>
+                  <span>ML REGRESSION</span>
+                  <span className="text-emerald-400 font-bold">R² = 0.891</span>
                 </div>
               </div>
 
-              {/* Card 3: TRADE & ENERGY RISK */}
+              {/* Card 2: FEATURE 5 */}
+              <div className="glass-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between text-left transition-all duration-300 hover:-translate-y-1">
+                <div>
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/20 to-orange-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-5">
+                    <Zap className="w-6 h-6" />
+                  </div>
+                  <div className="text-[10px] font-mono text-amber-400 uppercase tracking-widest mb-1">FEATURE 5</div>
+                  <h3 className="text-white text-base sm:text-lg font-bold tracking-wider mb-2">
+                    ENERGY SUPPLY RISK
+                  </h3>
+                  <p className="text-white/65 text-xs sm:text-sm font-light leading-relaxed">
+                    Supervised multi-class classification predicting Low, Moderate, High, or Critical risk across Indian crude import corridors and chokepoints.
+                  </p>
+                </div>
+                <div className="pt-6 mt-6 border-t border-white/10 flex items-center justify-between text-[11px] text-white/50 font-mono">
+                  <span>CHAMPION CLASSIFIER</span>
+                  <span className="text-amber-400 font-bold">98.4% Accuracy</span>
+                </div>
+              </div>
+
+              {/* Card 3: FEATURE 7 */}
               <div className="glass-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between text-left transition-all duration-300 hover:-translate-y-1">
                 <div>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-5">
-                    <Radio className="w-6 h-6" />
+                    <Globe className="w-6 h-6" />
                   </div>
+                  <div className="text-[10px] font-mono text-cyan-400 uppercase tracking-widest mb-1">FEATURE 7</div>
                   <h3 className="text-white text-base sm:text-lg font-bold tracking-wider mb-2">
-                    TRADE & ENERGY RISK
+                    TRADE DEPENDENCY RISK
                   </h3>
                   <p className="text-white/65 text-xs sm:text-sm font-light leading-relaxed">
-                    Visualize potential disruptions to shipping routes, trade, and energy supply across major maritime corridors and pipelines.
+                    Unsupervised K-Means clustering (k=4) grouping 26 partner nations into exposure tiers based on bilateral volumes and route friction.
                   </p>
                 </div>
                 <div className="pt-6 mt-6 border-t border-white/10 flex items-center justify-between text-[11px] text-white/50 font-mono">
-                  <span>AIS CHOKEPOINTS</span>
-                  <span className="text-cyan-400 font-bold">8 Critical Passages</span>
+                  <span>K-MEANS CLUSTERING</span>
+                  <span className="text-cyan-400 font-bold">k = 4 Clusters</span>
                 </div>
               </div>
 
-              {/* Card 4: NARRATIVE VS REALITY */}
+              {/* Card 4: FEATURE 9 */}
               <div className="glass-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between text-left transition-all duration-300 hover:-translate-y-1">
                 <div>
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 mb-5">
-                    <Activity className="w-6 h-6" />
+                    <Fingerprint className="w-6 h-6" />
                   </div>
+                  <div className="text-[10px] font-mono text-purple-400 uppercase tracking-widest mb-1">FEATURE 9</div>
                   <h3 className="text-white text-base sm:text-lg font-bold tracking-wider mb-2">
-                    NARRATIVE VS REALITY
+                    SHOCK FINGERPRINTING
                   </h3>
                   <p className="text-white/65 text-xs sm:text-sm font-light leading-relaxed">
-                    Compare public narratives with measurable economic and geopolitical signals to detect perception anomalies and misinformation.
+                    PCA dimensionality reduction (87.6% variance) and crisis clustering to fingerprint active conflicts against 50 years of historical crisis analogues.
                   </p>
                 </div>
                 <div className="pt-6 mt-6 border-t border-white/10 flex items-center justify-between text-[11px] text-white/50 font-mono">
-                  <span>DIVERGENCE INDEX</span>
-                  <span className="text-purple-400 font-bold">3.2σ Anomaly</span>
+                  <span>PCA + K-MEANS</span>
+                  <span className="text-purple-400 font-bold">87.6% Var</span>
                 </div>
               </div>
 
-            </div>
-
-            {/* Operational Feature 1: Global Event & Conflict Intelligence Engine */}
-            <div className="mt-20 pt-16 border-t border-white/10">
-              <GlobalEventIntelligence />
-            </div>
-
-            {/* Operational Feature 2: News & Narrative Classification Engine (Syllabus ML) */}
-            <div id="news-intelligence" className="mt-20 pt-16 border-t border-white/10">
-              <NewsNarrativeIntelligence onNavigateToEvents={() => {
-                const el = document.getElementById('events');
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
-              }} />
-            </div>
-
-            {/* Operational Feature 3: News Sentiment Analysis Engine (Supervised ML) */}
-            <div id="sentiment-intelligence" className="mt-20 pt-16 border-t border-white/10">
-              <SentimentIntelligence />
             </div>
 
             {/* Operational Feature 4: India Economic Impact Intelligence (Supervised Regression ML) */}
@@ -753,19 +732,14 @@ export default function App() {
               <IndiaEnergyRiskIntelligence />
             </div>
 
-            {/* Operational Feature 6: India Oil & Commodity Shock Intelligence (Multiple Linear Regression) */}
-            <div id="commodity-shock" className="mt-20 pt-16 border-t border-white/10">
-              <IndiaCommodityShockIntelligence />
-            </div>
-
             {/* Operational Feature 7: India Trade Dependency & Country Risk (K-Means Clustering) */}
             <div id="trade-dependency" className="mt-20 pt-16 border-t border-white/10">
               <IndiaTradeDependencyRisk />
             </div>
 
-            {/* Operational Feature 8: India Supply-Route Disruption Intelligence (Supervised Multi-Class ML) */}
-            <div id="supply-route" className="mt-20 pt-16 border-t border-white/10">
-              <IndiaSupplyRouteDisruption />
+            {/* Operational Feature 9: Geopolitical Shock Fingerprinting (PCA + K-Means) */}
+            <div id="shock-fingerprint" className="mt-20 pt-16 border-t border-white/10">
+              <GeopoliticalShockFingerprint />
             </div>
           </div>
         </section>
