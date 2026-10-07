@@ -1,23 +1,21 @@
 {
-  "total_records": 750,
-  "cleaned_records": 750,
-  "training_records": 600,
-  "testing_records": 150,
-  "countries_count": 30,
-  "date_range_start": "2015-01-21",
-  "date_range_end": "2025-06-08",
+  "total_records": 20000,
+  "cleaned_records": 20000,
+  "training_records": 16000,
+  "testing_records": 4000,
+  "countries_count": 10,
+  "date_range_start": "2022-01-01",
+  "date_range_end": "2026-08-17",
   "target_variable": "energy_risk",
   "classes": [
-    "Critical",
     "High",
     "Low",
-    "Moderate"
+    "Medium"
   ],
   "class_distribution": {
-    "Moderate": 327,
-    "High": 207,
-    "Low": 157,
-    "Critical": 59
+    "Medium": 8775,
+    "Low": 8449,
+    "High": 2776
   },
   "features": [
     "oil_import_dependency",
@@ -28,7 +26,7 @@
     "strategic_route_exposure",
     "commodity_price_change"
   ],
-  "best_model_name": "Logistic Regression",
-  "best_model_f1": 91.4,
-  "best_model_cv_f1": 87.0
+  "best_model_name": "Random Forest",
+  "best_model_f1": 40.11,
+  "best_model_cv_f1": 40.35
 }

@@ -5,14 +5,14 @@
       "features": [
         "oil_price_change"
       ],
-      "mae": 3.0842,
-      "rmse": 3.9167,
-      "r2": -0.0216,
-      "train_r2": 0.2097,
-      "cv_r2_mean": 0.1494,
-      "cv_r2_std": 0.089,
-      "intercept": 14.993382,
-      "gap": 0.2313
+      "mae": 2.3815,
+      "rmse": 2.9771,
+      "r2": 0.0023,
+      "train_r2": 0.0052,
+      "cv_r2_mean": 0.0036,
+      "cv_r2_std": 0.002,
+      "intercept": 14.811166,
+      "gap": 0.0029
     },
     {
       "model": "Multiple Linear Regression",
@@ -25,45 +25,45 @@
         "india_energy_exposure",
         "market_volatility"
       ],
-      "mae": 1.3586,
-      "rmse": 1.6719,
-      "r2": 0.8138,
-      "train_r2": 0.8723,
-      "cv_r2_mean": 0.8538,
-      "cv_r2_std": 0.03,
-      "intercept": 0.741962,
-      "gap": 0.0585
+      "mae": 1.5888,
+      "rmse": 2.0228,
+      "r2": 0.5394,
+      "train_r2": 0.5465,
+      "cv_r2_mean": 0.5443,
+      "cv_r2_std": 0.0108,
+      "intercept": 3.558208,
+      "gap": 0.0071
     }
   ],
   "best_model": "Multiple Linear Regression",
   "coefficients": [
     {
-      "feature": "market_volatility",
-      "coefficient": 0.711426
-    },
-    {
-      "feature": "oil_price_change",
-      "coefficient": 0.189543
-    },
-    {
-      "feature": "india_energy_exposure",
-      "coefficient": 0.157675
-    },
-    {
       "feature": "trade_disruption",
-      "coefficient": 0.153882
+      "coefficient": 1.394366
     },
     {
-      "feature": "commodity_price_change",
-      "coefficient": 0.1355
-    },
-    {
-      "feature": "india_trade_exposure",
-      "coefficient": 0.117121
+      "feature": "market_volatility",
+      "coefficient": 0.395029
     },
     {
       "feature": "shipping_disruption",
-      "coefficient": 0.086866
+      "coefficient": 0.31696
+    },
+    {
+      "feature": "oil_price_change",
+      "coefficient": 0.146838
+    },
+    {
+      "feature": "commodity_price_change",
+      "coefficient": -0.118956
+    },
+    {
+      "feature": "india_energy_exposure",
+      "coefficient": -0.007388
+    },
+    {
+      "feature": "india_trade_exposure",
+      "coefficient": -0.000229
     }
   ]
 }

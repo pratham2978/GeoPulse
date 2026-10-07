@@ -1,6 +1,6 @@
 {
   "dataset_name": "feature9_geopolitical_shock_fingerprints.csv",
-  "total_conflicts": 22,
+  "total_conflicts": 38,
   "shock_features": [
     "energy_shock",
     "trade_disruption",
@@ -15,8 +15,8 @@
     "oil_price_change"
   ],
   "selected_k": 2,
-  "silhouette_score": 0.3699,
-  "pc1_variance": 73.27,
-  "pc2_variance": 14.3,
-  "total_pca_variance": 87.56
+  "silhouette_score": 0.7294,
+  "pc1_variance": 87.35,
+  "pc2_variance": 6.8,
+  "total_pca_variance": 94.15
 }

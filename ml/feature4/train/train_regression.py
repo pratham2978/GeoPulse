@@ -237,22 +237,21 @@ def run():
         "best_model": "Multiple Linear Regression",
         "coefficients": coefs
     }
-    with open(os.path.join(MODELS_OUT, "india_impact_comparison.json"), "w") as f:
+    # Also save directly to src/data for frontend
+    SRC_DATA = os.path.join(PROJECT_ROOT, "src", "data")
+    os.makedirs(SRC_DATA, exist_ok=True)
+    with open(os.path.join(SRC_DATA, "india_impact_summary.json"), "w") as f:
+        json.dump(summary, f, indent=2)
+    with open(os.path.join(SRC_DATA, "india_impact_comparison.json"), "w") as f:
         json.dump(comparison, f, indent=2)
-
-    # actual_vs_predicted
-    with open(os.path.join(MODELS_OUT, "india_impact_actual_vs_pred.json"), "w") as f:
+    with open(os.path.join(SRC_DATA, "india_impact_actual_vs_pred.json"), "w") as f:
         json.dump(actual_vs_pred, f, indent=2)
-
-    # country analysis
-    with open(os.path.join(MODELS_OUT, "india_impact_country_analysis.json"), "w") as f:
+    with open(os.path.join(SRC_DATA, "india_impact_country_analysis.json"), "w") as f:
         json.dump(country_rows, f, indent=2)
-
-    # sample events
-    with open(os.path.join(MODELS_OUT, "india_impact_samples.json"), "w") as f:
+    with open(os.path.join(SRC_DATA, "india_impact_samples.json"), "w") as f:
         json.dump(sample_rows, f, indent=2)
 
-    print(f"\n[8] Artifacts saved to {MODELS_OUT}/")
+    print(f"\n[8] Artifacts saved to {MODELS_OUT}/ and {SRC_DATA}/")
 
     # ── 15. Save Model ────────────────────────────────────────────────────────
     model_path = os.path.join(MODELS_OUT, "feature4_india_economic_impact_model.joblib")

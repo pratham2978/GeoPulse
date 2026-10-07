@@ -170,9 +170,10 @@ def run_pipeline():
         reverse=True
     )
 
-    # 2D Scatter Data: India Import Dep vs India Export Dep
+    # 2D Scatter Data: Representative Sample for fast browser rendering
+    scatter_sample = df.sample(min(800, len(df)), random_state=RANDOM_STATE)
     scatter_points = []
-    for _, row in df.iterrows():
+    for _, row in scatter_sample.iterrows():
         scatter_points.append({
             "country": row["country"],
             "import_dep": round(float(row["india_import_dependency"]), 1),

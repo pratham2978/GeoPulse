@@ -103,21 +103,30 @@ def run_pipeline():
         "SVM": Pipeline([
             ("imputer", SimpleImputer(strategy="median")),
             ("scale", StandardScaler()),
-            ("model", SVC(kernel="linear", probability=True, random_state=RANDOM_STATE))
+            ("model", SVC(kernel="linear", probability=True, max_iter=1500, random_state=RANDOM_STATE))
         ])
     }
 
-    # Stratified 5-Fold Cross Validation
-    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_STATE)
+    # Stratified 3-Fold Cross Validation on 3000 sample for speed
+    cv = StratifiedKFold(n_splits=3, shuffle=True, random_state=RANDOM_STATE)
+    cv_idx, _ = train_test_split(np.arange(len(X_train)), train_size=min(3000, len(X_train)), stratify=y_train, random_state=RANDOM_STATE)
+    X_cv_sample, y_cv_sample = X_train.iloc[cv_idx], y_train.iloc[cv_idx]
+    
+    tune_idx, _ = train_test_split(np.arange(len(X_train)), train_size=min(2500, len(X_train)), stratify=y_train, random_state=RANDOM_STATE)
+    X_tune, y_tune = X_train.iloc[tune_idx], y_train.iloc[tune_idx]
 
     # Baseline training and evaluation
     baseline_results = []
     trained_baseline = {}
     for name, m in models.items():
-        m.fit(X_train, y_train)
+        print(f"Training baseline: {name}...")
+        if name == "SVM":
+            m.fit(X_tune, y_tune)
+        else:
+            m.fit(X_train, y_train)
         pred = m.predict(X_test)
         trained_baseline[name] = m
-        cv_scores = cross_val_score(m, X_train, y_train, cv=cv, scoring="f1_weighted", n_jobs=-1)
+        cv_scores = cross_val_score(m, X_cv_sample, y_cv_sample, cv=cv, scoring="f1_weighted", n_jobs=1)
         baseline_results.append({
             "model": name,
             "accuracy": float(accuracy_score(y_test, pred)),
@@ -131,18 +140,24 @@ def run_pipeline():
     # Hyperparameter Tuning via GridSearchCV
     grids = {
         "Logistic Regression": {"model__C": [0.1, 1.0, 10.0]},
-        "k-NN": {"model__n_neighbors": [3, 5, 7, 9]},
-        "Decision Tree": {"model__max_depth": [5, 10, 15, None]},
-        "Random Forest": {"model__n_estimators": [100, 150], "model__max_depth": [8, 12, None]},
-        "SVM": {"model__C": [0.1, 1.0, 10.0]}
+        "k-NN": {"model__n_neighbors": [3, 5, 7]},
+        "Decision Tree": {"model__max_depth": [5, 10, None]},
+        "Random Forest": {"model__n_estimators": [80], "model__max_depth": [10, None]},
+        "SVM": {"model__C": [1.0]}
     }
 
     tuned_models = {}
     best_params = {}
     for name, g in grids.items():
-        search = GridSearchCV(models[name], g, cv=cv, scoring="f1_weighted", n_jobs=-1)
-        search.fit(X_train, y_train)
-        tuned_models[name] = search.best_estimator_
+        print(f"Tuning {name}...")
+        search = GridSearchCV(models[name], g, cv=cv, scoring="f1_weighted", n_jobs=1)
+        search.fit(X_tune, y_tune)
+        best_est = search.best_estimator_
+        if name == "SVM":
+            best_est.fit(X_tune, y_tune)
+        else:
+            best_est.fit(X_train, y_train)
+        tuned_models[name] = best_est
         best_params[name] = search.best_params_
         print(f"Tuned {name}: best_score={search.best_score_:.4f}, params={search.best_params_}")
 
@@ -165,7 +180,7 @@ def run_pipeline():
         f1_train = float(f1_score(y_train, pred_train, average="weighted", zero_division=0))
         gap = float(f1_train - f1_test)
 
-        cv_s = cross_val_score(m, X_train, y_train, cv=cv, scoring="f1_weighted", n_jobs=-1)
+        cv_s = cross_val_score(m, X_cv_sample, y_cv_sample, cv=cv, scoring="f1_weighted", n_jobs=1)
 
         # ROC AUC
         roc_auc = None
@@ -226,7 +241,7 @@ def run_pipeline():
     # Serialize best model
     os.makedirs("models", exist_ok=True)
     model_save_path = "models/feature5_india_energy_risk_model.joblib"
-    joblib.dump(best_model, model_save_path)
+    joblib.dump(best_model, model_save_path, compress=3)
     print(f"Saved best model to {model_save_path}")
 
     # Country Risk Analysis

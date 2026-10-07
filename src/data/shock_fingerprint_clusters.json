@@ -1,39 +1,37 @@
 [
   {
     "cluster_id": 0,
-    "name": "Maritime Chokepoint & Supply-Chain Crises",
-    "tag": "Maritime & Freight Stress",
-    "description": "Severe transit lane blockage, surging container freight costs, and trade flow friction with moderate macroeconomic contraction.",
-    "color": "#06b6d4",
-    "badgeBg": "bg-cyan-500/20 text-cyan-400 border-cyan-500/40",
-    "record_count": 9,
+    "name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "tag": "Financial & Trade Contagion",
+    "description": "Cross-border war combined with acute credit/liquidity contraction, market crashes, and broad industrial commodity surges.",
+    "color": "#a855f7",
+    "badgeBg": "bg-purple-500/20 text-purple-400 border-purple-500/40",
+    "record_count": 7,
     "center_pca": [
-      1.8975,
-      0.0802
+      4.0645,
+      0.0966
     ],
     "shock_means": {
-      "energy_shock": 78.78,
-      "trade_disruption": 75.11,
-      "shipping_disruption": 76.78,
-      "commodity_shock": 71.78,
-      "financial_stress": 74.56
+      "energy_shock": 87.71,
+      "trade_disruption": 66.29,
+      "shipping_disruption": 71.43,
+      "commodity_shock": 74.29,
+      "financial_stress": 76.29
     },
     "impact_means": {
-      "inflation_change": 4.26,
-      "gdp_growth_change": -2.0,
-      "trade_growth_change": -4.88,
-      "oil_price_change": 69.78
+      "inflation_change": 4.16,
+      "gdp_growth_change": -2.11,
+      "trade_growth_change": -4.79,
+      "oil_price_change": 81.0
     },
     "conflicts": [
-      "1973 Yom Kippur / Arab Oil Embargo",
-      "1979 Iranian Revolution & Second Oil Shock",
+      "1973 Yom Kippur War & Arab Oil Embargo",
+      "1979 Iranian Revolution & Oil Shock",
       "1980 Iran-Iraq Tanker War",
       "1990 Gulf War (Kuwait Invasion)",
-      "2008 Russo-Georgian War & Global Liquidity Shock",
-      "2021 Suez Canal Ever Given Crisis",
-      "2022 Russia-Ukraine War (Full-Scale Invasion)",
-      "2023 Israel-Gaza War",
-      "2024 Red Sea Chokepoint & Houthi Maritime Crisis"
+      "2008 Global Financial Crisis & Oil Peak",
+      "2011 Arab Spring & Libyan Civil War",
+      "2019 Abqaiq-Khurais Drone Attacks"
     ]
   },
   {
@@ -43,38 +41,56 @@
     "description": "Geographically focused military operations with contained contagion to global maritime routes and global energy balances.",
     "color": "#10b981",
     "badgeBg": "bg-emerald-500/20 text-emerald-400 border-emerald-500/40",
-    "record_count": 13,
+    "record_count": 31,
     "center_pca": [
-      -1.3137,
-      -0.0555
+      -0.9178,
+      -0.0218
     ],
     "shock_means": {
-      "energy_shock": 52.77,
-      "trade_disruption": 46.85,
-      "shipping_disruption": 51.54,
-      "commodity_shock": 43.0,
-      "financial_stress": 53.85
+      "energy_shock": 46.44,
+      "trade_disruption": 46.02,
+      "shipping_disruption": 42.26,
+      "commodity_shock": 38.63,
+      "financial_stress": 42.02
     },
     "impact_means": {
-      "inflation_change": 1.45,
-      "gdp_growth_change": -0.47,
-      "trade_growth_change": -1.29,
-      "oil_price_change": 7.31
+      "inflation_change": 3.02,
+      "gdp_growth_change": -0.76,
+      "trade_growth_change": -0.04,
+      "oil_price_change": 1.02
     },
     "conflicts": [
-      "1999 Kargil Conflict",
-      "2001 Post-9/11 War on Terror & Afghanistan",
-      "2003 Iraq War (Operation Iraqi Freedom)",
-      "2006 Lebanon War",
-      "2011 Libyan Civil War & Arab Spring",
-      "2014 Crimean Annexation & Donbas Conflict",
-      "2019 Abqaiq-Khurais Drone Attacks (Saudi Aramco)",
-      "2020 Nagorno-Karabakh War",
-      "1994 Yemeni Civil War",
-      "1998 Operation Desert Fox (Iraq Bombing)",
-      "2015 Yemen Conflict & Bab el-Mandeb Alert",
-      "1987 Operation Nimble Archer (Gulf Escort)",
-      "2000 USS Cole Attack & Aden Threat"
+      "2003 US-Iraq War Outbreak",
+      "China: 2022-2024 High Geopolitical Shock Episode (Malacca Strait & Industrial Import Flow)",
+      "China: 2023-2025 Elevated Supply-Chain Disruption (Malacca Strait & Industrial Import Flow)",
+      "China: 2022-2026 Baseline Stability Window (Malacca Strait & Industrial Import Flow)",
+      "Germany: 2022-2024 High Geopolitical Shock Episode (European Gas Infrastructure & Industrial Trade)",
+      "Germany: 2023-2025 Elevated Supply-Chain Disruption (European Gas Infrastructure & Industrial Trade)",
+      "Germany: 2022-2026 Baseline Stability Window (European Gas Infrastructure & Industrial Trade)",
+      "India: 2022-2024 High Geopolitical Shock Episode (Indian Ocean Import Route & Energy Exposure)",
+      "India: 2023-2025 Elevated Supply-Chain Disruption (Indian Ocean Import Route & Energy Exposure)",
+      "India: 2022-2026 Baseline Stability Window (Indian Ocean Import Route & Energy Exposure)",
+      "Iraq: 2022-2024 High Geopolitical Shock Episode (Basra Crude Terminal & Regional Pipeline Friction)",
+      "Iraq: 2023-2025 Elevated Supply-Chain Disruption (Basra Crude Terminal & Regional Pipeline Friction)",
+      "Iraq: 2022-2026 Baseline Stability Window (Basra Crude Terminal & Regional Pipeline Friction)",
+      "Japan: 2022-2024 High Geopolitical Shock Episode (Pacific LNG & Crude Maritime Lifeline)",
+      "Japan: 2023-2025 Elevated Supply-Chain Disruption (Pacific LNG & Crude Maritime Lifeline)",
+      "Japan: 2022-2026 Baseline Stability Window (Pacific LNG & Crude Maritime Lifeline)",
+      "Saudi Arabia: 2022-2024 High Geopolitical Shock Episode (OPEC Production Swing & Persian Gulf Security)",
+      "Saudi Arabia: 2023-2025 Elevated Supply-Chain Disruption (OPEC Production Swing & Persian Gulf Security)",
+      "Saudi Arabia: 2022-2026 Baseline Stability Window (OPEC Production Swing & Persian Gulf Security)",
+      "UAE: 2022-2024 High Geopolitical Shock Episode (Strait of Hormuz Logistics & Maritime Security)",
+      "UAE: 2023-2025 Elevated Supply-Chain Disruption (Strait of Hormuz Logistics & Maritime Security)",
+      "UAE: 2022-2026 Baseline Stability Window (Strait of Hormuz Logistics & Maritime Security)",
+      "USA: 2022-2024 High Geopolitical Shock Episode (Strategic Reserve & Domestic Energy Market)",
+      "USA: 2023-2025 Elevated Supply-Chain Disruption (Strategic Reserve & Domestic Energy Market)",
+      "USA: 2022-2026 Baseline Stability Window (Strategic Reserve & Domestic Energy Market)",
+      "UK: 2022-2024 High Geopolitical Shock Episode (North Sea Energy & Freight Cost Surge)",
+      "UK: 2023-2025 Elevated Supply-Chain Disruption (North Sea Energy & Freight Cost Surge)",
+      "UK: 2022-2026 Baseline Stability Window (North Sea Energy & Freight Cost Surge)",
+      "South Korea: 2022-2024 High Geopolitical Shock Episode (East Asian Semiconductor & Crude Exposure)",
+      "South Korea: 2023-2025 Elevated Supply-Chain Disruption (East Asian Semiconductor & Crude Exposure)",
+      "South Korea: 2022-2026 Baseline Stability Window (East Asian Semiconductor & Crude Exposure)"
     ]
   }
 ]

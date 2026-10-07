@@ -1,18 +1,18 @@
 [
   {
-    "conflict": "1973 Yom Kippur / Arab Oil Embargo",
+    "conflict": "1973 Yom Kippur War & Arab Oil Embargo",
     "period": "1973-1974",
     "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 2.4152,
-    "pc2": -0.7424,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 5.2406,
+    "pc2": 0.1307,
     "shocks": {
-      "energy_shock": 96.0,
-      "trade_disruption": 68.0,
-      "shipping_disruption": 72.0,
-      "commodity_shock": 78.0,
-      "financial_stress": 84.0
+      "energy_shock": 98.0,
+      "trade_disruption": 72.0,
+      "shipping_disruption": 76.0,
+      "commodity_shock": 82.0,
+      "financial_stress": 86.0
     },
     "impacts": {
       "inflation_change": 8.4,
@@ -22,19 +22,19 @@
     }
   },
   {
-    "conflict": "1979 Iranian Revolution & Second Oil Shock",
+    "conflict": "1979 Iranian Revolution & Oil Shock",
     "period": "1979-1980",
     "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 1.6636,
-    "pc2": -1.162,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 3.983,
+    "pc2": 0.589,
     "shocks": {
-      "energy_shock": 92.0,
-      "trade_disruption": 62.0,
-      "shipping_disruption": 58.0,
-      "commodity_shock": 74.0,
-      "financial_stress": 80.0
+      "energy_shock": 94.0,
+      "trade_disruption": 64.0,
+      "shipping_disruption": 60.0,
+      "commodity_shock": 78.0,
+      "financial_stress": 82.0
     },
     "impacts": {
       "inflation_change": 6.8,
@@ -47,16 +47,16 @@
     "conflict": "1980 Iran-Iraq Tanker War",
     "period": "1980-1988",
     "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 1.5359,
-    "pc2": 0.8592,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 4.1747,
+    "pc2": -0.1745,
     "shocks": {
-      "energy_shock": 86.0,
+      "energy_shock": 88.0,
       "trade_disruption": 70.0,
-      "shipping_disruption": 88.0,
-      "commodity_shock": 60.0,
-      "financial_stress": 65.0
+      "shipping_disruption": 86.0,
+      "commodity_shock": 64.0,
+      "financial_stress": 68.0
     },
     "impacts": {
       "inflation_change": 4.2,
@@ -69,418 +69,770 @@
     "conflict": "1990 Gulf War (Kuwait Invasion)",
     "period": "1990-1991",
     "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 1.9349,
-    "pc2": 0.3476,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 4.6177,
+    "pc2": -0.2816,
     "shocks": {
-      "energy_shock": 88.0,
-      "trade_disruption": 74.0,
-      "shipping_disruption": 82.0,
-      "commodity_shock": 66.0,
-      "financial_stress": 72.0
-    },
-    "impacts": {
-      "inflation_change": 3.6,
-      "gdp_growth_change": -1.8,
-      "trade_growth_change": -3.2,
-      "oil_price_change": 94.0
-    }
-  },
-  {
-    "conflict": "1999 Kargil Conflict",
-    "period": "1999",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -3.4102,
-    "pc2": -0.7935,
-    "shocks": {
-      "energy_shock": 28.0,
-      "trade_disruption": 35.0,
-      "shipping_disruption": 22.0,
-      "commodity_shock": 25.0,
-      "financial_stress": 48.0
-    },
-    "impacts": {
-      "inflation_change": 1.2,
-      "gdp_growth_change": -0.4,
-      "trade_growth_change": -1.1,
-      "oil_price_change": 14.0
-    }
-  },
-  {
-    "conflict": "2001 Post-9/11 War on Terror & Afghanistan",
-    "period": "2001-2002",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -0.8293,
-    "pc2": -0.8111,
-    "shocks": {
-      "energy_shock": 42.0,
-      "trade_disruption": 55.0,
-      "shipping_disruption": 48.0,
-      "commodity_shock": 38.0,
+      "energy_shock": 90.0,
+      "trade_disruption": 76.0,
+      "shipping_disruption": 74.0,
+      "commodity_shock": 72.0,
       "financial_stress": 78.0
     },
     "impacts": {
-      "inflation_change": 1.4,
-      "gdp_growth_change": -1.2,
-      "trade_growth_change": -2.8,
-      "oil_price_change": -12.0
+      "inflation_change": 3.8,
+      "gdp_growth_change": -1.8,
+      "trade_growth_change": -4.2,
+      "oil_price_change": 93.0
     }
   },
   {
-    "conflict": "2003 Iraq War (Operation Iraqi Freedom)",
+    "conflict": "2003 US-Iraq War Outbreak",
     "period": "2003",
     "cluster": 1,
     "cluster_name": "Localized Conventional Warfare",
     "cluster_color": "#10b981",
-    "pc1": 0.1832,
-    "pc2": 0.029,
+    "pc1": 1.3041,
+    "pc2": 0.4457,
     "shocks": {
-      "energy_shock": 72.0,
-      "trade_disruption": 58.0,
-      "shipping_disruption": 64.0,
-      "commodity_shock": 54.0,
+      "energy_shock": 68.0,
+      "trade_disruption": 48.0,
+      "shipping_disruption": 55.0,
+      "commodity_shock": 58.0,
       "financial_stress": 62.0
     },
     "impacts": {
-      "inflation_change": 2.1,
+      "inflation_change": 1.4,
       "gdp_growth_change": -0.6,
-      "trade_growth_change": -1.5,
+      "trade_growth_change": -1.8,
       "oil_price_change": 32.0
     }
   },
   {
-    "conflict": "2006 Lebanon War",
-    "period": "2006",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -1.0083,
-    "pc2": 0.5369,
-    "shocks": {
-      "energy_shock": 58.0,
-      "trade_disruption": 42.0,
-      "shipping_disruption": 68.0,
-      "commodity_shock": 45.0,
-      "financial_stress": 52.0
-    },
-    "impacts": {
-      "inflation_change": 1.5,
-      "gdp_growth_change": -0.3,
-      "trade_growth_change": -0.9,
-      "oil_price_change": 18.0
-    }
-  },
-  {
-    "conflict": "2008 Russo-Georgian War & Global Liquidity Shock",
+    "conflict": "2008 Global Financial Crisis & Oil Peak",
     "period": "2008-2009",
     "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 1.9458,
-    "pc2": -1.6832,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 6.4352,
+    "pc2": -1.4027,
     "shocks": {
-      "energy_shock": 64.0,
-      "trade_disruption": 76.0,
-      "shipping_disruption": 50.0,
-      "commodity_shock": 82.0,
-      "financial_stress": 95.0
+      "energy_shock": 84.0,
+      "trade_disruption": 88.0,
+      "shipping_disruption": 82.0,
+      "commodity_shock": 88.0,
+      "financial_stress": 98.0
     },
     "impacts": {
-      "inflation_change": 3.8,
-      "gdp_growth_change": -4.2,
-      "trade_growth_change": -10.5,
-      "oil_price_change": -52.0
+      "inflation_change": 2.2,
+      "gdp_growth_change": -4.8,
+      "trade_growth_change": -12.4,
+      "oil_price_change": -54.0
     }
   },
   {
-    "conflict": "2011 Libyan Civil War & Arab Spring",
-    "period": "2011",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": 0.1445,
-    "pc2": -0.4685,
+    "conflict": "2011 Arab Spring & Libyan Civil War",
+    "period": "2011-2012",
+    "cluster": 0,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 2.2294,
+    "pc2": 0.6093,
     "shocks": {
       "energy_shock": 78.0,
-      "trade_disruption": 48.0,
-      "shipping_disruption": 56.0,
-      "commodity_shock": 68.0,
-      "financial_stress": 58.0
+      "trade_disruption": 52.0,
+      "shipping_disruption": 58.0,
+      "commodity_shock": 70.0,
+      "financial_stress": 64.0
     },
     "impacts": {
       "inflation_change": 2.8,
       "gdp_growth_change": -0.8,
-      "trade_growth_change": -1.9,
-      "oil_price_change": 38.0
-    }
-  },
-  {
-    "conflict": "2014 Crimean Annexation & Donbas Conflict",
-    "period": "2014-2015",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -0.4668,
-    "pc2": -0.6256,
-    "shocks": {
-      "energy_shock": 52.0,
-      "trade_disruption": 64.0,
-      "shipping_disruption": 44.0,
-      "commodity_shock": 50.0,
-      "financial_stress": 66.0
-    },
-    "impacts": {
-      "inflation_change": 1.9,
-      "gdp_growth_change": -0.7,
       "trade_growth_change": -2.2,
-      "oil_price_change": -46.0
+      "oil_price_change": 40.0
     }
   },
   {
-    "conflict": "2019 Abqaiq-Khurais Drone Attacks (Saudi Aramco)",
+    "conflict": "2019 Abqaiq-Khurais Drone Attacks",
     "period": "2019",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -0.5368,
-    "pc2": -0.6337,
+    "cluster": 0,
+    "cluster_name": "Compound Geopolitical & Financial Liquidity Shocks",
+    "cluster_color": "#a855f7",
+    "pc1": 1.7709,
+    "pc2": 1.2059,
     "shocks": {
       "energy_shock": 82.0,
       "trade_disruption": 42.0,
-      "shipping_disruption": 48.0,
-      "commodity_shock": 56.0,
-      "financial_stress": 54.0
-    },
-    "impacts": {
-      "inflation_change": 1.1,
-      "gdp_growth_change": -0.2,
-      "trade_growth_change": -0.6,
-      "oil_price_change": 19.5
-    }
-  },
-  {
-    "conflict": "2020 Nagorno-Karabakh War",
-    "period": "2020",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -3.1574,
-    "pc2": -0.4804,
-    "shocks": {
-      "energy_shock": 34.0,
-      "trade_disruption": 38.0,
-      "shipping_disruption": 26.0,
-      "commodity_shock": 30.0,
-      "financial_stress": 42.0
-    },
-    "impacts": {
-      "inflation_change": 0.8,
-      "gdp_growth_change": -0.3,
-      "trade_growth_change": -0.8,
-      "oil_price_change": 8.0
-    }
-  },
-  {
-    "conflict": "2021 Suez Canal Ever Given Crisis",
-    "period": "2021",
-    "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 1.0651,
-    "pc2": 2.0431,
-    "shocks": {
-      "energy_shock": 45.0,
-      "trade_disruption": 88.0,
-      "shipping_disruption": 95.0,
-      "commodity_shock": 62.0,
-      "financial_stress": 55.0
-    },
-    "impacts": {
-      "inflation_change": 1.7,
-      "gdp_growth_change": -0.5,
-      "trade_growth_change": -4.2,
-      "oil_price_change": 12.0
-    }
-  },
-  {
-    "conflict": "2022 Russia-Ukraine War (Full-Scale Invasion)",
-    "period": "2022-2023",
-    "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 3.8766,
-    "pc2": -0.2573,
-    "shocks": {
-      "energy_shock": 94.0,
-      "trade_disruption": 92.0,
-      "shipping_disruption": 84.0,
-      "commodity_shock": 96.0,
-      "financial_stress": 88.0
-    },
-    "impacts": {
-      "inflation_change": 5.4,
-      "gdp_growth_change": -2.6,
-      "trade_growth_change": -5.8,
-      "oil_price_change": 68.0
-    }
-  },
-  {
-    "conflict": "2023 Israel-Gaza War",
-    "period": "2023",
-    "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 0.4389,
-    "pc2": 0.2142,
-    "shocks": {
-      "energy_shock": 68.0,
-      "trade_disruption": 60.0,
-      "shipping_disruption": 70.0,
-      "commodity_shock": 58.0,
-      "financial_stress": 64.0
-    },
-    "impacts": {
-      "inflation_change": 1.8,
-      "gdp_growth_change": -0.7,
-      "trade_growth_change": -2.1,
-      "oil_price_change": 16.0
-    }
-  },
-  {
-    "conflict": "2024 Red Sea Chokepoint & Houthi Maritime Crisis",
-    "period": "2024",
-    "cluster": 0,
-    "cluster_name": "Maritime Chokepoint & Supply-Chain Crises",
-    "cluster_color": "#06b6d4",
-    "pc1": 2.2019,
-    "pc2": 1.1024,
-    "shocks": {
-      "energy_shock": 76.0,
-      "trade_disruption": 86.0,
-      "shipping_disruption": 92.0,
-      "commodity_shock": 70.0,
-      "financial_stress": 68.0
-    },
-    "impacts": {
-      "inflation_change": 2.6,
-      "gdp_growth_change": -1.1,
-      "trade_growth_change": -4.6,
-      "oil_price_change": 22.0
-    }
-  },
-  {
-    "conflict": "1994 Yemeni Civil War",
-    "period": "1994",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -2.5083,
-    "pc2": 0.6922,
-    "shocks": {
-      "energy_shock": 36.0,
-      "trade_disruption": 40.0,
-      "shipping_disruption": 54.0,
-      "commodity_shock": 32.0,
-      "financial_stress": 40.0
-    },
-    "impacts": {
-      "inflation_change": 1.0,
-      "gdp_growth_change": -0.3,
-      "trade_growth_change": -0.7,
-      "oil_price_change": 6.5
-    }
-  },
-  {
-    "conflict": "1998 Operation Desert Fox (Iraq Bombing)",
-    "period": "1998",
-    "cluster": 1,
-    "cluster_name": "Localized Conventional Warfare",
-    "cluster_color": "#10b981",
-    "pc1": -2.1387,
-    "pc2": -0.1387,
-    "shocks": {
-      "energy_shock": 48.0,
-      "trade_disruption": 45.0,
-      "shipping_disruption": 40.0,
-      "commodity_shock": 35.0,
-      "financial_stress": 46.0
+      "shipping_disruption": 64.0,
+      "commodity_shock": 66.0,
+      "financial_stress": 58.0
     },
     "impacts": {
       "inflation_change": 0.9,
-      "gdp_growth_change": -0.2,
-      "trade_growth_change": -0.5,
-      "oil_price_change": 11.0
+      "gdp_growth_change": -0.3,
+      "trade_growth_change": -1.2,
+      "oil_price_change": 20.0
     }
   },
   {
-    "conflict": "2015 Yemen Conflict & Bab el-Mandeb Alert",
-    "period": "2015",
+    "conflict": "China: 2022-2024 High Geopolitical Shock Episode (Malacca Strait & Industrial Import Flow)",
+    "period": "2022-2026",
     "cluster": 1,
     "cluster_name": "Localized Conventional Warfare",
     "cluster_color": "#10b981",
-    "pc1": -0.973,
-    "pc2": 0.7624,
+    "pc1": -1.4642,
+    "pc2": -0.4046,
     "shocks": {
-      "energy_shock": 50.0,
-      "trade_disruption": 54.0,
-      "shipping_disruption": 66.0,
-      "commodity_shock": 44.0,
-      "financial_stress": 50.0
+      "energy_shock": 36.3,
+      "trade_disruption": 46.8,
+      "shipping_disruption": 36.6,
+      "commodity_shock": 33.1,
+      "financial_stress": 42.1
     },
     "impacts": {
-      "inflation_change": 1.3,
-      "gdp_growth_change": -0.4,
-      "trade_growth_change": -1.4,
-      "oil_price_change": -18.0
+      "inflation_change": 2.01,
+      "gdp_growth_change": -0.45,
+      "trade_growth_change": -0.73,
+      "oil_price_change": 0.18
     }
   },
   {
-    "conflict": "1987 Operation Nimble Archer (Gulf Escort)",
-    "period": "1987",
+    "conflict": "China: 2023-2025 Elevated Supply-Chain Disruption (Malacca Strait & Industrial Import Flow)",
+    "period": "2022-2026",
     "cluster": 1,
     "cluster_name": "Localized Conventional Warfare",
     "cluster_color": "#10b981",
-    "pc1": -0.0928,
-    "pc2": 0.6065,
+    "pc1": -1.5628,
+    "pc2": -0.409,
     "shocks": {
-      "energy_shock": 66.0,
-      "trade_disruption": 52.0,
-      "shipping_disruption": 76.0,
-      "commodity_shock": 48.0,
-      "financial_stress": 60.0
+      "energy_shock": 35.3,
+      "trade_disruption": 46.1,
+      "shipping_disruption": 36.7,
+      "commodity_shock": 32.6,
+      "financial_stress": 41.0
     },
     "impacts": {
-      "inflation_change": 2.0,
-      "gdp_growth_change": -0.5,
-      "trade_growth_change": -1.8,
-      "oil_price_change": 15.0
+      "inflation_change": 2.01,
+      "gdp_growth_change": -0.56,
+      "trade_growth_change": -0.36,
+      "oil_price_change": 1.0
     }
   },
   {
-    "conflict": "2000 USS Cole Attack & Aden Threat",
-    "period": "2000",
+    "conflict": "China: 2022-2026 Baseline Stability Window (Malacca Strait & Industrial Import Flow)",
+    "period": "2022-2026",
     "cluster": 1,
     "cluster_name": "Localized Conventional Warfare",
     "cluster_color": "#10b981",
-    "pc1": -2.2843,
-    "pc2": 0.6028,
+    "pc1": -1.5638,
+    "pc2": -0.393,
     "shocks": {
-      "energy_shock": 40.0,
-      "trade_disruption": 36.0,
-      "shipping_disruption": 58.0,
-      "commodity_shock": 34.0,
-      "financial_stress": 44.0
+      "energy_shock": 35.5,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 36.8,
+      "commodity_shock": 32.5,
+      "financial_stress": 41.1
     },
     "impacts": {
-      "inflation_change": 0.8,
-      "gdp_growth_change": -0.2,
-      "trade_growth_change": -0.6,
-      "oil_price_change": 9.0
+      "inflation_change": 2.01,
+      "gdp_growth_change": -0.49,
+      "trade_growth_change": -0.02,
+      "oil_price_change": -0.34
+    }
+  },
+  {
+    "conflict": "Germany: 2022-2024 High Geopolitical Shock Episode (European Gas Infrastructure & Industrial Trade)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.9208,
+    "pc2": -0.072,
+    "shocks": {
+      "energy_shock": 45.4,
+      "trade_disruption": 46.0,
+      "shipping_disruption": 42.5,
+      "commodity_shock": 38.8,
+      "financial_stress": 42.2
+    },
+    "impacts": {
+      "inflation_change": 2.8,
+      "gdp_growth_change": -0.7,
+      "trade_growth_change": -0.09,
+      "oil_price_change": -3.39
+    }
+  },
+  {
+    "conflict": "Germany: 2023-2025 Elevated Supply-Chain Disruption (European Gas Infrastructure & Industrial Trade)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.9657,
+    "pc2": -0.057,
+    "shocks": {
+      "energy_shock": 45.5,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 42.9,
+      "commodity_shock": 38.5,
+      "financial_stress": 40.7
+    },
+    "impacts": {
+      "inflation_change": 2.83,
+      "gdp_growth_change": -0.71,
+      "trade_growth_change": 0.04,
+      "oil_price_change": 0.91
+    }
+  },
+  {
+    "conflict": "Germany: 2022-2026 Baseline Stability Window (European Gas Infrastructure & Industrial Trade)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.9392,
+    "pc2": -0.0338,
+    "shocks": {
+      "energy_shock": 45.7,
+      "trade_disruption": 45.3,
+      "shipping_disruption": 43.3,
+      "commodity_shock": 38.8,
+      "financial_stress": 41.5
+    },
+    "impacts": {
+      "inflation_change": 2.82,
+      "gdp_growth_change": -0.72,
+      "trade_growth_change": -0.0,
+      "oil_price_change": 0.37
+    }
+  },
+  {
+    "conflict": "India: 2022-2024 High Geopolitical Shock Episode (Indian Ocean Import Route & Energy Exposure)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.3018,
+    "pc2": -0.308,
+    "shocks": {
+      "energy_shock": 38.4,
+      "trade_disruption": 45.6,
+      "shipping_disruption": 39.7,
+      "commodity_shock": 35.5,
+      "financial_stress": 41.7
+    },
+    "impacts": {
+      "inflation_change": 4.97,
+      "gdp_growth_change": -1.23,
+      "trade_growth_change": 0.27,
+      "oil_price_change": 0.04
+    }
+  },
+  {
+    "conflict": "India: 2023-2025 Elevated Supply-Chain Disruption (Indian Ocean Import Route & Energy Exposure)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.3704,
+    "pc2": -0.2814,
+    "shocks": {
+      "energy_shock": 38.5,
+      "trade_disruption": 45.6,
+      "shipping_disruption": 38.6,
+      "commodity_shock": 35.2,
+      "financial_stress": 41.0
+    },
+    "impacts": {
+      "inflation_change": 5.0,
+      "gdp_growth_change": -1.23,
+      "trade_growth_change": 0.19,
+      "oil_price_change": -0.34
+    }
+  },
+  {
+    "conflict": "India: 2022-2026 Baseline Stability Window (Indian Ocean Import Route & Energy Exposure)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.3446,
+    "pc2": -0.2778,
+    "shocks": {
+      "energy_shock": 38.5,
+      "trade_disruption": 45.2,
+      "shipping_disruption": 39.1,
+      "commodity_shock": 34.9,
+      "financial_stress": 42.1
+    },
+    "impacts": {
+      "inflation_change": 4.99,
+      "gdp_growth_change": -1.25,
+      "trade_growth_change": 0.36,
+      "oil_price_change": -0.11
+    }
+  },
+  {
+    "conflict": "Iraq: 2022-2024 High Geopolitical Shock Episode (Basra Crude Terminal & Regional Pipeline Friction)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.3046,
+    "pc2": -0.8295,
+    "shocks": {
+      "energy_shock": 28.3,
+      "trade_disruption": 46.4,
+      "shipping_disruption": 41.8,
+      "commodity_shock": 39.2,
+      "financial_stress": 41.2
+    },
+    "impacts": {
+      "inflation_change": 4.01,
+      "gdp_growth_change": -0.98,
+      "trade_growth_change": 0.23,
+      "oil_price_change": 0.28
+    }
+  },
+  {
+    "conflict": "Iraq: 2023-2025 Elevated Supply-Chain Disruption (Basra Crude Terminal & Regional Pipeline Friction)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.2959,
+    "pc2": -0.8051,
+    "shocks": {
+      "energy_shock": 28.4,
+      "trade_disruption": 45.6,
+      "shipping_disruption": 42.8,
+      "commodity_shock": 39.2,
+      "financial_stress": 41.4
+    },
+    "impacts": {
+      "inflation_change": 4.02,
+      "gdp_growth_change": -1.0,
+      "trade_growth_change": 0.35,
+      "oil_price_change": 0.57
+    }
+  },
+  {
+    "conflict": "Iraq: 2022-2026 Baseline Stability Window (Basra Crude Terminal & Regional Pipeline Friction)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.3066,
+    "pc2": -0.8546,
+    "shocks": {
+      "energy_shock": 27.9,
+      "trade_disruption": 46.4,
+      "shipping_disruption": 42.5,
+      "commodity_shock": 38.8,
+      "financial_stress": 41.0
+    },
+    "impacts": {
+      "inflation_change": 3.99,
+      "gdp_growth_change": -0.97,
+      "trade_growth_change": -0.06,
+      "oil_price_change": -0.16
+    }
+  },
+  {
+    "conflict": "Japan: 2022-2024 High Geopolitical Shock Episode (Pacific LNG & Crude Maritime Lifeline)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.8284,
+    "pc2": -0.3511,
+    "shocks": {
+      "energy_shock": 40.1,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 45.7,
+      "commodity_shock": 43.8,
+      "financial_stress": 40.3
+    },
+    "impacts": {
+      "inflation_change": 2.53,
+      "gdp_growth_change": -0.6,
+      "trade_growth_change": 0.22,
+      "oil_price_change": 0.1
+    }
+  },
+  {
+    "conflict": "Japan: 2023-2025 Elevated Supply-Chain Disruption (Pacific LNG & Crude Maritime Lifeline)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.8346,
+    "pc2": -0.3678,
+    "shocks": {
+      "energy_shock": 39.9,
+      "trade_disruption": 45.8,
+      "shipping_disruption": 46.8,
+      "commodity_shock": 42.5,
+      "financial_stress": 40.4
+    },
+    "impacts": {
+      "inflation_change": 2.49,
+      "gdp_growth_change": -0.61,
+      "trade_growth_change": 0.05,
+      "oil_price_change": -0.09
+    }
+  },
+  {
+    "conflict": "Japan: 2022-2026 Baseline Stability Window (Pacific LNG & Crude Maritime Lifeline)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.7598,
+    "pc2": -0.3625,
+    "shocks": {
+      "energy_shock": 40.4,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 46.8,
+      "commodity_shock": 42.9,
+      "financial_stress": 41.9
+    },
+    "impacts": {
+      "inflation_change": 2.52,
+      "gdp_growth_change": -0.67,
+      "trade_growth_change": -0.19,
+      "oil_price_change": 0.11
+    }
+  },
+  {
+    "conflict": "Saudi Arabia: 2022-2024 High Geopolitical Shock Episode (OPEC Production Swing & Persian Gulf Security)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.6651,
+    "pc2": 0.161,
+    "shocks": {
+      "energy_shock": 51.3,
+      "trade_disruption": 45.6,
+      "shipping_disruption": 45.9,
+      "commodity_shock": 41.6,
+      "financial_stress": 40.4
+    },
+    "impacts": {
+      "inflation_change": 2.51,
+      "gdp_growth_change": -0.59,
+      "trade_growth_change": 0.27,
+      "oil_price_change": -0.52
+    }
+  },
+  {
+    "conflict": "Saudi Arabia: 2023-2025 Elevated Supply-Chain Disruption (OPEC Production Swing & Persian Gulf Security)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.5327,
+    "pc2": 0.1394,
+    "shocks": {
+      "energy_shock": 51.9,
+      "trade_disruption": 46.2,
+      "shipping_disruption": 46.5,
+      "commodity_shock": 42.7,
+      "financial_stress": 41.6
+    },
+    "impacts": {
+      "inflation_change": 2.52,
+      "gdp_growth_change": -0.61,
+      "trade_growth_change": 0.09,
+      "oil_price_change": -0.37
+    }
+  },
+  {
+    "conflict": "Saudi Arabia: 2022-2026 Baseline Stability Window (OPEC Production Swing & Persian Gulf Security)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.5798,
+    "pc2": 0.1481,
+    "shocks": {
+      "energy_shock": 51.6,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 45.8,
+      "commodity_shock": 42.1,
+      "financial_stress": 42.1
+    },
+    "impacts": {
+      "inflation_change": 2.5,
+      "gdp_growth_change": -0.59,
+      "trade_growth_change": 0.34,
+      "oil_price_change": -0.48
+    }
+  },
+  {
+    "conflict": "UAE: 2022-2024 High Geopolitical Shock Episode (Strait of Hormuz Logistics & Maritime Security)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.4243,
+    "pc2": 0.5858,
+    "shocks": {
+      "energy_shock": 62.2,
+      "trade_disruption": 47.3,
+      "shipping_disruption": 44.3,
+      "commodity_shock": 40.3,
+      "financial_stress": 41.5
+    },
+    "impacts": {
+      "inflation_change": 3.01,
+      "gdp_growth_change": -0.73,
+      "trade_growth_change": 0.07,
+      "oil_price_change": -0.37
+    }
+  },
+  {
+    "conflict": "UAE: 2023-2025 Elevated Supply-Chain Disruption (Strait of Hormuz Logistics & Maritime Security)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.4716,
+    "pc2": 0.6603,
+    "shocks": {
+      "energy_shock": 62.4,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 43.9,
+      "commodity_shock": 41.0,
+      "financial_stress": 41.6
+    },
+    "impacts": {
+      "inflation_change": 2.98,
+      "gdp_growth_change": -0.75,
+      "trade_growth_change": 0.09,
+      "oil_price_change": 0.13
+    }
+  },
+  {
+    "conflict": "UAE: 2022-2026 Baseline Stability Window (Strait of Hormuz Logistics & Maritime Security)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.5056,
+    "pc2": 0.6504,
+    "shocks": {
+      "energy_shock": 62.0,
+      "trade_disruption": 45.7,
+      "shipping_disruption": 44.3,
+      "commodity_shock": 40.3,
+      "financial_stress": 41.3
+    },
+    "impacts": {
+      "inflation_change": 3.0,
+      "gdp_growth_change": -0.73,
+      "trade_growth_change": -0.26,
+      "oil_price_change": 0.55
+    }
+  },
+  {
+    "conflict": "USA: 2022-2024 High Geopolitical Shock Episode (Strategic Reserve & Domestic Energy Market)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.917,
+    "pc2": 1.1093,
+    "shocks": {
+      "energy_shock": 69.1,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 35.5,
+      "commodity_shock": 31.6,
+      "financial_stress": 41.7
+    },
+    "impacts": {
+      "inflation_change": 3.07,
+      "gdp_growth_change": -0.72,
+      "trade_growth_change": -0.2,
+      "oil_price_change": 1.92
+    }
+  },
+  {
+    "conflict": "USA: 2023-2025 Elevated Supply-Chain Disruption (Strategic Reserve & Domestic Energy Market)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.9294,
+    "pc2": 1.1156,
+    "shocks": {
+      "energy_shock": 69.2,
+      "trade_disruption": 45.8,
+      "shipping_disruption": 36.1,
+      "commodity_shock": 31.3,
+      "financial_stress": 41.0
+    },
+    "impacts": {
+      "inflation_change": 3.03,
+      "gdp_growth_change": -0.75,
+      "trade_growth_change": -0.17,
+      "oil_price_change": 1.1
+    }
+  },
+  {
+    "conflict": "USA: 2022-2026 Baseline Stability Window (Strategic Reserve & Domestic Energy Market)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.8995,
+    "pc2": 1.1177,
+    "shocks": {
+      "energy_shock": 69.5,
+      "trade_disruption": 46.1,
+      "shipping_disruption": 35.6,
+      "commodity_shock": 31.7,
+      "financial_stress": 41.5
+    },
+    "impacts": {
+      "inflation_change": 3.02,
+      "gdp_growth_change": -0.79,
+      "trade_growth_change": 0.07,
+      "oil_price_change": 1.03
+    }
+  },
+  {
+    "conflict": "UK: 2022-2024 High Geopolitical Shock Episode (North Sea Energy & Freight Cost Surge)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.1615,
+    "pc2": -0.0394,
+    "shocks": {
+      "energy_shock": 44.7,
+      "trade_disruption": 45.9,
+      "shipping_disruption": 39.4,
+      "commodity_shock": 35.7,
+      "financial_stress": 41.7
+    },
+    "impacts": {
+      "inflation_change": 3.18,
+      "gdp_growth_change": -0.8,
+      "trade_growth_change": 0.12,
+      "oil_price_change": 0.27
+    }
+  },
+  {
+    "conflict": "UK: 2023-2025 Elevated Supply-Chain Disruption (North Sea Energy & Freight Cost Surge)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.2026,
+    "pc2": -0.0558,
+    "shocks": {
+      "energy_shock": 44.4,
+      "trade_disruption": 46.2,
+      "shipping_disruption": 39.1,
+      "commodity_shock": 35.0,
+      "financial_stress": 41.2
+    },
+    "impacts": {
+      "inflation_change": 3.19,
+      "gdp_growth_change": -0.83,
+      "trade_growth_change": -0.25,
+      "oil_price_change": 1.9
+    }
+  },
+  {
+    "conflict": "UK: 2022-2026 Baseline Stability Window (North Sea Energy & Freight Cost Surge)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -1.1845,
+    "pc2": -0.0462,
+    "shocks": {
+      "energy_shock": 44.5,
+      "trade_disruption": 46.0,
+      "shipping_disruption": 39.1,
+      "commodity_shock": 35.5,
+      "financial_stress": 41.5
+    },
+    "impacts": {
+      "inflation_change": 3.18,
+      "gdp_growth_change": -0.82,
+      "trade_growth_change": -0.25,
+      "oil_price_change": -1.0
+    }
+  },
+  {
+    "conflict": "South Korea: 2022-2024 High Geopolitical Shock Episode (East Asian Semiconductor & Crude Exposure)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.8366,
+    "pc2": -0.2827,
+    "shocks": {
+      "energy_shock": 41.5,
+      "trade_disruption": 45.6,
+      "shipping_disruption": 46.2,
+      "commodity_shock": 41.3,
+      "financial_stress": 41.4
+    },
+    "impacts": {
+      "inflation_change": 2.75,
+      "gdp_growth_change": -0.67,
+      "trade_growth_change": -0.08,
+      "oil_price_change": -2.11
+    }
+  },
+  {
+    "conflict": "South Korea: 2023-2025 Elevated Supply-Chain Disruption (East Asian Semiconductor & Crude Exposure)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.8484,
+    "pc2": -0.2953,
+    "shocks": {
+      "energy_shock": 41.4,
+      "trade_disruption": 46.0,
+      "shipping_disruption": 45.7,
+      "commodity_shock": 41.4,
+      "financial_stress": 41.0
+    },
+    "impacts": {
+      "inflation_change": 2.71,
+      "gdp_growth_change": -0.69,
+      "trade_growth_change": 0.06,
+      "oil_price_change": -0.21
+    }
+  },
+  {
+    "conflict": "South Korea: 2022-2026 Baseline Stability Window (East Asian Semiconductor & Crude Exposure)",
+    "period": "2022-2026",
+    "cluster": 1,
+    "cluster_name": "Localized Conventional Warfare",
+    "cluster_color": "#10b981",
+    "pc1": -0.8339,
+    "pc2": -0.2828,
+    "shocks": {
+      "energy_shock": 41.7,
+      "trade_disruption": 46.1,
+      "shipping_disruption": 45.1,
+      "commodity_shock": 41.6,
+      "financial_stress": 41.6
+    },
+    "impacts": {
+      "inflation_change": 2.68,
+      "gdp_growth_change": -0.71,
+      "trade_growth_change": 0.32,
+      "oil_price_change": -1.49
     }
   }
 ]

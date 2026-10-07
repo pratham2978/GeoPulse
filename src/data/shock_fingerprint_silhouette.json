@@ -1,30 +1,30 @@
 [
   {
     "k": 2,
-    "silhouette_score": 0.3699
+    "silhouette_score": 0.7294
   },
   {
     "k": 3,
-    "silhouette_score": 0.3362
+    "silhouette_score": 0.6626
   },
   {
     "k": 4,
-    "silhouette_score": 0.3421
+    "silhouette_score": 0.5212
   },
   {
     "k": 5,
-    "silhouette_score": 0.3038
+    "silhouette_score": 0.4995
   },
   {
     "k": 6,
-    "silhouette_score": 0.345
+    "silhouette_score": 0.4484
   },
   {
     "k": 7,
-    "silhouette_score": 0.2973
+    "silhouette_score": 0.4268
   },
   {
     "k": 8,
-    "silhouette_score": 0.3287
+    "silhouette_score": 0.4258
   }
 ]
